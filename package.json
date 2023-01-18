@@ -1,0 +1,38 @@
+{
+  "name": "barbarian-builder",
+  "version": "1.1.1",
+  "description": "HBarbarian NFT Trait Mixer",
+  "main": "index.js",
+  "bin": "index.js",
+  "pkg": {
+    "assets": [
+      "layers/**/*",
+      "node_modules/**/*",
+      "src/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "node index.js",
+    "generate": "node index.js",
+    "rarity": "node utils/rarity.js",
+    "preview": "node utils/preview.js",
+    "pixelate": "node utils/pixelate.js",
+    "update_info": "node utils/update_info.js",
+    "generate_metadata": "node utils/generate_metadata.js",
+    "ipfs": "node utils/upload_ipfs.js"
+  },
+  "author": "nbreezay",
+  "license": "MIT",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.19.1",
+    "canvas": "^2.11.0",
+    "crypto": "^1.0.1",
+    "cryptr": "^6.1.0",
+    "dotenv": "^16.0.3",
+    "form-data": "^4.0.0",
+    "gif-encoder-2": "^1.0.5",
+    "latest": "^0.2.0",
+    "node-fetch": "^2.6.7",
+    "sha1": "^1.1.1"
+  }
+}

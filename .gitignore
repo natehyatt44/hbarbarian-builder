@@ -1,3 +1,7 @@
+#Folders to not upload to git
+layers-prod/
+build/
+
 # Logs
 logs
 *.log
