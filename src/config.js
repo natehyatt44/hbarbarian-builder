@@ -7,17 +7,6 @@ const cryptr = new Cryptr('breezykeezy');
 const encryptedString = cryptr.encrypt('Get to the chopper');
 const decrptyedString = cryptr.decrypt(encryptedString);
 
-const hbarMetadata = {
-  name: "test f Pass",
-  creator: "inc",
-  creatorDID: "DID URI", // Optional
-  description: "Bussin fr fr",
-  image: "ipfs://preview-image-for-wallet-address - Consider making any images at a width between 320 and 1080 pixels and aspect ratio between 1.91:1 and 4:5 inclusive",
-  type: "image/png",
-  format: "HIP412@1.0.0",
-  localization: "Language / location settings" // Optional
-}
-
 const layerConfigurations = [
   {
     growEditionSizeTo: 3,
@@ -94,7 +83,6 @@ module.exports = {
   format,
   encryptedString,
   decrptyedString,
-  hbarMetadata,
   background,
   uniqueDnaTorrance,
   layerConfigurations,
