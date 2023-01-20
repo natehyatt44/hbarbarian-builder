@@ -6,8 +6,6 @@ const buildDir = `${basePath}/build`;
 const layersDir = `${basePath}/layers`;
 const {
   format,
-  encryptedString,
-  hbarMetadata,
   background,
   uniqueDnaTorrance,
   layerConfigurations,
@@ -120,27 +118,22 @@ const drawBackground = () => {
 const addMetadata = (_dna, _edition) => {
   let dateTime = Date.now();
   let tempMetadata = {
-    name: `${hbarMetadata["name"]} #${_edition}`,
-    creator: `${hbarMetadata["creator"]}`,
-    //creatorDID: `${hbarMetadata["creatorDID"]}`,
-    description: `${hbarMetadata["description"]}`,
-    image: `${hbarMetadata["image"]}/${_edition}.png`,
+    name: `Test MFers #${_edition}`,
+    creator: `MFer`,
+    //creatorDID: `Optional`,
+    description: `Bussin Fr Fr`,
+    image: `ipfs${_edition}.png`,
     checksum: sha1(_dna),
-    type: `${hbarMetadata["type"]}`,
-    format: `${hbarMetadata["format"]}`,
-    properties: [
-      {
-        external_uri: "https://site.hbar",
-        barbarianPuzzle: encryptedString,
-        barbarianAnswer: decrptyedString
-      },
-    ],
+    type: `image/png`,
+    format: `HIP412@1.0.0`,
+    properties: [],
     files: [
       {
-        uri: "ipfs://hashforfile",
+        uri: "ipfs",
         type: "image/png"
       },
     ],
+    localization: [],
     attributes: attributesList,
     edition: _edition,
     datetime: dateTime,
