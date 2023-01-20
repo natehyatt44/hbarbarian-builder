@@ -16,7 +16,6 @@ fs.readdirSync(`${basePath}/build/json`).
         return;
 
         const jsonFile = fs.readFileSync(`${readDir}/${file}`) 
-        updateJson = json
 
         const options = {
             method: 'POST',
@@ -40,7 +39,7 @@ fs.readdirSync(`${basePath}/build/json`).
                     writter.write(",\n");
                 }
 
-                console.log(`${json.file_name} metadata uploaded & addedto _ipfsMetas.json`);
+                console.log(`${json.name} metadata uploaded & added to _ipfsMetas.json`);
             })
             .catch((err) => console.error("error" + err));
 });

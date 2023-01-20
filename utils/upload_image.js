@@ -26,9 +26,9 @@ fs.readdirSync(`${basePath}/build/images`).
                 let rawdata = fs.readFileSync(`${basePath}/build/json/${fileName}.json`);
                 let metaData = JSON.parse(rawdata);
 
-                metaData.image = json.ipfs_url;
-                metaData.files[0].uri = json.ipfs_url;
-                console.log(metaData)
+                metaData.file_url = json.ipfs_url;
+                metaData.custom_fields.files[0].uri = json.ipfs_url;
+
                 fs.writeFileSync(`${basePath}/build/json/${fileName}.json`, JSON.stringify(metaData, null, 2));
 
                 console.log(`${json.file_name} uploaded & ${fileName}.json updated`);

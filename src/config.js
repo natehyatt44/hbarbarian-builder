@@ -1,11 +1,11 @@
 const basePath = process.cwd();
 const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 
-const Cryptr = require('cryptr');
-const cryptr = new Cryptr('breezykeezy');
+// const Cryptr = require('cryptr');
+// const cryptr = new Cryptr('breezykeezy');
 
-const encryptedString = cryptr.encrypt('Get to the chopper');
-const decrptyedString = cryptr.decrypt(encryptedString);
+// const encryptedString = cryptr.encrypt('Get to the chopper');
+// const decrptyedString = cryptr.decrypt(encryptedString);
 
 const layerConfigurations = [
   {
@@ -81,8 +81,6 @@ const preview = {
 
 module.exports = {
   format,
-  encryptedString,
-  decrptyedString,
   background,
   uniqueDnaTorrance,
   layerConfigurations,

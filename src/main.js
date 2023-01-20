@@ -119,24 +119,26 @@ const addMetadata = (_dna, _edition) => {
   let dateTime = Date.now();
   let tempMetadata = {
     name: `Test MFers #${_edition}`,
-    creator: `MFer`,
-    //creatorDID: `Optional`,
     description: `Bussin Fr Fr`,
-    image: `ipfs${_edition}.png`,
-    checksum: sha1(_dna),
-    type: `image/png`,
-    format: `HIP412@1.0.0`,
-    properties: [],
-    files: [
-      {
-        uri: "ipfs",
-        type: "image/png"
-      },
-    ],
-    localization: [],
-    attributes: attributesList,
+    file_url: `ipfs${_edition}.png`,
+    custom_fields: {
+      creator: `MFer`,
+      edition: _edition,
+      datetime: dateTime,
+      checksum: sha1(_dna),
+      type: `image/png`,
+      format: `HIP412@1.0.0`,
+      files: [
+        {
+          uri: "ipfs",
+          type: "image/png"
+        },
+      ],
+      properties: [],
+      localization: [],
+    },
     edition: _edition,
-    datetime: dateTime,
+    attributes: attributesList,
   };
   metadataList.push(tempMetadata);
   attributesList = [];
@@ -147,7 +149,6 @@ const addAttributes = (_element) => {
   if(selectedElement.name.trim().toLowerCase() != 'blank') {
     attributesList.push({
       trait_type: _element.layer.name,
-      display_type: _element.layer.name,
       value: selectedElement.name,
     });
   }
@@ -308,6 +309,36 @@ function shuffle(array) {
   return array;
 }
 
+// Ensure we don't make the same NFT's that existed in previous collections
+const prevCollectionCheck = (newDna) => {
+  let collection1Dna = fs.readFileSync(`collections/dna/collection1.json`).toString('utf-8');
+  let prevCollectionPass = 1;
+
+  if (collection1Dna.includes(newDna)){
+      console.log('DNA Exists in previous Collection!')
+      prevCollectionPass = 0
+    }
+  return prevCollectionPass;
+}
+
+// Hardcoded check when you know the layers to determine what specific traits can not mix
+// Ensure to match the trait check with the position of the layer in the array
+const traitMixCheck = (newDna) => {
+  let traitCheckPass = 1;
+
+  let dnaArray = newDna.split('-');
+  let eyeBallLayer = 'Eye Ball';
+  let eyeBallTrait = dnaArray[1];
+  let eyeColorLayer = 'Eye Color';
+  let eyeColorTrait = dnaArray[2];
+  if (eyeBallTrait.includes("Red") && eyeColorTrait.includes("Yellow")){
+    console.log("These Traits can't be mixed!")
+    traitCheckPass = 0;
+  }
+
+  return traitCheckPass;
+}
+
 const startCreating = async () => {
   let layerConfigIndex = 0;
   let editionCount = 1;
@@ -338,19 +369,12 @@ const startCreating = async () => {
           ? console.log("newDna String: ", newDna)
           : null;
 
-      // Hardcoded check when you know the layers to determine what specific traits can not mix
-      // Ensure to match the trait check with the position of the layer in the array
-      // let dnaArray = newDna.split('-');
-      // let eyeBallLayer = 'Eye Ball';
-      // let eyeBallTrait = dnaArray[1];
-      // let eyeColorLayer = 'Eye Color';
-      // let eyeColorTrait = dnaArray[2];
-      let traitCheckPass = 1;
-      // if (eyeBallTrait.includes("Red") && eyeColorTrait.includes("Yellow")){
-      //   traitCheckPass = 0;
-      // }
+      // Existing Collection Check
+      let prevCollectionPass = 1 //prevCollectionCheck(newDna);
+      // Trait Mix Check
+      let traitCheckPass = 1 //traitMixCheck(newDna);
 
-      if (isDnaUnique(dnaList, newDna) && traitCheckPass == 1) {
+      if (isDnaUnique(dnaList, newDna) && traitCheckPass == 1 && prevCollectionPass == 1) {
         let results = constructLayerToDna(newDna, layers);
         let loadedElements = [];
 
@@ -387,8 +411,6 @@ const startCreating = async () => {
         editionCount++;
         abstractedIndexes.shift();
       } else {
-        // if (traitCheckPass == 0){
-        //   console.log(`The following traits can not be mixed: ${eyeBallLayer}: ${eyeBallTrait} and ${eyeColorLayer}: ${eyeColorTrait}`)};
         if (traitCheckPass == 1){
           console.log("DNA exists!")};
         failedCount++;
@@ -403,6 +425,10 @@ const startCreating = async () => {
     layerConfigIndex++;
   }
   writeMetaData(JSON.stringify(metadataList, null, 2));
+
+  // ONLY ENABLE WHEN PRODUCING PRODUCTION COLLECTION
+  //let dnaJson = JSON.stringify(Array.from(dnaList), null, 2);
+  //fs.writeFileSync(`collections/dna/collection1.json`, dnaJson);
 };
 
 module.exports = { startCreating, buildSetup, getElements };
