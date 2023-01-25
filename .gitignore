@@ -1,5 +1,5 @@
 #Folders to not upload to git
-layers-prod/
+layers-barbs/
 build/
 
 # Logs

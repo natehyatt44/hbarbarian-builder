@@ -19,13 +19,17 @@
     "pixelate": "node utils/pixelate.js",
     "update_info": "node utils/update_info.js",
     "generate_metadata": "node utils/generate_metadata.js",
-    "ipfsImage": "node utils/upload_image.js",
-    "ipfsMeta": "node utils/upload_meta.js"
+    "ipfsimage": "node utils/upload_image.js",
+    "ipfsmeta": "node utils/upload_meta.js",
+    "nft": "node src/HTS/createNFT.js",
+    "mint": "node src/HTS/mintNFT.js",
+    "nate": "node src/HTS/nft.js",
+    "eg": "node src/HTS/hederaExample.js"
   },
   "author": "nbreezay",
   "license": "MIT",
   "dependencies": {
-    "@hashgraph/sdk": "^2.19.1",
+    "@hashgraph/sdk": "^2.19.2",
     "canvas": "^2.11.0",
     "crypto": "^1.0.1",
     "cryptr": "^6.1.0",

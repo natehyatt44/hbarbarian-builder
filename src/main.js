@@ -118,8 +118,8 @@ const drawBackground = () => {
 const addMetadata = (_dna, _edition) => {
   let dateTime = Date.now();
   let tempMetadata = {
-    name: `Test MFers #${_edition}`,
-    description: `Bussin Fr Fr`,
+    name: `Bussin MFer #${_edition}`,
+    description: `These fellas are bussin`,
     file_url: `ipfs${_edition}.png`,
     custom_fields: {
       creator: `MFer`,
@@ -133,9 +133,9 @@ const addMetadata = (_dna, _edition) => {
           uri: "ipfs",
           type: "image/png"
         },
-      ],
-      properties: [],
-      localization: [],
+      ]
+      //properties: [],
+      //localization: [],
     },
     edition: _edition,
     attributes: attributesList,
@@ -370,7 +370,7 @@ const startCreating = async () => {
           : null;
 
       // Existing Collection Check
-      let prevCollectionPass = 1 //prevCollectionCheck(newDna);
+      let prevCollectionPass = prevCollectionCheck(newDna);
       // Trait Mix Check
       let traitCheckPass = 1 //traitMixCheck(newDna);
 
@@ -427,8 +427,8 @@ const startCreating = async () => {
   writeMetaData(JSON.stringify(metadataList, null, 2));
 
   // ONLY ENABLE WHEN PRODUCING PRODUCTION COLLECTION
-  //let dnaJson = JSON.stringify(Array.from(dnaList), null, 2);
-  //fs.writeFileSync(`collections/dna/collection1.json`, dnaJson);
+  let dnaJson = JSON.stringify(Array.from(dnaList), null, 2);
+  fs.writeFileSync(`collections/dna/collection1.json`, dnaJson);
 };
 
 module.exports = { startCreating, buildSetup, getElements };

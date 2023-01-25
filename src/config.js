@@ -12,6 +12,7 @@ const layerConfigurations = [
     growEditionSizeTo: 3,
     layersOrder: [
       // { name: "Background" },
+      // { name: "Race" },
       // { name: "Body" },
       // { name: "Eyes" },
       // { name: "Mouth Nose" },
@@ -26,6 +27,7 @@ const layerConfigurations = [
       { name: "Goo" },
       { name: "Iris" },
       { name: "Shine" },
+      { name: "Muscle" },
       { name: "Top lid" }
     ],
   },
