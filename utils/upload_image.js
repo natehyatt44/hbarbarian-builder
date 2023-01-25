@@ -4,6 +4,7 @@ const path = require('path');
 const fetch = require('node-fetch');
 const FormData = require('form-data');
 const { env } = require('process');
+const { SLIP44_ECDSA_ETH_PATH } = require('@hashgraph/sdk');
 
 fs.readdirSync(`${basePath}/build/images`).
     forEach(file => {
