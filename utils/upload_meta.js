@@ -16,30 +16,30 @@ fs.readdirSync(`${basePath}/build/json`).
         return;
 
         const jsonFile = fs.readFileSync(`${readDir}/${file}`) 
+        console.log(jsonFile)
+        // const options = {
+        //     method: 'POST',
+        //     headers: {
+        //         "Cotent-Type": "application/json",
+        //         Authorization: '15375d2e-a984-4730-a31e-af241f34ddce'
+        //     },
+        //     body: jsonFile
+        // };
 
-        const options = {
-            method: 'POST',
-            headers: {
-                "Cotent-Type": "application/json",
-                Authorization: '15375d2e-a984-4730-a31e-af241f34ddce'
-            },
-            body: jsonFile
-        };
+        // fetch("https://api.nftport.xyz/v0/metadata", options)
+        //     .then((res) => res.json())
+        //     .then((json) => {
+        //         writter.write(JSON.stringify(json, null, 2));
+        //         fileCount--;
 
-        fetch("https://api.nftport.xyz/v0/metadata", options)
-            .then((res) => res.json())
-            .then((json) => {
-                writter.write(JSON.stringify(json, null, 2));
-                fileCount--;
+        //         if(fileCount == 0){
+        //             writter.write("]");
+        //             writter.end();
+        //         } else {
+        //             writter.write(",\n");
+        //         }
 
-                if(fileCount == 0){
-                    writter.write("]");
-                    writter.end();
-                } else {
-                    writter.write(",\n");
-                }
-
-                console.log(`${json.name} metadata uploaded & added to _ipfsMetas.json`);
-            })
-            .catch((err) => console.error("error" + err));
+        //         console.log(`${file} metadata uploaded & addedto _ipfsMetas.json`);
+        //     })
+        //     .catch((err) => console.error("error" + err));
 });

@@ -9,7 +9,7 @@ const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 3,
+    growEditionSizeTo: 10,
     layersOrder: [
       // { name: "Background" },
       // { name: "Race" },

@@ -6,6 +6,10 @@ const FormData = require('form-data');
 const { env } = require('process');
 const { SLIP44_ECDSA_ETH_PATH } = require('@hashgraph/sdk');
 
+const authKey = process.env.NFT_PORT_KEY
+
+const read = async() => {
+  
 fs.readdirSync(`${basePath}/build/images`).
     forEach(file => {
         const form = new FormData();
@@ -35,4 +39,6 @@ fs.readdirSync(`${basePath}/build/images`).
                 console.log(`${json.file_name} uploaded & ${fileName}.json updated`);
             })
             .catch((err) => console.error("error" + err));
-});
+})};
+
+read();

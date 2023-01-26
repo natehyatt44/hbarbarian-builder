@@ -121,23 +121,23 @@ const addMetadata = (_dna, _edition) => {
     name: `Bussin MFer #${_edition}`,
     description: `These fellas are bussin`,
     file_url: `ipfs${_edition}.png`,
+    edition: _edition,
     custom_fields: {
       creator: `MFer`,
-      edition: _edition,
-      datetime: dateTime,
+      id: _edition,
+      //datetime: dateTime,
       checksum: sha1(_dna),
-      type: `image/png`,
-      format: `HIP412@1.0.0`,
-      files: [
-        {
-          uri: "ipfs",
-          type: "image/png"
-        },
-      ]
+      type: `image/png`
+      //format: `HIP412@1.0.0`,
+      // files: [
+      //   {
+      //     uri: "ipfs",
+      //     type: "image/png"
+      //   },
+      // ]
       //properties: [],
       //localization: [],
     },
-    edition: _edition,
     attributes: attributesList,
   };
   metadataList.push(tempMetadata);
