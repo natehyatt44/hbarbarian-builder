@@ -116,7 +116,6 @@ const drawBackground = () => {
 };
 
 const addMetadata = (_dna, _edition) => {
-  let dateTime = Date.now();
   let tempMetadata = {
     name: `Bussin MFer #${_edition}`,
     description: `These fellas are bussin`,
@@ -124,19 +123,9 @@ const addMetadata = (_dna, _edition) => {
     edition: _edition,
     custom_fields: {
       creator: `MFer`,
-      id: _edition,
-      //datetime: dateTime,
-      checksum: sha1(_dna),
-      type: `image/png`
-      //format: `HIP412@1.0.0`,
-      // files: [
-      //   {
-      //     uri: "ipfs",
-      //     type: "image/png"
-      //   },
-      // ]
-      //properties: [],
-      //localization: [],
+      type: `image/png`,
+      format: `HIP412@1.0.0`,
+      properties: {"id": _edition},
     },
     attributes: attributesList,
   };
