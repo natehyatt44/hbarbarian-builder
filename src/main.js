@@ -30,6 +30,7 @@ const buildSetup = () => {
   fs.mkdirSync(buildDir);
   fs.mkdirSync(`${buildDir}/json`);
   fs.mkdirSync(`${buildDir}/images`);
+  fs.mkdirSync(`${buildDir}/dna`);
 };
 
 const getRarityWeight = (_str) => {
@@ -300,7 +301,7 @@ function shuffle(array) {
 
 // Ensure we don't make the same NFT's that existed in previous collections
 const prevCollectionCheck = (newDna) => {
-  let collection1Dna = fs.readFileSync(`collections/dna/collection1.json`).toString('utf-8');
+  let collection1Dna = fs.readFileSync(`build-final/dna/collection1.json`).toString('utf-8');
   let prevCollectionPass = 1;
 
   if (collection1Dna.includes(newDna)){
@@ -359,7 +360,7 @@ const startCreating = async () => {
           : null;
 
       // Existing Collection Check
-      let prevCollectionPass = prevCollectionCheck(newDna);
+      let prevCollectionPass = 1 //prevCollectionCheck(newDna);
       // Trait Mix Check
       let traitCheckPass = 1 //traitMixCheck(newDna);
 
@@ -415,9 +416,8 @@ const startCreating = async () => {
   }
   writeMetaData(JSON.stringify(metadataList, null, 2));
 
-  // ONLY ENABLE WHEN PRODUCING PRODUCTION COLLECTION
   let dnaJson = JSON.stringify(Array.from(dnaList), null, 2);
-  fs.writeFileSync(`collections/dna/collection1.json`, dnaJson);
+  fs.writeFileSync(`build/dna/dna.json`, dnaJson);
 };
 
 module.exports = { startCreating, buildSetup, getElements };

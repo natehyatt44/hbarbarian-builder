@@ -155,65 +155,56 @@ The program will output all the images in the `build/images` directory along wit
 
 ```json
 {
-  "name": "test f Pass #1",
-  "creator": "inc",
-  "creatorDID": "undefined",
-  "description": "Bussin fr fr",
-  "image": "ipfs://preview-image-for-wallet-address - Consider making any images at a width between 320 and 1080 pixels and aspect ratio between 1.91:1 and 4:5 inclusive/1.png",
-  "checksum": "ecd640d97620e4f94f4c0c577bcfe9bf649c98fe",
-  "type": "image/png",
-  "format": "HIP412@1.0.0",
-  "properties": [
-    {
-      "external_uri": "https://site.hbar",
-      "barbarianPuzzle": "0f00bb2d05c627902dbbf29ffde1c6458700aacfd685813f52ad0b4ca3b76eaa0269630c4bd33ae363634a4282fa4c10f94676a68e7f04a108931e37d7f640580ee75aff5f9d220fadb6f312894e1e6cf0988cab9048f28bb62aa4421dbfe53f34146f6aaba3b57af3e995dd712ba8fb050c"
+  "name": "Bussin MFer #1",
+  "description": "These fellas are bussin",
+  "file_url": "https://ipfs.io/ipfs/bafkreicvjzbuu745xljhiwymdu7bnozipya7agdchditnz3z3skdqolul4",
+  "edition": 1,
+  "custom_fields": {
+    "creator": "MFer",
+    "type": "image/png",
+    "format": "HIP412@1.0.0",
+    "properties": {
+      "id": 1
     }
-  ],
-  "files": [
-    {
-      "uri": "ipfs://hashforfile",
-      "type": "image/png"
-    }
-  ],
+  },
   "attributes": [
     {
       "trait_type": "Background",
-      "display_type": "Background",
       "value": "Black"
     },
     {
-      "trait_type": "Eyeball",
-      "display_type": "Eyeball",
-      "value": "Red"
-    },
-    {
-      "trait_type": "Eye color",
-      "display_type": "Eye color",
-      "value": "Yellow"
-    },
-    {
-      "trait_type": "Iris",
-      "display_type": "Iris",
-      "value": "Small"
-    },
-    {
-      "trait_type": "Shine",
-      "display_type": "Shine",
-      "value": "Shapes"
-    },
-    {
-      "trait_type": "Bottom lid",
-      "display_type": "Bottom lid",
+      "trait_type": "Bottom Lid",
       "value": "High"
     },
     {
+      "trait_type": "Eye color",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Eyeball",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Goo",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Iris",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Shine",
+      "value": "Shapes"
+    },
+    {
+      "trait_type": "Muscle",
+      "value": "Flex"
+    },
+    {
       "trait_type": "Top lid",
-      "display_type": "Top lid",
-      "value": "Middle"
+      "value": "Low"
     }
-  ],
-  "edition": 1,
-  "datetime": 1673226364731
+  ]
 }
 ```
 

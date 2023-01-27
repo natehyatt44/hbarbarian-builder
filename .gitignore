@@ -1,7 +1,7 @@
 #Folders to not upload to git
 build/
 build-final/
-layers-final/
+layers/
 
 # Logs
 logs

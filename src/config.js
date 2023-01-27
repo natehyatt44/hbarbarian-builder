@@ -3,26 +3,26 @@ const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 200,
+    growEditionSizeTo: 10,
     layersOrder: [
-      // { name: "Background" },
-      // { name: "Race" },
-      // { name: "Body" },
-      // { name: "Eyes" },
-      // { name: "Mouth Nose" },
-      // { name: "Clothes" },
-      // { name: "Hair Hat" },
-      // { name: "Accessory" }
-
       { name: "Background" },
-      { name: "Bottom Lid" },
-      { name: "Eye color" },
-      { name: "Eyeball" },
-      { name: "Goo" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Muscle" },
-      { name: "Top lid" }
+      { name: "Body" },
+      { name: "Clothes" },
+      { name: "Hair" },
+      { name: "Eyes Nose" },
+      { name: "Mouth" },
+      { name: "Accessory" },
+      { name: "Race" }
+
+      // { name: "Background" },
+      // { name: "Bottom Lid" },
+      // { name: "Eye color" },
+      // { name: "Eyeball" },
+      // { name: "Goo" },
+      // { name: "Iris" },
+      // { name: "Shine" },
+      // { name: "Muscle" },
+      // { name: "Top lid" }
     ],
   },
 ];
@@ -32,12 +32,12 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  // width: 2500,
-  // height: 2500,
+  width: 2500,
+  height: 2500,
+  smoothing: false
+  // width: 512,
+  // height: 512,
   // smoothing: false,
-  width: 512,
-  height: 512,
-  smoothing: false,
 };
 
 const text = {
