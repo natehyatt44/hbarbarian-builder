@@ -3,7 +3,7 @@ const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 5,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
@@ -35,9 +35,6 @@ const format = {
   width: 2500,
   height: 2500,
   smoothing: false
-  // width: 512,
-  // height: 512,
-  // smoothing: false,
 };
 
 const text = {

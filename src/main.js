@@ -21,7 +21,7 @@ ctx.imageSmoothingEnabled = format.smoothing;
 var metadataList = [];
 var attributesList = [];
 var dnaList = new Set();
-const DNA_DELIMITER = "-";
+const DNA_DELIMITER = "|";
 
 const buildSetup = () => {
   if (fs.existsSync(buildDir)) {
@@ -118,12 +118,12 @@ const drawBackground = () => {
 
 const addMetadata = (_dna, _edition) => {
   let tempMetadata = {
-    name: `Bussin MFer #${_edition}`,
-    description: `These fellas are bussin`,
+    name: `Hbarbarian Community Founder's Pass #${_edition}`,
+    description: `Community Founder's Pass/ARG game piece`,
     file_url: `ipfs${_edition}.png`,
     edition: _edition,
     custom_fields: {
-      creator: `MFer`,
+      creator: `BarbarianInc`,
       type: `image/png`,
       format: `HIP412@1.0.0`,
       properties: {"id": _edition},
@@ -136,7 +136,7 @@ const addMetadata = (_dna, _edition) => {
 
 const addAttributes = (_element) => {
   let selectedElement = _element.layer.selectedElement;
-  if(selectedElement.name.trim().toLowerCase() != 'blank') {
+  {
     attributesList.push({
       trait_type: _element.layer.name,
       value: selectedElement.name,
@@ -200,30 +200,22 @@ const constructLayerToDna = (_dna = "", _layers = []) => {
 };
 
 /**
- * In some cases a DNA string may contain optional query parameters for options
- * such as bypassing the DNA isUnique check, this function filters out those
- * items without modifying the stored DNA.
+ * This cleanses the DNA String in case weights and item location change
  *
  * @param {String} _dna New DNA string
  * @returns new DNA string with any items that should be filtered, removed.
  */
 const filterDNAOptions = (_dna) => {
   const dnaItems = _dna.split(DNA_DELIMITER);
+  let filterDNA = [];
   const filteredDNA = dnaItems.filter((element) => {
-    const query = /(\?.*$)/;
-    const querystring = query.exec(element);
-    if (!querystring) {
-      return true;
-    }
-    const options = querystring[1].split("&").reduce((r, setting) => {
-      const keyPairs = setting.split("=");
-      return { ...r, [keyPairs[0]]: keyPairs[1] };
-    }, []);
+    let traitClean = element.split(':')[1];
+    let traitClean2 = traitClean.split('#')[0];
+    let traitCleansed = traitClean2.split('.')[0];
 
-    return options.bypassDNA;
+    filterDNA.push(traitCleansed)
   });
-
-  return filteredDNA.join(DNA_DELIMITER);
+  return filterDNA.join(DNA_DELIMITER);
 };
 
 /**
@@ -311,18 +303,36 @@ const prevCollectionCheck = (newDna) => {
   return prevCollectionPass;
 }
 
-// Hardcoded check when you know the layers to determine what specific traits can not mix
+// Hardcoded checks when you know the layers to determine what specific traits can not mix
 // Ensure to match the trait check with the position of the layer in the array
 const traitMixCheck = (newDna) => {
   let traitCheckPass = 1;
+  let dnaArray = newDna.split(DNA_DELIMITER);
 
-  let dnaArray = newDna.split('-');
-  let eyeBallLayer = 'Eye Ball';
-  let eyeBallTrait = dnaArray[1];
-  let eyeColorLayer = 'Eye Color';
-  let eyeColorTrait = dnaArray[2];
-  if (eyeBallTrait.includes("Red") && eyeColorTrait.includes("Yellow")){
-    console.log("These Traits can't be mixed!")
+  let background = dnaArray[0];
+  let body = dnaArray[1];
+  let clothes = dnaArray[2];
+  let hair = dnaArray[3];
+  let eyesNose = dnaArray[4];
+  let mouth = dnaArray[5];
+  let accessory = dnaArray[6];
+
+
+// The cowboy hat can be mixed with spectacled eye features with the sole exception of steampunk monocle.
+// There may be a small percentage of NFT's without hair or clothing.
+// Beards and hairs when crossed must match colors.
+
+// Add Emptys to cloth / hair / accessorie
+  const bigHats = ["Moose Hood", "Trapper Hat", "Bob with bangs", "Wolf Hood"]
+  const protrudingEyes = ["3D Glasses", "Cyclops Sunglasses", "Experimental VR Lens", "Flaming Sunglasses", "Heart Sunglasses", "Hedera Sunglasses",
+                          "Sunglasses", "Steampunk Monocle", "Shutter Lens"]
+
+  if ((bigHats.includes(hair) && accessory != "Empty")) {
+    console.log(`Hair ${hair} and Accessory ${accessory} Can't Mix!`)
+    traitCheckPass = 0;
+  }
+  if ((bigHats.includes(hair) && protrudingEyes.includes(eyesNose))) {
+    console.log(`Hair ${hair} and Eyes Nose ${eyesNose} Can't Mix!`)
     traitCheckPass = 0;
   }
 
@@ -360,9 +370,9 @@ const startCreating = async () => {
           : null;
 
       // Existing Collection Check
-      let prevCollectionPass = 1 //prevCollectionCheck(newDna);
-      // Trait Mix Check
-      let traitCheckPass = 1 //traitMixCheck(newDna);
+      let prevCollectionPass = 1 //prevCollectionCheck(filterDNAOptions(newDna));
+      // Custom Trait Mixer Check
+      let traitCheckPass = traitMixCheck(filterDNAOptions(newDna));
 
       if (isDnaUnique(dnaList, newDna) && traitCheckPass == 1 && prevCollectionPass == 1) {
         let results = constructLayerToDna(newDna, layers);
