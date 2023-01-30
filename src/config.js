@@ -3,29 +3,37 @@ const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 10,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
       { name: "Clothes" },
-      { name: "Hair" },
+      { name: "Hair Hat" },
       { name: "Eyes Nose" },
       { name: "Mouth" },
       { name: "Accessory" },
       { name: "Race" }
-
-      // { name: "Background" },
-      // { name: "Bottom Lid" },
-      // { name: "Eye color" },
-      // { name: "Eyeball" },
-      // { name: "Goo" },
-      // { name: "Iris" },
-      // { name: "Shine" },
-      // { name: "Muscle" },
-      // { name: "Top lid" }
     ],
   },
 ];
+
+// // Test Layer Config
+// const layerConfigurations = [
+//   {
+//     growEditionSizeTo: 10,
+//     layersOrder: [
+//       { name: "Background" },
+//       { name: "Bottom Lid" },
+//       { name: "Eye color" },
+//       { name: "Eyeball" },
+//       { name: "Goo" },
+//       { name: "Iris" },
+//       { name: "Shine" },
+//       { name: "Muscle" },
+//       { name: "Top lid" }
+//     ],
+//   },
+// ];
 
 const shuffleLayerConfigurations = false;
 

@@ -1,7 +1,11 @@
 #Folders to not upload to git
 build/
-build-final/
+buildSpirit/
+buildCustom/
+finalCollection/
 layers/
+layersSpirit/
+layersCustom/
 
 # Logs
 logs

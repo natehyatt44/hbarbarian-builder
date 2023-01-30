@@ -4,6 +4,8 @@ const sha1 = require(`${basePath}/node_modules/sha1`);
 const { createCanvas, loadImage } = require(`${basePath}/node_modules/canvas`);
 const buildDir = `${basePath}/build`;
 const layersDir = `${basePath}/layers`;
+// const buildDir = `${basePath}/buildCustom`;
+// const layersDir = `${basePath}/layersCustom`;
 const {
   format,
   background,
@@ -317,23 +319,44 @@ const traitMixCheck = (newDna) => {
   let mouth = dnaArray[5];
   let accessory = dnaArray[6];
 
-
-// The cowboy hat can be mixed with spectacled eye features with the sole exception of steampunk monocle.
-// There may be a small percentage of NFT's without hair or clothing.
-// Beards and hairs when crossed must match colors.
-
-// Add Emptys to cloth / hair / accessorie
-  const bigHats = ["Moose Hood", "Trapper Hat", "Bob with bangs", "Wolf Hood"]
+  const bigHats = ["Moose Hood", "Trapper Hat", "Bob With Bangs", "Wolf Hood"]
   const protrudingEyes = ["3D Glasses", "Cyclops Sunglasses", "Experimental VR Lens", "Flaming Sunglasses", "Heart Sunglasses", "Hedera Sunglasses",
                           "Sunglasses", "Steampunk Monocle", "Shutter Lens"]
 
-  if ((bigHats.includes(hair) && accessory != "Empty")) {
+  if (traitCheckPass == 1 && bigHats.includes(hair) && accessory != "Empty") {
     console.log(`Hair ${hair} and Accessory ${accessory} Can't Mix!`)
     traitCheckPass = 0;
   }
-  if ((bigHats.includes(hair) && protrudingEyes.includes(eyesNose))) {
+  if (traitCheckPass == 1 && bigHats.includes(hair) && protrudingEyes.includes(eyesNose)) {
     console.log(`Hair ${hair} and Eyes Nose ${eyesNose} Can't Mix!`)
     traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && hair == "Cowboy Hat" && eyesNose == "Steampunk Monocle") {
+    console.log(`Hair ${hair} and Eyes Nose ${eyesNose} Can't Mix!`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && protrudingEyes.includes(eyesNose) && mouth == "Leather Respiratory Mask"){
+    console.log(`Eyes Nose ${eyesNose} and Mouth ${mouth} Can't Mix!`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && mouth.includes("Beard") && hair == "Bob With Bangs"){
+    console.log(`Mouth ${mouth} and Hair ${hair} Can't Mix!`)
+    traitCheckPass = 0;
+  }
+
+  if(traitCheckPass == 1 && mouth.includes("Beard") && (hair.includes("Braids") || hair.includes("Frizzy") || hair.includes("Hair") || hair.includes("Mullet") || 
+                                 hair.includes("Toupee") || hair.includes("Hedera Sport Bandana") || hair.includes("Military Helmet") || hair.includes("Hedera Hat") || 
+                                 hair.includes("Backyard Cap") || hair.includes("Cowboy Hat") || hair.includes("Winter Hat"))){
+    // Set trait check to not pass initially and only if hair color matches up we pass the trait check
+    traitCheckPass = 0;
+    if(mouth.includes("Blonde") && (hair.includes("Blonde") || hair.includes("Hedera Sport Bandana") || hair.includes("Backyard Cap"))) {traitCheckPass = 1;}
+    if(mouth.includes("Brown") && hair.includes("Brown")) {traitCheckPass = 1;}
+    if(mouth.includes("Ginger") && hair.includes("Ginger")) {traitCheckPass = 1;}
+    if(mouth.includes("Bronde") && (hair.includes("Bronde") || hair.includes("Military Helmet") || hair.includes("Hedera Hat"))) {traitCheckPass = 1;}
+    if(mouth.includes("Gray") && (hair.includes("Gray") || hair.includes("Cowboy Hat"))) {traitCheckPass = 1;}
+    if(mouth.includes("Black") && (hair.includes("Black") || hair.includes("Winter Hat"))) {traitCheckPass = 1;}
+
+    if(traitCheckPass == 0){console.log(`Mouth ${mouth} and Hair ${hair} Can't Mix!`)}
   }
 
   return traitCheckPass;
