@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const getRarity = () => {
   // read json data
-  const rawdata = fs.readFileSync(`${basePath}/build/json/_metadata.json`);
+  const rawdata = fs.readFileSync(`${basePath}/finalCollection/json/_metadata.json`);
   const nfts = JSON.parse(rawdata);
 
   processRarity(nfts)
@@ -59,7 +59,7 @@ function processRarity(nfts) {
   // sort nfts by edition again
   nfts.sort((a, b) => a.custom_fields.properties.id - b.custom_fields.properties.id)
 
-  fs.writeFileSync(`${basePath}/build/json/_metadata_with_rarity.json`, JSON.stringify(nfts, null, 2));
+  fs.writeFileSync(`${basePath}/finalCollection/json/_metadata_with_rarity.json`, JSON.stringify(nfts, null, 2));
 }
 
 getRarity();

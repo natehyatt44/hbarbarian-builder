@@ -45,8 +45,8 @@ async function main() {
 
 	// CREATE NFT WITH CUSTOM FEE
     let nftCreate = await new TokenCreateTransaction()
-        .setTokenName("GORBO DAISY")
-        .setTokenSymbol("CRAP")
+        .setTokenName("TEST BUSSIN")
+        .setTokenSymbol("YO")
         .setTokenType(TokenType.NonFungibleUnique)
         .setDecimals(0)
         .setInitialSupply(0)

@@ -2,10 +2,10 @@ const basePath = process.cwd();
 const fs = require("fs");
 const sha1 = require(`${basePath}/node_modules/sha1`);
 const { createCanvas, loadImage } = require(`${basePath}/node_modules/canvas`);
-const buildDir = `${basePath}/build`;
-const layersDir = `${basePath}/layers`;
-// const buildDir = `${basePath}/buildCustom`;
-// const layersDir = `${basePath}/layersCustom`;
+// const buildDir = `${basePath}/build`;
+// const layersDir = `${basePath}/layers`;
+const buildDir = `${basePath}/buildCustom`;
+const layersDir = `${basePath}/layersCustom`;
 const {
   format,
   background,
