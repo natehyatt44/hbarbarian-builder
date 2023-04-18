@@ -2,10 +2,8 @@ const basePath = process.cwd();
 const fs = require("fs");
 const sha1 = require(`${basePath}/node_modules/sha1`);
 const { createCanvas, loadImage } = require(`${basePath}/node_modules/canvas`);
-// const buildDir = `${basePath}/build`;
-// const layersDir = `${basePath}/layers`;
-const buildDir = `${basePath}/buildCustom`;
-const layersDir = `${basePath}/layersCustom`;
+const buildDir = `${basePath}/buildAlixon`;
+const layersDir = `${basePath}/layersAlixon`;
 const {
   format,
   background,
@@ -16,7 +14,6 @@ const {
   debugLogs,
   text,
 } = require(`${basePath}/src/config.js`);
-const {decrptyedString} = require("./config");
 const canvas = createCanvas(format.width, format.height);
 const ctx = canvas.getContext("2d");
 ctx.imageSmoothingEnabled = format.smoothing;
@@ -120,21 +117,38 @@ const drawBackground = () => {
 
 const addMetadata = (_dna, _edition) => {
   let tempMetadata = {
-    name: `Hbarbarian Community Founder's Pass #${_edition}`,
-    description: `Community Founder's Pass/ARG game piece`,
+    name: `The Alixon Collection`,
+    description: `An extraordinary art collection brought to you by Barbarian Inc's incredibly talented artist, Alixon. This 1000 piece exclusive collection consists of 10 distinct masterpieces, each one meticulously crafted. From the intricate details to the bold strokes of color, each piece captures the essence of Alixon's artistic vision and the raw power of Barbarian Inc's creative force.`,
     file_url: `ipfs${_edition}.png`,
     edition: _edition,
     custom_fields: {
-      creator: `BarbarianInc`,
+      creator: `Barbarian Inc`,
       type: `image/png`,
-      format: `HIP412@1.0.0`,
-      properties: {"id": _edition},
+      format: `HIP412@1.0.0`
     },
     attributes: attributesList,
   };
   metadataList.push(tempMetadata);
   attributesList = [];
 };
+
+// const addMetadata = (_dna, _edition) => {
+//   let tempMetadata = {
+//     name: `Hbarbarian Community Founder's Pass #${_edition}`,
+//     description: `Community Founder's Pass/ARG game piece`,
+//     file_url: `ipfs${_edition}.png`,
+//     edition: _edition,
+//     custom_fields: {
+//       creator: `BarbarianInc`,
+//       type: `image/png`,
+//       format: `HIP412@1.0.0`,
+//       properties: {"id": _edition},
+//     },
+//     attributes: attributesList,
+//   };
+//   metadataList.push(tempMetadata);
+//   attributesList = [];
+// };
 
 const addAttributes = (_element) => {
   let selectedElement = _element.layer.selectedElement;
@@ -367,6 +381,7 @@ const startCreating = async () => {
   let editionCount = 1;
   let failedCount = 0;
   let abstractedIndexes = [];
+
   for (
     let i = 1;
     i <= layerConfigurations[layerConfigurations.length - 1].growEditionSizeTo;
@@ -391,7 +406,7 @@ const startCreating = async () => {
       debugLogs
           ? console.log("newDna String: ", newDna)
           : null;
-
+    
       // Existing Collection Check
       let prevCollectionPass = 1 //prevCollectionCheck(filterDNAOptions(newDna));
       // Custom Trait Mixer Check
@@ -450,7 +465,7 @@ const startCreating = async () => {
   writeMetaData(JSON.stringify(metadataList, null, 2));
 
   let dnaJson = JSON.stringify(Array.from(dnaList), null, 2);
-  fs.writeFileSync(`build/dna/dna.json`, dnaJson);
+  fs.writeFileSync(`${buildDir}/dna/dna.json`, dnaJson);
 };
 
 module.exports = { startCreating, buildSetup, getElements };

@@ -2,11 +2,13 @@
 build/
 buildSpirit/
 buildCustom/
+buildAlixon/
 finalCollection/
 layers/
 layersSpirit/
-layersCustomPoncho/
-layersCustomAlixon/
+layersCustom/
+layersAlixon/
+layersNew/
 customs/
 
 # Logs

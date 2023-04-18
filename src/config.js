@@ -1,6 +1,15 @@
 const basePath = process.cwd();
 const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 
+// const layerConfigurations = [
+//   {
+//     growEditionSizeTo: 1,
+//     layersOrder: [
+//       { name: "Collection Piece" }
+//     ],
+//   },
+// ];
+
 const layerConfigurations = [
   {
     growEditionSizeTo: 1,
@@ -17,31 +26,13 @@ const layerConfigurations = [
   },
 ];
 
-// // Test Layer Config
-// const layerConfigurations = [
-//   {
-//     growEditionSizeTo: 10,
-//     layersOrder: [
-//       { name: "Background" },
-//       { name: "Bottom Lid" },
-//       { name: "Eye color" },
-//       { name: "Eyeball" },
-//       { name: "Goo" },
-//       { name: "Iris" },
-//       { name: "Shine" },
-//       { name: "Muscle" },
-//       { name: "Top lid" }
-//     ],
-//   },
-// ];
-
 const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
 
 const format = {
-  width: 2500,
-  height: 2500,
+  width: 1024,
+  height: 1024,
   smoothing: false
 };
 

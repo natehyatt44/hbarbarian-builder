@@ -1,5 +1,6 @@
 const basePath = process.cwd();
 const fs = require("fs");
+const buildPath = 'buildAlixon'
 
 // initialize readline to prompt user for input
 const readline = require("readline");
@@ -13,7 +14,7 @@ const prompt = (query) => new Promise((resolve) => rl.question(query, resolve));
   try {
     // read json data
     const rawdata = fs.readFileSync(
-      `${basePath}/build/json/_metadata_with_rarity.json`
+      `${basePath}/${buildPath}/json/_metadata_with_rarity.json`
     );
     const nfts = JSON.parse(rawdata);
 
