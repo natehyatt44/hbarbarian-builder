@@ -23,6 +23,7 @@
     "ipfsmeta": "node utils/ipfs/uploadMeta.js",
     "valid": "node utils/metadataValidator.js",
     "mintnft": "node utils/hts/mintNFT.js",
+    "airdrop": "node utils/hts/airdrop.js",
     "xfernft": "node utils/hts/transferNFT.js"
   },
   "author": "nbreezay",

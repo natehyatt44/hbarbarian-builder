@@ -2,8 +2,8 @@ const basePath = process.cwd();
 const fs = require("fs");
 const sha1 = require(`${basePath}/node_modules/sha1`);
 const { createCanvas, loadImage } = require(`${basePath}/node_modules/canvas`);
-const buildDir = `${basePath}/buildAlixon`;
-const layersDir = `${basePath}/layersAlixon`;
+const buildDir = `${basePath}/buildNew`;
+const layersDir = `${basePath}/layersNew`;
 const {
   format,
   background,
@@ -115,14 +115,31 @@ const drawBackground = () => {
   ctx.fillRect(0, 0, format.width, format.height);
 };
 
+// const addMetadata = (_dna, _edition) => {
+//   let tempMetadata = {
+//     name: `The Alixon Collection`,
+//     description: `An extraordinary art collection brought to you by Barbarian Inc's incredibly talented artist, Alixon. This 1000 piece exclusive collection consists of 10 distinct masterpieces, each one meticulously crafted. From the intricate details to the bold strokes of color, each piece captures the essence of Alixon's artistic vision and the raw power of Barbarian Inc's creative force.`,
+//     file_url: `ipfs${_edition}.png`,
+//     edition: _edition,
+//     custom_fields: {
+//       creator: `BarbarianInc`,
+//       type: `image/png`,
+//       format: `HIP412@1.0.0`
+//     },
+//     attributes: attributesList,
+//   };
+//   metadataList.push(tempMetadata);
+//   attributesList = [];
+// };
+
 const addMetadata = (_dna, _edition) => {
   let tempMetadata = {
-    name: `The Alixon Collection`,
-    description: `An extraordinary art collection brought to you by Barbarian Inc's incredibly talented artist, Alixon. This 1000 piece exclusive collection consists of 10 distinct masterpieces, each one meticulously crafted. From the intricate details to the bold strokes of color, each piece captures the essence of Alixon's artistic vision and the raw power of Barbarian Inc's creative force.`,
+    name: `Hbarbarian Community Founder's Pass`,
+    description: `The Hbarbarian Community Founder's Pass & Playable ARG piece. This will give holders exclusive access to future Barbarian Inc Collections/Airdrops and a plethora of perks & utility along the way`,
     file_url: `ipfs${_edition}.png`,
     edition: _edition,
     custom_fields: {
-      creator: `Barbarian Inc`,
+      creator: `BarbarianInc`,
       type: `image/png`,
       format: `HIP412@1.0.0`
     },
@@ -131,24 +148,6 @@ const addMetadata = (_dna, _edition) => {
   metadataList.push(tempMetadata);
   attributesList = [];
 };
-
-// const addMetadata = (_dna, _edition) => {
-//   let tempMetadata = {
-//     name: `Hbarbarian Community Founder's Pass #${_edition}`,
-//     description: `Community Founder's Pass/ARG game piece`,
-//     file_url: `ipfs${_edition}.png`,
-//     edition: _edition,
-//     custom_fields: {
-//       creator: `BarbarianInc`,
-//       type: `image/png`,
-//       format: `HIP412@1.0.0`,
-//       properties: {"id": _edition},
-//     },
-//     attributes: attributesList,
-//   };
-//   metadataList.push(tempMetadata);
-//   attributesList = [];
-// };
 
 const addAttributes = (_element) => {
   let selectedElement = _element.layer.selectedElement;

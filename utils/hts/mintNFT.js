@@ -46,7 +46,7 @@ async function main() {
 
 	// CREATE NFT WITH CUSTOM FEE
     let nftCreate = await new TokenCreateTransaction()
-        .setTokenName("Barbarian Inc - The Alixon Collection")
+        .setTokenName("BarbarianInc - The Alixon Collection")
         .setTokenSymbol("ALX")
         .setTokenType(TokenType.NonFungibleUnique)
         .setDecimals(0)
