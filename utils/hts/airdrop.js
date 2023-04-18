@@ -34,7 +34,8 @@ async function findWalletsHoldingNFT() {
 async function airdropNFT(walletsWithNft) {
   const failedWallets = [];
 
-  for (const { accountId, serialNumber } of walletsWithNft) {
+  for (const wallet of walletsWithNft) {
+    const { accountId, serialNumber } = wallet;
     const destinationWallet = AccountId.fromString(accountId);
 
     try {
@@ -53,7 +54,7 @@ async function airdropNFT(walletsWithNft) {
       
     } catch (error) {
       console.error(`Error transferring NFT to wallet ${accountId} with serial number ${serialNumber}:`, error.message);
-      failedWallets.push(accountId);
+      failedWallets.push(wallet);
     }
   }
 
@@ -67,10 +68,16 @@ async function main() {
   // Filter out the treasury account ID from holders
   const filteredWallets = walletsWithNft.filter(wallet => wallet.accountId !== companyWallet);
 
-  fs.writeFileSync(`${fileDir}/accounts_holders.txt`, filteredWallets.map(wallet => wallet.accountId).join('\n'));
+  fs.writeFileSync(
+    `${fileDir}/accounts_holders.txt`,
+    filteredWallets.map(wallet => `${wallet.accountId},${wallet.serialNumber}`).join('\n')
+  );
 
   const failedWallets = await airdropNFT(filteredWallets);
-  fs.writeFileSync(`${fileDir}/failed_wallets.txt`, failedWallets.join('\n'));
+  fs.writeFileSync(
+    `${fileDir}/failed_wallets.txt`,
+    failedWallets.map(wallet => `${wallet.accountId},${wallet.serialNumber}`).join('\n')
+  );
 
   console.log('Airdrop completed. Check failed_wallets.txt for wallets that failed to receive the NFT.');
 }

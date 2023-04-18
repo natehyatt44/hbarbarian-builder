@@ -24,7 +24,7 @@
     "valid": "node utils/metadataValidator.js",
     "mintnft": "node utils/hts/mintNFT.js",
     "airdrop": "node utils/hts/airdrop.js",
-    "xfernft": "node utils/hts/transferNFT.js"
+    "payroll": "node utils/hts/payroll.js"
   },
   "author": "nbreezay",
   "license": "MIT",
@@ -40,6 +40,7 @@
     "gif-encoder-2": "^1.0.5",
     "latest": "^0.2.0",
     "node-fetch": "^2.6.7",
+    "readline-sync": "^1.4.10",
     "sha1": "^1.1.1"
   }
 }
