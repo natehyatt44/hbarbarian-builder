@@ -16,6 +16,7 @@ const {
 	TokenMintTransaction,
 	AccountBalanceQuery,
 } = require("@hashgraph/sdk");
+const buildPath = 'buildAlixon'
 
 // Configure accounts and client, and generate needed keys
 const operatorId = AccountId.fromString(process.env.MY_ACCOUNT_ID);
@@ -33,20 +34,20 @@ const wipeKey = PrivateKey.generate();
 
 async function main() {
 	//IPFS content identifiers for which we will create a NFT
-	let rawCID = fs.readFileSync(`${basePath}/build/ipfsMetas/_CID.json`)
+	let rawCID = fs.readFileSync(`${basePath}/${buildPath}/ipfsMetas/_CID.json`)
 	let CID = JSON.parse(rawCID);
 
 	// DEFINE CUSTOM FEE SCHEDULE
 	let nftCustomFee = await new CustomRoyaltyFee()
-		.setNumerator(5)
-		.setDenominator(10)
+		.setNumerator(7)
+		.setDenominator(100)
 		.setFeeCollectorAccountId(treasuryId)
-		.setFallbackFee(new CustomFixedFee().setHbarAmount(new Hbar(200)));
+		.setFallbackFee(new CustomFixedFee().setHbarAmount(new Hbar(11)));
 
 	// CREATE NFT WITH CUSTOM FEE
     let nftCreate = await new TokenCreateTransaction()
-        .setTokenName("TEST BUSSIN")
-        .setTokenSymbol("YO")
+        .setTokenName("Barbarian Inc - The Alixon Collection")
+        .setTokenSymbol("ALX")
         .setTokenType(TokenType.NonFungibleUnique)
         .setDecimals(0)
         .setInitialSupply(0)
@@ -54,11 +55,11 @@ async function main() {
         .setSupplyType(TokenSupplyType.Finite)
         .setMaxSupply(CID.length)
         .setCustomFees([nftCustomFee])
-        .setAdminKey(adminKey)
+        // .setAdminKey(adminKey)
         .setSupplyKey(supplyKey)
-        .setPauseKey(pauseKey)
-        .setFreezeKey(freezeKey)
-        .setWipeKey(wipeKey)
+        // .setPauseKey(pauseKey)
+        // .setFreezeKey(freezeKey)
+        // .setWipeKey(wipeKey)
         .freezeWith(client)
         .sign(treasuryKey);
 

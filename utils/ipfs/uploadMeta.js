@@ -4,16 +4,17 @@ const basePath = process.cwd();
 const fs = require("fs");
 const { RateLimit } = require("async-sema");
 const { fetchWithRetry } = require(`${basePath}/utils/functions/fetchWithRetry.js`);
+const buildPath = 'buildAlixon'
 
 const _limit = RateLimit(2);
 const regex = new RegExp("^([0-9]+).json$");
 
-if (!fs.existsSync(path.join(`${basePath}/build`, "/ipfsMetas"))) {
-  fs.mkdirSync(path.join(`${basePath}/build`, "ipfsMetas"));
+if (!fs.existsSync(path.join(`${basePath}/${buildPath}`, "/ipfsMetas"))) {
+  fs.mkdirSync(path.join(`${basePath}/${buildPath}`, "ipfsMetas"));
 }
 
-let readDir = `${basePath}/build/json`;
-let writeDir = `${basePath}/build/ipfsMetas`;
+let readDir = `${basePath}/${buildPath}/json`;
+let writeDir = `${basePath}/${buildPath}/ipfsMetas`;
 
 async function main() {
 
@@ -33,7 +34,7 @@ async function main() {
       let rawFile = fs.readFileSync(`${readDir}/${file}`);
       let metaData = JSON.parse(rawFile);
       let jsonFile = JSON.stringify(rawFile, null, 2)
-      const uploadedMeta = `${writeDir}/${metaData.custom_fields.properties.id}.json`;
+      const uploadedMeta = `${writeDir}/${metaData.edition}.json`;
 
       try {
         fs.accessSync(uploadedMeta);
