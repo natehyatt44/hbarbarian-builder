@@ -22,9 +22,12 @@
     "ipfsimage": "node utils/ipfs/uploadImages.js",
     "ipfsmeta": "node utils/ipfs/uploadMeta.js",
     "valid": "node utils/metadataValidator.js",
+    "updatemeta": "node utils/updateJson.js",
     "mintnft": "node utils/hts/mintNFT.js",
     "airdrop": "node utils/hts/airdrop.js",
-    "payroll": "node utils/hts/payroll.js"
+    "payroll": "node utils/hts/payroll.js",
+    "arg": "node utils/argMetaData.js",
+    "testnet": "node utils/hts/testnet.js"
   },
   "author": "nbreezay",
   "license": "MIT",

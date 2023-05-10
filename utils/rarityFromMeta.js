@@ -1,6 +1,6 @@
 const basePath = process.cwd();
 const fs = require("fs");
-const buildPath = 'buildAlixon'
+const buildPath = 'buildNew'
 
 const getRarity = () => {
   // read json data
@@ -58,7 +58,7 @@ function processRarity(nfts) {
   })
 
   // sort nfts by edition again
-  nfts.sort((a, b) => a.custom_fields.properties.id - b.custom_fields.properties.id)
+  nfts.sort((a, b) => a.edition - b.edition)
 
   fs.writeFileSync(`${basePath}/${buildPath}/json/_metadata_with_rarity.json`, JSON.stringify(nfts, null, 2));
 }

@@ -3,7 +3,7 @@ const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 
 // const layerConfigurations = [
 //   {
-//     growEditionSizeTo: 1,
+//     growEditionSizeTo: 10,
 //     layersOrder: [
 //       { name: "Collection Piece" }
 //     ],
@@ -12,7 +12,7 @@ const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 1000,
+    growEditionSizeTo: 1,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
@@ -31,8 +31,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 2500,
+  height: 2500,
   smoothing: false
 };
 

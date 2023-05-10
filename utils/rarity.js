@@ -1,7 +1,7 @@
 const basePath = process.cwd();
 const fs = require("fs");
-const layersDir = `${basePath}/layersAlixon`;
-const buildPath = 'buildAlixon'
+const layersDir = `${basePath}/layersNew`;
+const buildPath = 'buildNew'
 
 const { layerConfigurations } = require(`${basePath}/src/config.js`);
 

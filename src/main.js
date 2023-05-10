@@ -2,8 +2,8 @@ const basePath = process.cwd();
 const fs = require("fs");
 const sha1 = require(`${basePath}/node_modules/sha1`);
 const { createCanvas, loadImage } = require(`${basePath}/node_modules/canvas`);
-const buildDir = `${basePath}/buildNew`;
-const layersDir = `${basePath}/layersNew`;
+const buildDir = `${basePath}/buildCustom`;
+const layersDir = `${basePath}/layersCustom`;
 const {
   format,
   background,
@@ -332,11 +332,11 @@ const traitMixCheck = (newDna) => {
   let mouth = dnaArray[5];
   let accessory = dnaArray[6];
 
-  const bigHats = ["Moose Hood", "Trapper Hat", "Bob With Bangs", "Wolf Hood"]
-  const protrudingEyes = ["3D Glasses", "Cyclops Sunglasses", "Experimental VR Lens", "Flaming Sunglasses", "Heart Sunglasses", "Hedera Sunglasses",
-                          "Sunglasses", "Steampunk Monocle", "Shutter Lens"]
+  const bigHats = ["Moose Hood", "Trapper Hat", "Bob With Bangs", "Wolf Hood", "Mouflon Barbarian Head", "Barbarian Helmet", "Hedron Helmet", "Steampunk Hat"]
+  const protrudingEyes = ["3d Glasses", "Cyclops Sunglasses", "Experimental VR Lens", "Flaming Sunglasses", "Heart Sunglasses", "Hedera Sunglasses",
+                          "Sunglasses", "Steampunk Telescope", "Shutter Lens"]
 
-  if (traitCheckPass == 1 && bigHats.includes(hair) && accessory != "Empty") {
+  if (traitCheckPass == 1 && bigHats.includes(hair) && accessory != "Blank") {
     console.log(`Hair ${hair} and Accessory ${accessory} Can't Mix!`)
     traitCheckPass = 0;
   }
@@ -344,11 +344,11 @@ const traitMixCheck = (newDna) => {
     console.log(`Hair ${hair} and Eyes Nose ${eyesNose} Can't Mix!`)
     traitCheckPass = 0;
   }
-  if (traitCheckPass == 1 && hair == "Cowboy Hat" && eyesNose == "Steampunk Monocle") {
+  if (traitCheckPass == 1 && hair == "Cowboy Hat" && eyesNose == "Steampunk Telescope") {
     console.log(`Hair ${hair} and Eyes Nose ${eyesNose} Can't Mix!`)
     traitCheckPass = 0;
   }
-  if (traitCheckPass == 1 && protrudingEyes.includes(eyesNose) && mouth == "Leather Respiratory Mask"){
+  if (traitCheckPass == 1 && protrudingEyes.includes(eyesNose) && mouth == "Leather Mask"){
     console.log(`Eyes Nose ${eyesNose} and Mouth ${mouth} Can't Mix!`)
     traitCheckPass = 0;
   }
@@ -357,15 +357,15 @@ const traitMixCheck = (newDna) => {
     traitCheckPass = 0;
   }
 
-  if(traitCheckPass == 1 && mouth.includes("Beard") && (hair.includes("Braids") || hair.includes("Frizzy") || hair.includes("Hair") || hair.includes("Mullet") || 
-                                 hair.includes("Toupee") || hair.includes("Hedera Sport Bandana") || hair.includes("Military Helmet") || hair.includes("Hedera Hat") || 
+  if(traitCheckPass == 1 && mouth.includes("Beard") && (hair.includes("Braids") || hair.includes("Hair") || hair.includes("Mullet") || 
+                                 hair.includes("Hedera Sport Bandana") || hair.includes("Military Helmet") || hair.includes("Hedera Hat") || 
                                  hair.includes("Backyard Cap") || hair.includes("Cowboy Hat") || hair.includes("Winter Hat"))){
     // Set trait check to not pass initially and only if hair color matches up we pass the trait check
     traitCheckPass = 0;
     if(mouth.includes("Blonde") && (hair.includes("Blonde") || hair.includes("Hedera Sport Bandana") || hair.includes("Backyard Cap"))) {traitCheckPass = 1;}
-    if(mouth.includes("Brown") && hair.includes("Brown")) {traitCheckPass = 1;}
+    if(mouth.includes("Bronde") && hair.includes("Bronde")) {traitCheckPass = 1;}
     if(mouth.includes("Ginger") && hair.includes("Ginger")) {traitCheckPass = 1;}
-    if(mouth.includes("Bronde") && (hair.includes("Bronde") || hair.includes("Military Helmet") || hair.includes("Hedera Hat"))) {traitCheckPass = 1;}
+    if(mouth.includes("Brown") && (hair.includes("Brown") || hair.includes("Military Helmet") || hair.includes("Hedera Hat"))) {traitCheckPass = 1;}
     if(mouth.includes("Gray") && (hair.includes("Gray") || hair.includes("Cowboy Hat"))) {traitCheckPass = 1;}
     if(mouth.includes("Black") && (hair.includes("Black") || hair.includes("Winter Hat"))) {traitCheckPass = 1;}
 

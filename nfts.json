@@ -1,0 +1,974 @@
+[
+  {
+    "serial_number": 108,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/405.json",
+    "edition": 405,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 107,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/206.json",
+    "edition": 206,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 106,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/478.json",
+    "edition": 478,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 105,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/162.json",
+    "edition": 162,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 104,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/355.json",
+    "edition": 355,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 103,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/198.json",
+    "edition": 198,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 102,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/431.json",
+    "edition": 431,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 101,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/84.json",
+    "edition": 84,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 100,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/377.json",
+    "edition": 377,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 99,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/114.json",
+    "edition": 114,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 98,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/133.json",
+    "edition": 133,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 97,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/391.json",
+    "edition": 391,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 96,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/434.json",
+    "edition": 434,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 95,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/484.json",
+    "edition": 484,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 94,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/111.json",
+    "edition": 111,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 93,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/88.json",
+    "edition": 88,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 92,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/468.json",
+    "edition": 468,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 91,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/196.json",
+    "edition": 196,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 90,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/236.json",
+    "edition": 236,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 89,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/172.json",
+    "edition": 172,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 88,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/356.json",
+    "edition": 356,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 87,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/87.json",
+    "edition": 87,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 86,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/344.json",
+    "edition": 344,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 85,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/17.json",
+    "edition": 17,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 84,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/297.json",
+    "edition": 297,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 83,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/394.json",
+    "edition": 394,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 82,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/449.json",
+    "edition": 449,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 81,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/376.json",
+    "edition": 376,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 80,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/337.json",
+    "edition": 337,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 79,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/358.json",
+    "edition": 358,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 78,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/175.json",
+    "edition": 175,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 77,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/113.json",
+    "edition": 113,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 76,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/28.json",
+    "edition": 28,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 75,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/43.json",
+    "edition": 43,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 74,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/420.json",
+    "edition": 420,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 73,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/32.json",
+    "edition": 32,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 72,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/296.json",
+    "edition": 296,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 71,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/421.json",
+    "edition": 421,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 70,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/54.json",
+    "edition": 54,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 69,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/176.json",
+    "edition": 176,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 68,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/389.json",
+    "edition": 389,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 67,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/217.json",
+    "edition": 217,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 66,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/213.json",
+    "edition": 213,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 65,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/438.json",
+    "edition": 438,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 64,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/269.json",
+    "edition": 269,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 63,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/179.json",
+    "edition": 179,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 62,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/451.json",
+    "edition": 451,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 61,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/78.json",
+    "edition": 78,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 60,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/204.json",
+    "edition": 204,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 59,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/145.json",
+    "edition": 145,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 58,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/77.json",
+    "edition": 77,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 57,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/248.json",
+    "edition": 248,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 56,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/34.json",
+    "edition": 34,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 55,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/448.json",
+    "edition": 448,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 54,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/37.json",
+    "edition": 37,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 53,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/200.json",
+    "edition": 200,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 52,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/329.json",
+    "edition": 329,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 51,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/69.json",
+    "edition": 69,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 50,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/39.json",
+    "edition": 39,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 49,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/425.json",
+    "edition": 425,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 48,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/494.json",
+    "edition": 494,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 47,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/497.json",
+    "edition": 497,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 46,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/66.json",
+    "edition": 66,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 45,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/475.json",
+    "edition": 475,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 44,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/346.json",
+    "edition": 346,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 43,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/304.json",
+    "edition": 304,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 42,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/259.json",
+    "edition": 259,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 41,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/155.json",
+    "edition": 155,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 40,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/489.json",
+    "edition": 489,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 39,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/440.json",
+    "edition": 440,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 38,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/384.json",
+    "edition": 384,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 37,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/313.json",
+    "edition": 313,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 36,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/341.json",
+    "edition": 341,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 35,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/56.json",
+    "edition": 56,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 34,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/119.json",
+    "edition": 119,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 33,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/215.json",
+    "edition": 215,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 32,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/332.json",
+    "edition": 332,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 31,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/270.json",
+    "edition": 270,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 30,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/480.json",
+    "edition": 480,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 29,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/417.json",
+    "edition": 417,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 28,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/251.json",
+    "edition": 251,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 27,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/300.json",
+    "edition": 300,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 26,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/83.json",
+    "edition": 83,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 25,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/311.json",
+    "edition": 311,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 24,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/362.json",
+    "edition": 362,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 23,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/430.json",
+    "edition": 430,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 22,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/60.json",
+    "edition": 60,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 21,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/250.json",
+    "edition": 250,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 20,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/44.json",
+    "edition": 44,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 19,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/307.json",
+    "edition": 307,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 18,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/372.json",
+    "edition": 372,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 17,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/424.json",
+    "edition": 424,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 16,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/330.json",
+    "edition": 330,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 15,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/221.json",
+    "edition": 221,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 14,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/339.json",
+    "edition": 339,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 13,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/243.json",
+    "edition": 243,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 12,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/164.json",
+    "edition": 164,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 11,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/10.json",
+    "edition": 10,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 10,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/9.json",
+    "edition": 9,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 9,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/7.json",
+    "edition": 7,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 8,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/8.json",
+    "edition": 8,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 7,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/11.json",
+    "edition": 11,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 6,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/6.json",
+    "edition": 6,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 5,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/2.json",
+    "edition": 2,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 4,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/1.json",
+    "edition": 1,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 3,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/4.json",
+    "edition": 4,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 2,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/5.json",
+    "edition": 5,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  },
+  {
+    "serial_number": 1,
+    "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/3.json",
+    "edition": 3,
+    "traits": {
+      "trait_type": "Race",
+      "value": "Mortal"
+    }
+  }
+]
