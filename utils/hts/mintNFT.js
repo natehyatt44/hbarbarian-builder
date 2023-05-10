@@ -19,12 +19,16 @@ const {
 const buildPath = 'buildAlixon'
 
 // Configure accounts and client, and generate needed keys
-const operatorId = AccountId.fromString(process.env.MY_ACCOUNT_ID);
-const operatorKey = PrivateKey.fromString(process.env.MY_PRIVATE_KEY);
+const operatorId = AccountId.fromString(process.env.HASHPACK_ID);
+const operatorKey = PrivateKey.fromString(process.env.HASHPACK_PRIVATE_KEY);
 const treasuryId = AccountId.fromString(process.env.HASHPACK_ID);
 const treasuryKey = PrivateKey.fromString(process.env.HASHPACK_PRIVATE_KEY);
 
 const client = Client.forTestnet().setOperator(operatorId, operatorKey);
+// Max transaction fee as a constant
+const maxTransactionFee = new Hbar(2000);
+// 4800 hbar to start, 262 usd
+// 3300 hbar, 175 usd
 
 const supplyKey = PrivateKey.generate();
 const adminKey = PrivateKey.generate();
@@ -39,15 +43,15 @@ async function main() {
 
 	// DEFINE CUSTOM FEE SCHEDULE
 	let nftCustomFee = await new CustomRoyaltyFee()
-		.setNumerator(7)
+		.setNumerator(10)
 		.setDenominator(100)
 		.setFeeCollectorAccountId(treasuryId)
-		.setFallbackFee(new CustomFixedFee().setHbarAmount(new Hbar(11)));
+		.setFallbackFee(new CustomFixedFee().setHbarAmount(new Hbar(2)));
 
 	// CREATE NFT WITH CUSTOM FEE
     let nftCreate = await new TokenCreateTransaction()
-        .setTokenName("BarbarianInc - The Alixon Collection")
-        .setTokenSymbol("ALX")
+        .setTokenName("Hbarbarians - The Alixon Collection")
+        .setTokenSymbol("Hbarbarians - The Alixon Collection")
         .setTokenType(TokenType.NonFungibleUnique)
         .setDecimals(0)
         .setInitialSupply(0)
@@ -55,6 +59,7 @@ async function main() {
         .setSupplyType(TokenSupplyType.Finite)
         .setMaxSupply(CID.length)
         .setCustomFees([nftCustomFee])
+		.setMaxTransactionFee(maxTransactionFee)
         // .setAdminKey(adminKey)
         .setSupplyKey(supplyKey)
         // .setPauseKey(pauseKey)
@@ -70,8 +75,8 @@ async function main() {
     console.log(`Created NFT with Token ID: ${tokenId} \n`);
 
 	// TOKEN QUERY TO CHECK THAT THE CUSTOM FEE SCHEDULE IS ASSOCIATED WITH NFT
-    var tokenInfo = await new TokenInfoQuery().setTokenId(tokenId).execute(client);
-    console.table(tokenInfo.customFees[0]);
+    // var tokenInfo = await new TokenInfoQuery().setTokenId(tokenId).execute(client);
+    // console.table(tokenInfo.customFees[0]);
 	
 	// MINT NEW BATCH OF NFTs
 	nftLeaf = [];
@@ -81,14 +86,15 @@ async function main() {
 	}
 
 	// BALANCE CHECK 1
-	oB = await bCheckerFcn(treasuryId);
-	console.log(`- Treasury balance: ${oB[0]} NFTs of ID:${tokenId} and ${oB[1]}`);
+	//oB = await bCheckerFcn(treasuryId);
+	//console.log(`- Treasury balance: ${oB[0]} NFTs of ID:${tokenId} and ${oB[1]}`);
 
 	// TOKEN MINTER FUNCTION ==========================================
 	async function tokenMinterFcn(CID) {
 		mintTx = await new TokenMintTransaction()
 			.setTokenId(tokenId)
 			.setMetadata([Buffer.from(CID)])
+			.setMaxTransactionFee(maxTransactionFee)
 			.freezeWith(client);
 		let mintTxSign = await mintTx.sign(supplyKey);
 		let mintTxSubmit = await mintTxSign.execute(client);
