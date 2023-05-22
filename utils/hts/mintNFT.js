@@ -19,22 +19,27 @@ const {
 const buildPath = 'buildAlixon'
 
 // Configure accounts and client, and generate needed keys
-const operatorId = AccountId.fromString(process.env.HASHPACK_ID);
-const operatorKey = PrivateKey.fromString(process.env.HASHPACK_PRIVATE_KEY);
-const treasuryId = AccountId.fromString(process.env.HASHPACK_ID);
-const treasuryKey = PrivateKey.fromString(process.env.HASHPACK_PRIVATE_KEY);
+const operatorId = AccountId.fromString(process.env.COMPANY_WALLET_ID);
+const operatorKey = PrivateKey.fromString(process.env.COMPANY_PRIVATE_KEY);
+const treasuryId = AccountId.fromString(process.env.COMPANY_WALLET_ID);
+const treasuryKey = PrivateKey.fromString(process.env.COMPANY_PRIVATE_KEY);
+const payrollId = AccountId.fromString(process.env.PAYROLL_WALLET_ID);
 
-const client = Client.forTestnet().setOperator(operatorId, operatorKey);
+const client = Client.forMainnet().setOperator(operatorId, operatorKey);
 // Max transaction fee as a constant
-const maxTransactionFee = new Hbar(2000);
+const maxTransactionFee = new Hbar(5000);
 // 4800 hbar to start, 262 usd
 // 3300 hbar, 175 usd
 
-const supplyKey = PrivateKey.generate();
-const adminKey = PrivateKey.generate();
-const pauseKey = PrivateKey.generate();
-const freezeKey = PrivateKey.generate();
-const wipeKey = PrivateKey.generate();
+supply_private_string = '6C2CF556E15821C71FC7690301F686B6D39FC112826EE55A9BE319A32A270D17'
+supply_public_string = '49DB4F4F95555F752A7A13E4FE6102698C9F9777DEB96F39B989BA9C37244EF0'
+
+const supplyKey = PrivateKey.fromStringED25519(supply_private_string);
+const supplyPublicKey = PrivateKey.fromStringED25519(supply_public_string);
+// const adminKey = PrivateKey.generate();
+// const pauseKey = PrivateKey.generate();
+// const freezeKey = PrivateKey.generate();
+// const wipeKey = PrivateKey.generate();
 
 async function main() {
 	//IPFS content identifiers for which we will create a NFT
@@ -42,42 +47,41 @@ async function main() {
 	let CID = JSON.parse(rawCID);
 
 	// DEFINE CUSTOM FEE SCHEDULE
-	let nftCustomFee = await new CustomRoyaltyFee()
-		.setNumerator(10)
-		.setDenominator(100)
-		.setFeeCollectorAccountId(treasuryId)
-		.setFallbackFee(new CustomFixedFee().setHbarAmount(new Hbar(2)));
+	// let nftCustomFee = await new CustomRoyaltyFee()
+	// 	.setNumerator(22)
+	// 	.setDenominator(250)
+	// 	.setFeeCollectorAccountId(payrollId)
 
-	// CREATE NFT WITH CUSTOM FEE
-    let nftCreate = await new TokenCreateTransaction()
-        .setTokenName("Hbarbarians - The Alixon Collection")
-        .setTokenSymbol("Hbarbarians - The Alixon Collection")
-        .setTokenType(TokenType.NonFungibleUnique)
-        .setDecimals(0)
-        .setInitialSupply(0)
-        .setTreasuryAccountId(treasuryId)
-        .setSupplyType(TokenSupplyType.Finite)
-        .setMaxSupply(CID.length)
-        .setCustomFees([nftCustomFee])
-		.setMaxTransactionFee(maxTransactionFee)
-        // .setAdminKey(adminKey)
-        .setSupplyKey(supplyKey)
-        // .setPauseKey(pauseKey)
-        // .setFreezeKey(freezeKey)
-        // .setWipeKey(wipeKey)
-        .freezeWith(client)
-        .sign(treasuryKey);
+	// // CREATE NFT WITH CUSTOM FEE
+    // let nftCreate = await new TokenCreateTransaction()
+    //     .setTokenName("Hbarbarians - The Alixon Collection")
+    //     .setTokenSymbol("Hbarbarians - The Alixon Collection")
+    //     .setTokenType(TokenType.NonFungibleUnique)
+    //     .setDecimals(0)
+    //     .setInitialSupply(0)
+    //     .setTreasuryAccountId(treasuryId)
+    //     .setSupplyType(TokenSupplyType.Finite)
+    //     .setMaxSupply(CID.length)
+    //     .setCustomFees([nftCustomFee])
+	// 	.setMaxTransactionFee(maxTransactionFee)
+    //     // .setAdminKey(adminKey)
+    //     .setSupplyKey(supplyKey)
+    //     // .setPauseKey(pauseKey)
+    //     // .setFreezeKey(freezeKey)
+    //     // .setWipeKey(wipeKey)
+    //     .freezeWith(client)
+    //     .sign(treasuryKey);
 
-    let nftCreateTxSign = await nftCreate.sign(adminKey);
-    let nftCreateSubmit = await nftCreateTxSign.execute(client);
-    let nftCreateRx = await nftCreateSubmit.getReceipt(client);
-    let tokenId = nftCreateRx.tokenId;
-    console.log(`Created NFT with Token ID: ${tokenId} \n`);
+    // let nftCreateTxSign = await nftCreate.sign(adminKey);
+    // let nftCreateSubmit = await nftCreateTxSign.execute(client);
+    // let nftCreateRx = await nftCreateSubmit.getReceipt(client);
+    // let tokenId = nftCreateRx.tokenId;
+    // console.log(`Created NFT with Token ID: ${tokenId} \n`);
 
 	// TOKEN QUERY TO CHECK THAT THE CUSTOM FEE SCHEDULE IS ASSOCIATED WITH NFT
     // var tokenInfo = await new TokenInfoQuery().setTokenId(tokenId).execute(client);
     // console.table(tokenInfo.customFees[0]);
-	
+	const tokenId = '0.0.2371643'
 	// MINT NEW BATCH OF NFTs
 	nftLeaf = [];
 	for (var i = 0; i < CID.length; i++) {
@@ -91,16 +95,35 @@ async function main() {
 
 	// TOKEN MINTER FUNCTION ==========================================
 	async function tokenMinterFcn(CID) {
-		mintTx = await new TokenMintTransaction()
-			.setTokenId(tokenId)
-			.setMetadata([Buffer.from(CID)])
-			.setMaxTransactionFee(maxTransactionFee)
-			.freezeWith(client);
-		let mintTxSign = await mintTx.sign(supplyKey);
-		let mintTxSubmit = await mintTxSign.execute(client);
-		let mintRx = await mintTxSubmit.getReceipt(client);
-		return mintRx;
+		let maxRetries = 5;  // Set your max retry limit
+		let retries = 0;
+
+		while(retries < maxRetries) {
+			try {
+				let mintTx = await new TokenMintTransaction()
+					.setTokenId(tokenId)
+					.setMetadata([Buffer.from(CID)])
+					.setMaxTransactionFee(maxTransactionFee)
+					.freezeWith(client);
+
+				let mintTxSign = await mintTx.sign(supplyKey);
+				let mintTxSubmit = await mintTxSign.execute(client);
+				let mintRx = await mintTxSubmit.getReceipt(client);
+
+				// If we reach this point without throwing an error, we can return the receipt
+				return mintRx;
+			} catch (error) {
+				console.error(`Attempt ${retries + 1} failed with error: ${error.message}`);
+				retries++;
+
+				// If we've hit the max retries, throw the error
+				if (retries === maxRetries) {
+					throw new Error(`Failed to mint token after ${maxRetries} attempts`);
+				}
+			}
+		}
 	}
+
 
 	// BALANCE CHECKER FUNCTION ==========================================
 	async function bCheckerFcn(id) {
