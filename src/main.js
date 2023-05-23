@@ -332,7 +332,7 @@ const traitMixCheck = (newDna) => {
   let mouth = dnaArray[5];
   let accessory = dnaArray[6];
 
-  const bigHats = ["Moose Hood", "Trapper Hat", "Bob With Bangs", "Wolf Hood", "Mouflon Barbarian Head", "Barbarian Helmet", "Hedron Helmet", "Steampunk Hat"]
+  const bigHats = ["Moose Hood", "Trapper Hat", "Bob With Bangs", "Wolf Hood", "Mouflon Barbarian Head", "Barbarian Helmet", "Hedron Helmet", "Steampunk Hat", "Viking Eye Collector"]
   const protrudingEyes = ["3d Glasses", "Cyclops Sunglasses", "Experimental VR Lens", "Flaming Sunglasses", "Heart Sunglasses", "Hedera Sunglasses",
                           "Sunglasses", "Steampunk Telescope", "Shutter Lens"]
 
@@ -357,8 +357,8 @@ const traitMixCheck = (newDna) => {
     traitCheckPass = 0;
   }
 
-  if(traitCheckPass == 1 && mouth.includes("Beard") && (hair.includes("Braids") || hair.includes("Hair") || hair.includes("Mullet") || 
-                                 hair.includes("Hedera Sport Bandana") || hair.includes("Military Helmet") || hair.includes("Hedera Hat") || 
+  if(traitCheckPass == 1 && mouth.includes("Beard") && (hair.includes("Braids") || hair.includes("Hair") || hair.includes("Mullet") || hair.includes("Viking Eye Collector") ||
+                                 hair.includes("Hedera Sport Bandana") || hair.includes("Military Helmet") || hair.includes("Hedera Hat") || hair.includes("Camp Cap") || 
                                  hair.includes("Backyard Cap") || hair.includes("Cowboy Hat") || hair.includes("Winter Hat"))){
     // Set trait check to not pass initially and only if hair color matches up we pass the trait check
     traitCheckPass = 0;
