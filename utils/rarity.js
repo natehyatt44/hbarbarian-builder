@@ -1,7 +1,7 @@
 const basePath = process.cwd();
 const fs = require("fs");
-const layersDir = `${basePath}/layersNew`;
-const buildPath = 'buildNew'
+const layersDir = `${basePath}/layers`;
+const buildPath = 'build'
 
 const { layerConfigurations } = require(`${basePath}/src/config.js`);
 

@@ -1,6 +1,6 @@
 const basePath = process.cwd();
 const fs = require("fs");
-const buildPath = 'buildNew'
+const buildPath = 'build'
 
 // initialize readline to prompt user for input
 const readline = require("readline");

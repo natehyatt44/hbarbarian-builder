@@ -2,8 +2,8 @@ const basePath = process.cwd();
 const fs = require("fs");
 const sha1 = require(`${basePath}/node_modules/sha1`);
 const { createCanvas, loadImage } = require(`${basePath}/node_modules/canvas`);
-const buildDir = `${basePath}/buildAlixon`;
-const layersDir = `${basePath}/layersAlixon`;
+const buildDir = `${basePath}/build`;
+const layersDir = `${basePath}/layers`;
 const {
   format,
   background,
@@ -115,31 +115,14 @@ const drawBackground = () => {
   ctx.fillRect(0, 0, format.width, format.height);
 };
 
-const addMetadata = (_dna, _edition) => {
-  let tempMetadata = {
-    name: `The Alixon Collection`,
-    description: `An extraordinary art collection brought to you by Hbarbarians's incredibly talented artist, Alixon. This 1000 piece exclusive collection consists of 10 distinct masterpieces, each one meticulously crafted. From the intricate details to the bold strokes of color, each piece captures the essence of Alixon's artistic vision and the raw power of HBarbarians's creative force.`,
-    file_url: `ipfs${_edition}.png`,
-    edition: _edition,
-    custom_fields: {
-      creator: `Hbarbarians`,
-      type: `image/png`,
-      format: `HIP412@1.0.0`
-    },
-    attributes: attributesList,
-  };
-  metadataList.push(tempMetadata);
-  attributesList = [];
-};
-
 // const addMetadata = (_dna, _edition) => {
 //   let tempMetadata = {
-//     name: `Hbarbarian Community Founder's Pass`,
-//     description: `The Hbarbarian Community Founder's Pass & Playable ARG piece. This will give holders exclusive access to future Barbarian Inc Collections/Airdrops and a plethora of perks & utility along the way`,
+//     name: `The Alixon Collection`,
+//     description: `An extraordinary art collection brought to you by Hbarbarians's incredibly talented artist, Alixon. This 1000 piece exclusive collection consists of 10 distinct masterpieces, each one meticulously crafted. From the intricate details to the bold strokes of color, each piece captures the essence of Alixon's artistic vision and the raw power of HBarbarians's creative force.`,
 //     file_url: `ipfs${_edition}.png`,
 //     edition: _edition,
 //     custom_fields: {
-//       creator: `BarbarianInc`,
+//       creator: `Hbarbarians`,
 //       type: `image/png`,
 //       format: `HIP412@1.0.0`
 //     },
@@ -148,6 +131,23 @@ const addMetadata = (_dna, _edition) => {
 //   metadataList.push(tempMetadata);
 //   attributesList = [];
 // };
+
+const addMetadata = (_dna, _edition) => {
+  let tempMetadata = {
+    name: `Hbarbarian Community Founder's Pass`,
+    description: `The Hbarbarian Community Founder's Pass & Playable ARG piece. This will give holders exclusive access to future Barbarian Inc Collections/Airdrops and a plethora of perks & utility along the way`,
+    file_url: `ipfs${_edition}.png`,
+    edition: _edition,
+    custom_fields: {
+      creator: `BarbarianInc`,
+      type: `image/png`,
+      format: `HIP412@1.0.0`
+    },
+    attributes: attributesList,
+  };
+  metadataList.push(tempMetadata);
+  attributesList = [];
+};
 
 const addAttributes = (_element) => {
   let selectedElement = _element.layer.selectedElement;
@@ -308,7 +308,7 @@ function shuffle(array) {
 
 // Ensure we don't make the same NFT's that existed in previous collections
 const prevCollectionCheck = (newDna) => {
-  let collection1Dna = fs.readFileSync(`build-final/dna/collection1.json`).toString('utf-8');
+  let collection1Dna = fs.readFileSync(`cfp-dna/dna.json`).toString('utf-8');
   let prevCollectionPass = 1;
 
   if (collection1Dna.includes(newDna)){
@@ -377,7 +377,7 @@ const traitMixCheck = (newDna) => {
 
 const startCreating = async () => {
   let layerConfigIndex = 0;
-  let editionCount = 1;
+  let editionCount = 501;
   let failedCount = 0;
   let abstractedIndexes = [];
 
@@ -407,9 +407,9 @@ const startCreating = async () => {
           : null;
     
       // Existing Collection Check
-      let prevCollectionPass = 1 //prevCollectionCheck(filterDNAOptions(newDna));
+      let prevCollectionPass = prevCollectionCheck(filterDNAOptions(newDna));
       // Custom Trait Mixer Check
-      let traitCheckPass = 1 //traitMixCheck(filterDNAOptions(newDna));
+      let traitCheckPass = traitMixCheck(filterDNAOptions(newDna));
 
       if (isDnaUnique(dnaList, newDna) && traitCheckPass == 1 && prevCollectionPass == 1) {
         let results = constructLayerToDna(newDna, layers);
@@ -435,9 +435,9 @@ const startCreating = async () => {
           debugLogs
             ? console.log("Editions left to create: ", abstractedIndexes)
             : null;
-          saveImage(abstractedIndexes[0]);
-          addMetadata(newDna, abstractedIndexes[0]);
-          saveMetaDataSingleFile(abstractedIndexes[0]);
+          saveImage(abstractedIndexes[0] +500);
+          addMetadata(newDna, abstractedIndexes[0]+500);
+          saveMetaDataSingleFile(abstractedIndexes[0]+500);
           console.log(
             `Created edition: ${abstractedIndexes[0]}, with DNA: ${sha1(
               newDna

@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const basePath = process.cwd();
-const buildDir = `${basePath}/buildNew/json`;
+const buildDir = `${basePath}/build/json`;
 
 const folderPath = buildDir; // Use buildDir as the folder path
 const newName = `Hbarbarians - Community Founder's Pass`
