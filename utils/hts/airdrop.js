@@ -23,10 +23,7 @@ async function findWalletsHoldingNFT(next = '') {
     
     const nfts = nftsResponse.data.nfts;
 
-    // Filter out the NFTs that have spender "0.0.690356", "0.0.1064038"
-    const filteredNfts = nfts.filter(nft => (nft.spender === null));
-
-    const wallets = filteredNfts.map(nft => ({ accountId: nft.account_id, serialNumber: nft.serial_number, spender: nft.spender }));
+    const wallets = nfts.map(nft => ({ accountId: nft.account_id, serialNumber: nft.serial_number, spender: nft.spender }));
 
     // Check if there's a next page
     if (nftsResponse.data.links && nftsResponse.data.links.next) {
@@ -50,33 +47,42 @@ async function findWalletsHoldingNFT(next = '') {
 
 
 async function airdropNFT(walletsWithNft) {
-  const failedWallets = [];
+  const processedWallets = [];
 
   for (const wallet of walletsWithNft) {
-    const { accountId, serialNumber } = wallet;
+    const { accountId, serialNumber, spender, action } = wallet;
     const destinationWallet = AccountId.fromString(accountId);
+    if (wallet.spender === null)
+    {
+      try {
+        // Transfer the target NFT token from the source wallet to the destination wallet
+        // const tokenTransferTx = await new TransferTransaction()
+        //   .addNftTransfer(alixonTokenID, serialNumber, treasuryId, destinationWallet) // Assume 1 as the serial number, update as needed
+        //   .freezeWith(client)
+        //   .sign(treasuryKey)
 
-    try {
-      // Transfer the target NFT token from the source wallet to the destination wallet
-      const tokenTransferTx = await new TransferTransaction()
-        .addNftTransfer(alixonTokenID, serialNumber, treasuryId, destinationWallet) // Assume 1 as the serial number, update as needed
-        .freezeWith(client)
-        .sign(treasuryKey)
-
-      const tokenTransferSubmit = await tokenTransferTx.execute(client);
-      const tokenTransferRx = await tokenTransferSubmit.getReceipt(client);
-    
-      console.log(
-        `\n- NFT transfer from Treasury to ${destinationWallet} with serial number ${serialNumber}: ${tokenTransferRx.status} \n`
-      );
+        // const tokenTransferSubmit = await tokenTransferTx.execute(client);
+        // const tokenTransferRx = await tokenTransferSubmit.getReceipt(client);
+        wallet.action = 'Sent'
       
-    } catch (error) {
-      console.error(`Error transferring NFT to wallet ${accountId} with serial number ${serialNumber}:`, error.message);
-      failedWallets.push(wallet);
+        console.log(
+          `\n- NFT transfer from Company to ${destinationWallet} with serial number ${serialNumber}: \n` //${tokenTransferRx.status} 
+          
+        );
+        processedWallets.push(wallet);
+      } catch (error) {
+        wallet.action = 'Unassociated'
+        console.error(`Error transferring NFT to wallet ${accountId} with serial number ${serialNumber}:`, error.message);
+        processedWallets.push(wallet);
+      }
+    }
+    else {
+      wallet.action = 'Listed'
+      processedWallets.push(wallet);
     }
   }
 
-  return failedWallets;
+  return processedWallets;
 }
 
 async function main() {
@@ -91,13 +97,13 @@ async function main() {
     filteredWallets.map(wallet => `${wallet.accountId}|${wallet.serialNumber}|${wallet.spender}`).join('\n')
   );
 
-  // const failedWallets = await airdropNFT(filteredWallets);
-  // fs.writeFileSync(
-  //   `${fileDir}/failed_wallets.txt`,
-  //   failedWallets.map(wallet => `${wallet.accountId},${wallet.serialNumber}`).join('\n')
-  // );
+  const processedWallets = await airdropNFT(filteredWallets);
+  fs.writeFileSync(
+    `${fileDir}/processed_wallets.txt`,
+    processedWallets.map(wallet => `${wallet.accountId}|${wallet.serialNumber}|${wallet.spender}|${wallet.action}`).join('\n')
+  );
 
-  // console.log('Airdrop completed. Check failed_wallets.txt for wallets that failed to receive the NFT.');
+  console.log('Airdrop completed. Check processed_wallets.txt');
 }
 
 main()
