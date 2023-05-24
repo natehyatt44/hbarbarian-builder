@@ -358,6 +358,8 @@ const traitMixCheck = (newDna) => {
   }
 
   if(traitCheckPass == 1 && mouth.includes("Beard") && (hair.includes("Braids") || hair.includes("Hair") || hair.includes("Mullet") || hair.includes("Viking Eye Collector") ||
+                                  hair.includes("Moose Hood") || hair.includes("Wolf Hood") || hair.includes("Mouflon Barbarian Head") || hair.includes("Barbarian Helmet") ||
+                                  hair.includes("Hedron Helmet") ||
                                  hair.includes("Hedera Sport Bandana") || hair.includes("Military Helmet") || hair.includes("Hedera Hat") || hair.includes("Camp Cap") || 
                                  hair.includes("Backyard Cap") || hair.includes("Cowboy Hat") || hair.includes("Winter Hat"))){
     // Set trait check to not pass initially and only if hair color matches up we pass the trait check

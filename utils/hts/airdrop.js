@@ -21,9 +21,12 @@ async function findWalletsHoldingNFT(next = '') {
     console.log(`${mirrorNodeApiBaseUrl}/api/v1/tokens/${cfpTokenID}/nfts${next}`)
     const nftsResponse = await axios.get(`${mirrorNodeApiBaseUrl}/api/v1/tokens/${cfpTokenID}/nfts${next}`);
     
-    
     const nfts = nftsResponse.data.nfts;
-    const wallets = nfts.map(nft => ({ accountId: nft.account_id, serialNumber: nft.serial_number }));
+
+    // Filter out the NFTs that have spender "0.0.690356", "0.0.1064038"
+    const filteredNfts = nfts.filter(nft => (nft.spender === null));
+
+    const wallets = filteredNfts.map(nft => ({ accountId: nft.account_id, serialNumber: nft.serial_number, spender: nft.spender }));
 
     // Check if there's a next page
     if (nftsResponse.data.links && nftsResponse.data.links.next) {
@@ -42,6 +45,7 @@ async function findWalletsHoldingNFT(next = '') {
     return [];
   }
 }
+
 
 
 
@@ -84,7 +88,7 @@ async function main() {
 
   fs.writeFileSync(
     `${fileDir}/accounts_holders.txt`,
-    filteredWallets.map(wallet => `${wallet.accountId},${wallet.serialNumber}`).join('\n')
+    filteredWallets.map(wallet => `${wallet.accountId}|${wallet.serialNumber}|${wallet.spender}`).join('\n')
   );
 
   // const failedWallets = await airdropNFT(filteredWallets);
