@@ -85,6 +85,19 @@ async function airdropNFT(walletsWithNft) {
   return processedWallets;
 }
 
+async function writeTotalsToFile(processedWallets) {
+  const totalSent = processedWallets.filter(wallet => wallet.action === 'Sent').length;
+  const totalListed = processedWallets.filter(wallet => wallet.action === 'Listed').length;
+  const totalUnassociated = processedWallets.filter(wallet => wallet.action === 'Unassociated').length;
+
+  const totals = `Total NFTs Sent: ${totalSent}\nTotal NFTs not sent (Listed): ${totalListed}\nTotal NFTs not sent (Unassociated): ${totalUnassociated}\n`;
+
+  fs.writeFileSync(
+    `${fileDir}/totals.txt`,
+    totals
+  );
+}
+
 async function main() {
   const walletsWithNft = await findWalletsHoldingNFT();
   const companyWallet = process.env.COMPANY_WALLET_ID;
@@ -102,6 +115,8 @@ async function main() {
     `${fileDir}/processed_wallets.txt`,
     processedWallets.map(wallet => `${wallet.accountId}|${wallet.serialNumber}|${wallet.spender}|${wallet.action}`).join('\n')
   );
+
+  await writeTotalsToFile(processedWallets);
 
   console.log('Airdrop completed. Check processed_wallets.txt');
 }
