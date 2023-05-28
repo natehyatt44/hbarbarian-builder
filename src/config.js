@@ -12,7 +12,7 @@ const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 750,
+    growEditionSizeTo: 520,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },

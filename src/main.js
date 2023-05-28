@@ -2,8 +2,8 @@ const basePath = process.cwd();
 const fs = require("fs");
 const sha1 = require(`${basePath}/node_modules/sha1`);
 const { createCanvas, loadImage } = require(`${basePath}/node_modules/canvas`);
-const buildDir = `${basePath}/build`;
-const layersDir = `${basePath}/layers`;
+const buildDir = `${basePath}/buildSpirit`;
+const layersDir = `${basePath}/layersSpirit`;
 const {
   format,
   background,
@@ -158,6 +158,33 @@ const addAttributes = (_element) => {
     });
   }
 };
+
+// const addMetadata = (_dna, _edition) => {
+//   let tempMetadata = {
+//     name: `Lost Ghost #${_edition}`,
+//     description: `These Ghosts be lost halp`,
+//     file_url: `ipfs${_edition}.png`,
+//     edition: _edition,
+//     custom_fields: {
+//       creator: `BarbarianInc`,
+//       type: `image/png`,
+//       format: `HIP412@1.0.0`
+//     },
+//     attributes: attributesList,
+//   };
+//   metadataList.push(tempMetadata);
+//   attributesList = [];
+// };
+
+// const addAttributes = (_element) => {
+//   let selectedElement = _element.layer.selectedElement;
+//   {
+//     attributesList.push({
+//       trait_type: _element.layer.name,
+//       value: selectedElement.name,
+//     });
+//   }
+// };
 
 const loadLayerImg = async (_layer) => {
   try {
@@ -411,7 +438,7 @@ const startCreating = async () => {
       // Existing Collection Check
       let prevCollectionPass = prevCollectionCheck(filterDNAOptions(newDna));
       // Custom Trait Mixer Check
-      let traitCheckPass = traitMixCheck(filterDNAOptions(newDna));
+      let traitCheckPass = 1 //traitMixCheck(filterDNAOptions(newDna));
 
       if (isDnaUnique(dnaList, newDna) && traitCheckPass == 1 && prevCollectionPass == 1) {
         let results = constructLayerToDna(newDna, layers);
@@ -437,7 +464,7 @@ const startCreating = async () => {
           debugLogs
             ? console.log("Editions left to create: ", abstractedIndexes)
             : null;
-          saveImage(abstractedIndexes[0] +500);
+          saveImage(abstractedIndexes[0]+500);
           addMetadata(newDna, abstractedIndexes[0]+500);
           saveMetaDataSingleFile(abstractedIndexes[0]+500);
           console.log(

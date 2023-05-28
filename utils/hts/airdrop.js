@@ -6,16 +6,17 @@ const fileDir = `${basePath}/utils/files`;
 const { TransferTransaction, PrivateKey, AccountId, Client } = require('@hashgraph/sdk');
 
 // Configure the Hedera Client
-// const companyId = AccountId.fromString(process.env.COMPANY_WALLET_ID);
-// const companyKey = PrivateKey.fromString(process.env.COMPANY_WALLET_KEY);
+const companyId = AccountId.fromString(process.env.COMPANY_WALLET_ID);
+const companyKey = PrivateKey.fromString(process.env.COMPANY_PRIVATE_KEY);
 
-// const client = Client.forTestnet().setOperator(companyId, companyKey);
+const client = Client.forMainnet().setOperator(companyId, companyKey);
 
 const cfpTokenID = process.env.CFP_TOKEN_ID;
 const alixonTokenID = process.env.ALIXON_TOKEN_ID;
+const mirrorNodeApiBaseUrl = 'https://mainnet-public.mirrornode.hedera.com';
+const companyWallet = process.env.COMPANY_WALLET_ID;
 
 async function findWalletsHoldingNFT(next = '') {
-  const mirrorNodeApiBaseUrl = 'https://mainnet-public.mirrornode.hedera.com';
 
   try {
     console.log(`${mirrorNodeApiBaseUrl}/api/v1/tokens/${cfpTokenID}/nfts${next}`)
@@ -43,41 +44,70 @@ async function findWalletsHoldingNFT(next = '') {
   }
 }
 
+async function doesCompanyOwnNft(serialNumber) {
+  const nftsResponse = await axios.get(`${mirrorNodeApiBaseUrl}/api/v1/tokens/${alixonTokenID}/nfts/${serialNumber}`);
+  console.log(nftsResponse.data.account_id)
+  console.log(companyWallet)
+  console.log(`${mirrorNodeApiBaseUrl}/api/v1/tokens/${alixonTokenID}/nfts/${serialNumber}`)
+  if (nftsResponse.data.account_id === companyWallet) {return true}
+  else {return false}
+}
 
+const MAX_RETRIES = 5;
 
+async function transferNftWithRetry(alixonTokenID, serialNumber, companyId, destinationWallet, retries = 0) {
+  try {
+    const tokenTransferTx = await new TransferTransaction()
+      .addNftTransfer(alixonTokenID, serialNumber, companyId, destinationWallet)
+      .freezeWith(client)
+      .sign(companyKey);
+
+    const tokenTransferSubmit = await tokenTransferTx.execute(client);
+    const tokenTransferRx = await tokenTransferSubmit.getReceipt(client);
+
+    return tokenTransferRx;
+  } catch (error) {
+    if (error.toString().includes('TIMEOUT') && retries < MAX_RETRIES) {
+      console.warn('Timeout error, retrying...');
+      return await transferNftWithRetry(alixonTokenID, serialNumber, companyId, destinationWallet, retries + 1);
+    } else {
+      throw error;
+    }
+  }
+}
 
 async function airdropNFT(walletsWithNft) {
   const processedWallets = [];
 
   for (const wallet of walletsWithNft) {
-    const { accountId, serialNumber, spender, action } = wallet;
+    const { accountId, serialNumber, spender } = wallet;
     const destinationWallet = AccountId.fromString(accountId);
-    if (wallet.spender === null)
-    {
-      try {
-        // Transfer the target NFT token from the source wallet to the destination wallet
-        // const tokenTransferTx = await new TransferTransaction()
-        //   .addNftTransfer(alixonTokenID, serialNumber, treasuryId, destinationWallet) // Assume 1 as the serial number, update as needed
-        //   .freezeWith(client)
-        //   .sign(treasuryKey)
 
-        // const tokenTransferSubmit = await tokenTransferTx.execute(client);
-        // const tokenTransferRx = await tokenTransferSubmit.getReceipt(client);
-        wallet.action = 'Sent'
-      
-        console.log(
-          `\n- NFT transfer from Company to ${destinationWallet} with serial number ${serialNumber}: \n` //${tokenTransferRx.status} 
+    if (wallet.spender === null) {
+      // Check if the company owns the NFT before initiating the transfer
+      if (await doesCompanyOwnNft(wallet.serialNumber)) {
+        try {
+          // Transfer the target NFT token from the source wallet to the destination wallet
+          const tokenTransferRx = await transferNftWithRetry(alixonTokenID, serialNumber, companyId, destinationWallet);
           
-        );
-        processedWallets.push(wallet);
-      } catch (error) {
-        wallet.action = 'Unassociated'
-        console.error(`Error transferring NFT to wallet ${accountId} with serial number ${serialNumber}:`, error.message);
+          wallet.action = 'Sent';
+
+          console.log(
+            `\n- NFT transfer from Company to ${destinationWallet} with serial number ${serialNumber}: \n ${tokenTransferRx.status}`
+          );
+          processedWallets.push(wallet);
+        } catch (error) {
+          wallet.action = 'Unassociated'
+          console.error(`Error transferring NFT to wallet ${accountId} with serial number ${serialNumber}:`, error.message);
+          processedWallets.push(wallet);
+        }
+      } else {
+        console.log(`The company does not own the NFT with serial number ${serialNumber}. Skipping...`);
+        wallet.action = 'Unowned';
         processedWallets.push(wallet);
       }
-    }
-    else {
-      wallet.action = 'Listed'
+    } else {
+      wallet.action = 'Listed';
       processedWallets.push(wallet);
     }
   }
@@ -100,10 +130,9 @@ async function writeTotalsToFile(processedWallets) {
 
 async function main() {
   const walletsWithNft = await findWalletsHoldingNFT();
-  const companyWallet = process.env.COMPANY_WALLET_ID;
 
   // Filter out the treasury account ID from holders
-  const filteredWallets = walletsWithNft.filter(wallet => wallet.accountId !== companyWallet);
+  const filteredWallets = walletsWithNft.filter(wallet => (wallet.accountId !== companyWallet));
 
   fs.writeFileSync(
     `${fileDir}/accounts_holders.txt`,
