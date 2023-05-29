@@ -28,8 +28,10 @@ const {
     currBalance = Number(currBalance - 20).toFixed(2); // We minus 50 here for any gas fees and so that we don't empty wallet completely
     
     const founderShare = Number((currBalance * 0.20).toFixed(2)); // Founders = 20% Share
-    const companyShare = Number((currBalance * 0.37).toFixed(2)); // Company Share = 37% 
     const lawyerShare = Number((currBalance * 0.03).toFixed(2)); // Lawyer = 3% Share
+    //const companyShare = Number((currBalance * 0.37).toFixed(2)); // Company Share = 37% 
+
+    const companyShare = Number((currBalance - founderShare - founderShare - founderShare - lawyerShare).toFixed(2));
     
     console.log(`Amount of Payroll Wallet HBAR currently (minus 20h): ${currBalance}`);
     console.log(`Amount HBAR to Company (37%): ${companyShare}`);
