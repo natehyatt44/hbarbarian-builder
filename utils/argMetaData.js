@@ -4,13 +4,22 @@ const fs = require("fs");
 const tokenIdCFP = '0.0.2235264';
 
 async function main() {
-  const nftData = await fetchNFTsFromMirrorNode();
-  const nftDataWithIPFS = await fetchIPFSMetadata(nftData);
-  console.log(nftDataWithIPFS)
-  // Write the NFT data with IPFS metadata to a JSON file
-  fs.writeFileSync('nfts.json', JSON.stringify(nftDataWithIPFS, null, 2));
-  console.log('JSON file created: nfts.json');
+  // const nftData = await fetchNFTsFromMirrorNode();
+  // fs.writeFileSync('nftMirroNode.json', JSON.stringify(nftData, null, 2));
+  // const nftDataWithIPFS = await fetchIPFSMetadata(nftData);
+  // fs.writeFileSync('nftIpfs.json', JSON.stringify(nftDataWithIPFS, null, 2));
+
+  // Read from the nftipfs JSON file and parse the data into a const
+  const dataFromFile = JSON.parse(fs.readFileSync('nftIpfs.json', 'utf8'));
+  // Remove the ipfsCid from each object
+  for (const item of dataFromFile) {
+    delete item.ipfsCid;
+  }
+
+  fs.writeFileSync('argNfts.json', JSON.stringify(dataFromFile, null, 2));
 }
+
+
 
 const fetchWithRetries = async (url, maxRetries = 3) => {
     let retries = 0;
@@ -49,10 +58,10 @@ async function fetchNFTsFromMirrorNode(nextUrl = null) {
   let nftData = [];
   if (nfts.nfts.length > 0) {
     for (const item of nfts.nfts) {
-      const metadataResponse = await fetch(`${url}/api/v1/tokens/${item.token_id}/nfts/${item.serial_number}/`);
-      const response = await metadataResponse.json();
-      const ipfsHash = response.metadata;
-      const serial_number = response.serial_number;
+      //const metadataResponse = await fetch(`${url}/api/v1/tokens/${item.token_id}/nfts/${item.serial_number}/`);
+      //const response = await metadataResponse.json();
+      const ipfsHash = item.metadata;
+      const serial_number = item.serial_number;
       const metadata = Buffer.from(ipfsHash, 'base64');
       const cid = metadata.toLocaleString();
       const cidUse = cid.replace('ipfs://', '');
@@ -64,7 +73,7 @@ async function fetchNFTsFromMirrorNode(nextUrl = null) {
   if (nfts.links && nfts.links.next) {
     nftData = nftData.concat(await fetchNFTsFromMirrorNode(nfts.links.next));
   }
-
+  console.log(nftData)
   return nftData;
 }
 
@@ -76,7 +85,8 @@ async function fetchIPFSMetadata(nftData) {
       const ipfsMetadataResponse = await fetchWithRetries(`${ipfsGateway}${nft.ipfsCid}`);
       const ipfsMetadata = await ipfsMetadataResponse.json();
       nft.edition = ipfsMetadata.edition;
-      nft.traits = ipfsMetadata.attributes[7];
+      nft.race = ipfsMetadata.attributes[7].value;
+      console.log(nft)
     }
   }
 
