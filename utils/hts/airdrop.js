@@ -129,17 +129,34 @@ async function writeTotalsToFile(processedWallets) {
 }
 
 async function main() {
-  const walletsWithNft = await findWalletsHoldingNFT();
+  //const walletsWithNft = await findWalletsHoldingNFT();
 
   // Filter out the treasury account ID from holders
-  const filteredWallets = walletsWithNft.filter(wallet => (wallet.accountId !== companyWallet));
+  // const filteredWallets = walletsWithNft.filter(wallet => (wallet.accountId !== companyWallet));
 
-  fs.writeFileSync(
-    `${fileDir}/accounts_holders.txt`,
-    filteredWallets.map(wallet => `${wallet.accountId}|${wallet.serialNumber}|${wallet.spender}`).join('\n')
-  );
+  // fs.writeFileSync(
+  //   `${fileDir}/accounts_holders.txt`,
+  //   filteredWallets.map(wallet => `${wallet.accountId}|${wallet.serialNumber}|${wallet.spender}`).join('\n')
+  // );
 
-  const processedWallets = await airdropNFT(filteredWallets);
+  let accountHoldersText = fs.readFileSync('utils/files/accounts_holders1030.txt', 'utf8');
+
+  // split the content by new line
+  let lines = accountHoldersText.split('\n');
+
+  let accountHolders = lines.map(line => {
+    // split each line by '|', and remove any leading or trailing spaces on each item
+    let [accountId, serialNumber, spender] = line.split('|').map(item => item.trim());
+
+    // return an object with the same structure as filteredWallets
+    return {
+      accountId,
+      serialNumber: Number(serialNumber),
+      spender: spender === 'null' ? null : spender
+    };
+  });
+
+  const processedWallets = await airdropNFT(accountHolders);
   fs.writeFileSync(
     `${fileDir}/processed_wallets.txt`,
     processedWallets.map(wallet => `${wallet.accountId}|${wallet.serialNumber}|${wallet.spender}|${wallet.action}`).join('\n')
@@ -152,3 +169,5 @@ async function main() {
 
 main()
   .catch(error => console.error('Error in main function:', error));
+
+  // 0.0.2189925 fail_invalid
