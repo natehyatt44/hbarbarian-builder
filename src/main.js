@@ -139,7 +139,7 @@ const addMetadata = (_dna, _edition) => {
     file_url: `ipfs${_edition}.png`,
     edition: _edition,
     custom_fields: {
-      creator: `BarbarianInc`,
+      creator: `Hbarbarians`,
       type: `image/png`,
       format: `HIP412@1.0.0`
     },
@@ -166,7 +166,7 @@ const addAttributes = (_element) => {
 //     file_url: `ipfs${_edition}.png`,
 //     edition: _edition,
 //     custom_fields: {
-//       creator: `BarbarianInc`,
+//       creator: `Hbarbarians`,
 //       type: `image/png`,
 //       format: `HIP412@1.0.0`
 //     },
