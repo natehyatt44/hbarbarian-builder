@@ -5,7 +5,7 @@ const basePath = process.cwd();
 const fs = require("fs");
 const { RateLimit } = require('async-sema');
 const { fetchWithRetry } = require(`${basePath}/utils/functions/fetchWithRetry.js`);
-const buildPath = 'build'
+const buildPath = 'buildAlixon'
 
 const allMetadata = [];
 const regex = new RegExp("^([0-9]+).png");

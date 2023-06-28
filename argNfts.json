@@ -1,2502 +1,4502 @@
 [
   {
+    "serial_number": 750,
+    "edition": 675,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 749,
+    "edition": 682,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 748,
+    "edition": 611,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 747,
+    "edition": 709,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 746,
+    "edition": 670,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 745,
+    "edition": 632,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 744,
+    "edition": 665,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 743,
+    "edition": 651,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 742,
+    "edition": 566,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 741,
+    "edition": 619,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 740,
+    "edition": 685,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 739,
+    "edition": 748,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 738,
+    "edition": 734,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 737,
+    "edition": 654,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 736,
+    "edition": 546,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 735,
+    "edition": 691,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 734,
+    "edition": 657,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 733,
+    "edition": 543,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 732,
+    "edition": 618,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 731,
+    "edition": 530,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 730,
+    "edition": 743,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 729,
+    "edition": 585,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 728,
+    "edition": 564,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 727,
+    "edition": 728,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 726,
+    "edition": 560,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 725,
+    "edition": 551,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 724,
+    "edition": 671,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 723,
+    "edition": 673,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 722,
+    "edition": 690,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 721,
+    "edition": 687,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 720,
+    "edition": 692,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 719,
+    "edition": 688,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 718,
+    "edition": 668,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 717,
+    "edition": 556,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 716,
+    "edition": 630,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 715,
+    "edition": 745,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 714,
+    "edition": 659,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 713,
+    "edition": 667,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 712,
+    "edition": 652,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 711,
+    "edition": 574,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 710,
+    "edition": 597,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 709,
+    "edition": 545,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 708,
+    "edition": 616,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 707,
+    "edition": 558,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 706,
+    "edition": 626,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 705,
+    "edition": 588,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 704,
+    "edition": 684,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 703,
+    "edition": 705,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 702,
+    "edition": 571,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 701,
+    "edition": 689,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 700,
+    "edition": 643,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 699,
+    "edition": 647,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 698,
+    "edition": 549,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 697,
+    "edition": 572,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 696,
+    "edition": 635,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 695,
+    "edition": 531,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 694,
+    "edition": 746,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 693,
+    "edition": 581,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 692,
+    "edition": 538,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 691,
+    "edition": 718,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 690,
+    "edition": 596,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 689,
+    "edition": 662,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 688,
+    "edition": 700,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 687,
+    "edition": 717,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 686,
+    "edition": 750,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 685,
+    "edition": 533,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 684,
+    "edition": 577,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 683,
+    "edition": 723,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 682,
+    "edition": 678,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 681,
+    "edition": 552,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 680,
+    "edition": 604,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 679,
+    "edition": 612,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 678,
+    "edition": 576,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 677,
+    "edition": 642,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 676,
+    "edition": 526,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 675,
+    "edition": 541,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 674,
+    "edition": 637,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 673,
+    "edition": 557,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 672,
+    "edition": 628,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 671,
+    "edition": 697,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 670,
+    "edition": 653,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 669,
+    "edition": 573,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 668,
+    "edition": 534,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 667,
+    "edition": 599,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 666,
+    "edition": 609,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 665,
+    "edition": 744,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 664,
+    "edition": 565,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 663,
+    "edition": 732,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 662,
+    "edition": 595,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 661,
+    "edition": 600,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 660,
+    "edition": 613,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 659,
+    "edition": 554,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 658,
+    "edition": 567,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 657,
+    "edition": 532,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 656,
+    "edition": 664,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 655,
+    "edition": 615,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 654,
+    "edition": 529,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 653,
+    "edition": 550,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 652,
+    "edition": 522,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 651,
+    "edition": 540,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 650,
+    "edition": 727,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 649,
+    "edition": 579,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 648,
+    "edition": 608,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 647,
+    "edition": 704,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 646,
+    "edition": 606,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 645,
+    "edition": 725,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 644,
+    "edition": 610,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 643,
+    "edition": 694,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 642,
+    "edition": 582,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 641,
+    "edition": 625,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 640,
+    "edition": 681,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 639,
+    "edition": 622,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 638,
+    "edition": 624,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 637,
+    "edition": 553,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 636,
+    "edition": 749,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 635,
+    "edition": 528,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 634,
+    "edition": 583,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 633,
+    "edition": 646,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 632,
+    "edition": 535,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 631,
+    "edition": 617,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 630,
+    "edition": 638,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 629,
+    "edition": 699,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 628,
+    "edition": 598,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 627,
+    "edition": 708,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 626,
+    "edition": 676,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 625,
+    "edition": 634,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 624,
+    "edition": 521,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 623,
+    "edition": 720,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 622,
+    "edition": 686,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 621,
+    "edition": 640,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 620,
+    "edition": 620,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 619,
+    "edition": 548,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 618,
+    "edition": 672,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 617,
+    "edition": 580,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 616,
+    "edition": 631,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 615,
+    "edition": 607,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 614,
+    "edition": 729,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 613,
+    "edition": 740,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 612,
+    "edition": 542,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 611,
+    "edition": 712,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 610,
+    "edition": 722,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 609,
+    "edition": 525,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 608,
+    "edition": 655,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 607,
+    "edition": 747,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 606,
+    "edition": 710,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 605,
+    "edition": 523,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 604,
+    "edition": 587,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 603,
+    "edition": 584,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 602,
+    "edition": 544,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 601,
+    "edition": 602,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 600,
+    "edition": 714,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 599,
+    "edition": 724,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 598,
+    "edition": 623,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 597,
+    "edition": 593,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 596,
+    "edition": 555,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 595,
+    "edition": 680,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 594,
+    "edition": 524,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 593,
+    "edition": 693,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 592,
+    "edition": 559,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 591,
+    "edition": 735,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 590,
+    "edition": 695,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 589,
+    "edition": 669,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 588,
+    "edition": 649,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 587,
+    "edition": 696,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 586,
+    "edition": 738,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 585,
+    "edition": 614,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 584,
+    "edition": 569,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 583,
+    "edition": 702,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 582,
+    "edition": 641,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 581,
+    "edition": 741,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 580,
+    "edition": 578,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 579,
+    "edition": 715,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 578,
+    "edition": 594,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 577,
+    "edition": 645,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 576,
+    "edition": 547,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 575,
+    "edition": 726,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 574,
+    "edition": 636,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 573,
+    "edition": 562,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 572,
+    "edition": 674,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 571,
+    "edition": 737,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 570,
+    "edition": 706,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 569,
+    "edition": 629,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 568,
+    "edition": 601,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 567,
+    "edition": 733,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 566,
+    "edition": 536,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 565,
+    "edition": 679,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 564,
+    "edition": 539,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 563,
+    "edition": 627,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 562,
+    "edition": 575,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 561,
+    "edition": 707,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 560,
+    "edition": 658,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 559,
+    "edition": 721,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 558,
+    "edition": 656,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 557,
+    "edition": 736,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 556,
+    "edition": 711,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 555,
+    "edition": 703,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 554,
+    "edition": 561,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 553,
+    "edition": 666,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 552,
+    "edition": 589,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 551,
+    "edition": 568,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 550,
+    "edition": 742,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 549,
+    "edition": 739,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 548,
+    "edition": 639,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 547,
+    "edition": 683,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 546,
+    "edition": 592,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 545,
+    "edition": 621,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 544,
+    "edition": 537,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 543,
+    "edition": 633,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 542,
+    "edition": 591,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 541,
+    "edition": 730,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 540,
+    "edition": 661,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 539,
+    "edition": 570,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 538,
+    "edition": 663,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 537,
+    "edition": 644,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 536,
+    "edition": 731,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 535,
+    "edition": 716,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 534,
+    "edition": 586,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 533,
+    "edition": 648,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 532,
+    "edition": 698,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 531,
+    "edition": 590,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 530,
+    "edition": 563,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 529,
+    "edition": 650,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 528,
+    "edition": 701,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 527,
+    "edition": 660,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 526,
+    "edition": 603,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 525,
+    "edition": 719,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 524,
+    "edition": 527,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 523,
+    "edition": 677,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 522,
+    "edition": 713,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 521,
+    "edition": 605,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 520,
+    "edition": 518,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 519,
+    "edition": 519,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 518,
+    "edition": 520,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 517,
+    "edition": 514,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 516,
+    "edition": 516,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 515,
+    "edition": 517,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 514,
+    "edition": 515,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 513,
+    "edition": 513,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 512,
+    "edition": 510,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 511,
+    "edition": 511,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 510,
+    "edition": 512,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 509,
+    "edition": 509,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 508,
+    "edition": 508,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 507,
+    "edition": 506,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 506,
+    "edition": 507,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 505,
+    "edition": 502,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 504,
+    "edition": 501,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 503,
+    "edition": 505,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 502,
+    "edition": 504,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
+    "serial_number": 501,
+    "edition": 503,
+    "race": "Mortal",
+    "playable": 1
+  },
+  {
     "serial_number": 500,
     "edition": 453,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 499,
     "edition": 241,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 498,
     "edition": 383,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 497,
     "edition": 205,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 496,
     "edition": 277,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 495,
     "edition": 110,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 494,
     "edition": 331,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 493,
     "edition": 458,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 492,
     "edition": 72,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 491,
     "edition": 437,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 490,
     "edition": 382,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 489,
     "edition": 427,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 488,
     "edition": 266,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 487,
     "edition": 408,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 486,
     "edition": 301,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 485,
     "edition": 235,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 484,
     "edition": 479,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 483,
     "edition": 500,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 482,
     "edition": 416,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 481,
     "edition": 351,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 480,
     "edition": 318,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 479,
     "edition": 473,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 478,
     "edition": 373,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 477,
     "edition": 397,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 476,
     "edition": 348,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 475,
     "edition": 170,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 474,
     "edition": 364,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 473,
     "edition": 244,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 472,
     "edition": 47,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 471,
     "edition": 264,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 470,
     "edition": 149,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 469,
     "edition": 490,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 468,
     "edition": 166,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 467,
     "edition": 232,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 466,
     "edition": 25,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 465,
     "edition": 85,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 464,
     "edition": 482,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 463,
     "edition": 169,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 462,
     "edition": 439,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 461,
     "edition": 143,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 460,
     "edition": 316,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 459,
     "edition": 128,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 458,
     "edition": 411,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 457,
     "edition": 275,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 456,
     "edition": 369,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 455,
     "edition": 35,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 454,
     "edition": 101,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 453,
     "edition": 219,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 452,
     "edition": 65,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 451,
     "edition": 418,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 450,
     "edition": 147,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 449,
     "edition": 109,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 448,
     "edition": 79,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 447,
     "edition": 52,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 446,
     "edition": 249,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 445,
     "edition": 320,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 444,
     "edition": 139,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 443,
     "edition": 412,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 442,
     "edition": 491,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 441,
     "edition": 298,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 440,
     "edition": 191,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 439,
     "edition": 495,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 438,
     "edition": 487,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 437,
     "edition": 481,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 436,
     "edition": 336,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 435,
     "edition": 342,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 434,
     "edition": 230,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 433,
     "edition": 97,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 432,
     "edition": 188,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 431,
     "edition": 321,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 430,
     "edition": 91,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 429,
     "edition": 290,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 428,
     "edition": 462,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 427,
     "edition": 122,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 426,
     "edition": 350,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 425,
     "edition": 457,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 424,
     "edition": 284,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 423,
     "edition": 15,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 422,
     "edition": 325,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 421,
     "edition": 474,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 420,
     "edition": 436,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 419,
     "edition": 245,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 418,
     "edition": 156,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 417,
     "edition": 254,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 416,
     "edition": 163,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 415,
     "edition": 407,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 414,
     "edition": 335,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 413,
     "edition": 310,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 412,
     "edition": 41,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 411,
     "edition": 183,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 410,
     "edition": 328,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 409,
     "edition": 50,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 408,
     "edition": 286,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 407,
     "edition": 476,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 406,
     "edition": 433,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 405,
     "edition": 192,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 404,
     "edition": 333,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 403,
     "edition": 388,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 402,
     "edition": 265,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 401,
     "edition": 319,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 400,
     "edition": 365,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 399,
     "edition": 308,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 398,
     "edition": 27,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 397,
     "edition": 353,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 396,
     "edition": 151,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 395,
     "edition": 393,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 394,
     "edition": 136,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 393,
     "edition": 273,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 392,
     "edition": 445,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 391,
     "edition": 255,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 390,
     "edition": 21,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 389,
     "edition": 239,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 388,
     "edition": 224,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 387,
     "edition": 58,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 386,
     "edition": 363,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 385,
     "edition": 137,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 384,
     "edition": 227,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 383,
     "edition": 168,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 382,
     "edition": 202,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 381,
     "edition": 112,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 380,
     "edition": 148,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 379,
     "edition": 292,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 378,
     "edition": 406,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 377,
     "edition": 291,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 376,
     "edition": 117,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 375,
     "edition": 402,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 374,
     "edition": 95,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 373,
     "edition": 125,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 372,
     "edition": 360,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 371,
     "edition": 190,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 370,
     "edition": 13,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 369,
     "edition": 161,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 368,
     "edition": 390,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 367,
     "edition": 142,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 366,
     "edition": 327,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 365,
     "edition": 326,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 364,
     "edition": 141,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 363,
     "edition": 340,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 362,
     "edition": 446,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 361,
     "edition": 258,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 360,
     "edition": 492,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 359,
     "edition": 229,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 358,
     "edition": 385,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 357,
     "edition": 278,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 356,
     "edition": 234,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 355,
     "edition": 299,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 354,
     "edition": 444,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 353,
     "edition": 153,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 352,
     "edition": 57,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 351,
     "edition": 432,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 350,
     "edition": 315,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 349,
     "edition": 260,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 348,
     "edition": 398,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 347,
     "edition": 64,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 346,
     "edition": 477,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 345,
     "edition": 177,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 344,
     "edition": 375,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 343,
     "edition": 338,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 342,
     "edition": 306,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 341,
     "edition": 127,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 340,
     "edition": 152,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 339,
     "edition": 180,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 338,
     "edition": 361,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 337,
     "edition": 450,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 336,
     "edition": 467,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 335,
     "edition": 499,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 334,
     "edition": 138,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 333,
     "edition": 140,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 332,
     "edition": 67,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 331,
     "edition": 70,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 330,
     "edition": 212,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 329,
     "edition": 404,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 328,
     "edition": 428,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 327,
     "edition": 246,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 326,
     "edition": 132,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 325,
     "edition": 381,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 324,
     "edition": 226,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 323,
     "edition": 203,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 322,
     "edition": 174,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 321,
     "edition": 435,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 320,
     "edition": 154,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 319,
     "edition": 423,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 318,
     "edition": 23,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 317,
     "edition": 24,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 316,
     "edition": 18,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 315,
     "edition": 465,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 314,
     "edition": 237,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 313,
     "edition": 466,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 312,
     "edition": 483,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 311,
     "edition": 312,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 310,
     "edition": 186,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 309,
     "edition": 374,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 308,
     "edition": 48,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 307,
     "edition": 294,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 306,
     "edition": 469,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 305,
     "edition": 159,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 304,
     "edition": 370,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 303,
     "edition": 281,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 302,
     "edition": 199,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 301,
     "edition": 59,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 300,
     "edition": 359,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 299,
     "edition": 262,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 298,
     "edition": 129,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 297,
     "edition": 485,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 296,
     "edition": 211,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 295,
     "edition": 422,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 294,
     "edition": 305,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 293,
     "edition": 55,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 292,
     "edition": 49,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 291,
     "edition": 53,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 290,
     "edition": 498,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 289,
     "edition": 146,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 288,
     "edition": 89,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 287,
     "edition": 187,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 286,
     "edition": 317,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 285,
     "edition": 486,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 284,
     "edition": 380,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 283,
     "edition": 349,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 282,
     "edition": 464,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 281,
     "edition": 107,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 280,
     "edition": 323,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 279,
     "edition": 470,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 278,
     "edition": 409,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 277,
     "edition": 220,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 276,
     "edition": 86,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 275,
     "edition": 158,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 274,
     "edition": 293,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 273,
     "edition": 396,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 272,
     "edition": 368,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 271,
     "edition": 185,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 270,
     "edition": 93,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 269,
     "edition": 354,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 268,
     "edition": 371,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 267,
     "edition": 403,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 266,
     "edition": 157,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 265,
     "edition": 400,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 264,
     "edition": 378,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 263,
     "edition": 413,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 262,
     "edition": 26,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 261,
     "edition": 379,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 260,
     "edition": 193,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 259,
     "edition": 195,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 258,
     "edition": 102,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 257,
     "edition": 222,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 256,
     "edition": 40,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 255,
     "edition": 80,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 254,
     "edition": 201,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 253,
     "edition": 81,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 252,
     "edition": 223,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 251,
     "edition": 496,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 250,
     "edition": 207,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 249,
     "edition": 386,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 248,
     "edition": 225,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 247,
     "edition": 267,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 246,
     "edition": 289,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 245,
     "edition": 441,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 244,
     "edition": 73,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 243,
     "edition": 115,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 242,
     "edition": 216,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 241,
     "edition": 160,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 240,
     "edition": 252,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 239,
     "edition": 280,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 238,
     "edition": 71,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 237,
     "edition": 228,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 236,
     "edition": 343,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 235,
     "edition": 130,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 234,
     "edition": 210,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 233,
     "edition": 103,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 232,
     "edition": 31,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 231,
     "edition": 208,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 230,
     "edition": 14,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 229,
     "edition": 178,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 228,
     "edition": 426,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 227,
     "edition": 247,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 226,
     "edition": 287,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 225,
     "edition": 392,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 224,
     "edition": 387,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 223,
     "edition": 463,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 222,
     "edition": 459,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 221,
     "edition": 30,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 220,
     "edition": 98,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 219,
     "edition": 322,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 218,
     "edition": 447,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 217,
     "edition": 454,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 216,
     "edition": 63,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 215,
     "edition": 493,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 214,
     "edition": 134,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 213,
     "edition": 194,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 212,
     "edition": 105,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 211,
     "edition": 263,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 210,
     "edition": 414,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 209,
     "edition": 456,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 208,
     "edition": 419,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 207,
     "edition": 283,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 206,
     "edition": 82,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 205,
     "edition": 16,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 204,
     "edition": 36,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 203,
     "edition": 209,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 202,
     "edition": 46,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 201,
     "edition": 256,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 200,
     "edition": 51,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 199,
     "edition": 100,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 198,
     "edition": 29,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 197,
     "edition": 357,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 196,
     "edition": 309,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 195,
     "edition": 104,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 194,
     "edition": 19,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 193,
     "edition": 165,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 192,
     "edition": 395,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 191,
     "edition": 401,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 190,
     "edition": 45,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 189,
     "edition": 240,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 188,
     "edition": 75,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 187,
     "edition": 253,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 186,
     "edition": 399,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 185,
     "edition": 197,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 184,
     "edition": 99,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 183,
     "edition": 347,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 182,
     "edition": 181,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 181,
     "edition": 76,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 180,
     "edition": 182,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 179,
     "edition": 116,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 178,
     "edition": 118,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 177,
     "edition": 167,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 176,
     "edition": 242,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 175,
     "edition": 282,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 174,
     "edition": 123,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 173,
     "edition": 106,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 172,
     "edition": 189,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 171,
     "edition": 276,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 170,
     "edition": 271,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 169,
     "edition": 22,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 168,
     "edition": 272,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 167,
     "edition": 121,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 166,
     "edition": 94,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 165,
     "edition": 442,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 164,
     "edition": 334,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 163,
     "edition": 68,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 162,
     "edition": 120,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 161,
     "edition": 303,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 160,
     "edition": 92,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 159,
     "edition": 302,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 158,
     "edition": 274,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 157,
     "edition": 410,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 156,
     "edition": 268,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 155,
     "edition": 257,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 154,
     "edition": 366,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 153,
     "edition": 288,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 152,
     "edition": 150,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 151,
     "edition": 131,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 150,
     "edition": 488,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 149,
     "edition": 108,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 148,
     "edition": 218,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 147,
     "edition": 472,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 146,
     "edition": 74,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 145,
     "edition": 471,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 144,
     "edition": 324,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 143,
     "edition": 352,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 142,
     "edition": 461,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 141,
     "edition": 173,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 140,
     "edition": 455,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 139,
     "edition": 279,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 138,
     "edition": 238,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 137,
     "edition": 345,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 136,
     "edition": 96,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 135,
     "edition": 452,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 134,
     "edition": 367,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 133,
     "edition": 429,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 132,
     "edition": 415,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 131,
     "edition": 285,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 130,
     "edition": 38,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 129,
     "edition": 443,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 128,
     "edition": 20,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 127,
     "edition": 124,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 126,
     "edition": 214,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 125,
     "edition": 126,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 124,
     "edition": 135,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 123,
     "edition": 90,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 122,
     "edition": 295,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 121,
     "edition": 62,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 120,
     "edition": 12,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 119,
     "edition": 61,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 118,
     "edition": 42,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 117,
     "edition": 261,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 116,
     "edition": 460,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 115,
     "edition": 184,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 114,
     "edition": 33,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 113,
     "edition": 233,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 112,
     "edition": 171,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 111,
     "edition": 144,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 110,
     "edition": 231,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 109,
     "edition": 314,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 108,
     "edition": 405,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 107,
     "edition": 206,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 106,
     "edition": 478,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 105,
     "edition": 162,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 104,
     "edition": 355,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 103,
     "edition": 198,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 102,
     "edition": 431,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 101,
     "edition": 84,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 100,
     "edition": 377,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 99,
     "edition": 114,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 98,
     "edition": 133,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 97,
     "edition": 391,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 96,
     "edition": 434,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 95,
     "edition": 484,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 94,
     "edition": 111,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 93,
     "edition": 88,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 92,
     "edition": 468,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 91,
     "edition": 196,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 90,
     "edition": 236,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 89,
     "edition": 172,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 88,
     "edition": 356,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 87,
     "edition": 87,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 86,
     "edition": 344,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 85,
     "edition": 17,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 84,
     "edition": 297,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 83,
     "edition": 394,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 82,
     "edition": 449,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 81,
     "edition": 376,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 80,
     "edition": 337,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 79,
     "edition": 358,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 78,
     "edition": 175,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 77,
     "edition": 113,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 76,
     "edition": 28,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 75,
     "edition": 43,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 74,
     "edition": 420,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 73,
     "edition": 32,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 72,
     "edition": 296,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 71,
     "edition": 421,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 70,
     "edition": 54,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 69,
     "edition": 176,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 68,
     "edition": 389,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 67,
     "edition": 217,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 66,
     "edition": 213,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 65,
     "edition": 438,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 64,
     "edition": 269,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 63,
     "edition": 179,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 62,
     "edition": 451,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 61,
     "edition": 78,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 60,
     "edition": 204,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 59,
     "edition": 145,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 58,
     "edition": 77,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 57,
     "edition": 248,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 56,
     "edition": 34,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 55,
     "edition": 448,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 54,
     "edition": 37,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 53,
     "edition": 200,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 52,
     "edition": 329,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 51,
     "edition": 69,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 50,
     "edition": 39,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 49,
     "edition": 425,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 48,
     "edition": 494,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 47,
     "edition": 497,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 46,
     "edition": 66,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 45,
     "edition": 475,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 44,
     "edition": 346,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 43,
     "edition": 304,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 42,
     "edition": 259,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 41,
     "edition": 155,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 40,
     "edition": 489,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 39,
     "edition": 440,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 38,
     "edition": 384,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 37,
     "edition": 313,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 36,
     "edition": 341,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 35,
     "edition": 56,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 34,
     "edition": 119,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 33,
     "edition": 215,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 32,
     "edition": 332,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 31,
     "edition": 270,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 30,
     "edition": 480,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 29,
     "edition": 417,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 28,
     "edition": 251,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 27,
     "edition": 300,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 26,
     "edition": 83,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 25,
     "edition": 311,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 24,
     "edition": 362,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 23,
     "edition": 430,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 22,
     "edition": 60,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 21,
     "edition": 250,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 20,
     "edition": 44,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 19,
     "edition": 307,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 18,
     "edition": 372,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 17,
     "edition": 424,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 16,
     "edition": 330,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 15,
     "edition": 221,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 14,
     "edition": 339,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 13,
     "edition": 243,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 12,
     "edition": 164,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 11,
     "edition": 10,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 10,
     "edition": 9,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 9,
     "edition": 7,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 8,
     "edition": 8,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 7,
     "edition": 11,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 6,
     "edition": 6,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 5,
     "edition": 2,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 4,
     "edition": 1,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 3,
     "edition": 4,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 2,
     "edition": 5,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   },
   {
     "serial_number": 1,
     "edition": 3,
-    "race": "Mortal"
+    "race": "Mortal",
+    "playable": 1
   }
 ]

@@ -1,15 +1,6 @@
 #Folders to not upload to git
-build/
-buildSpirit/
-buildCustom/
-buildAlixon/
-buildNew/
-finalCollection/
-layers/
-layersSpirit/
-layersCustom/
-layersAlixon/
-layersNew/
+build*/
+layers*/
 customs/
 utils/files/
 

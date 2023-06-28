@@ -2,8 +2,8 @@ const basePath = process.cwd();
 const fs = require("fs");
 const sha1 = require(`${basePath}/node_modules/sha1`);
 const { createCanvas, loadImage } = require(`${basePath}/node_modules/canvas`);
-const buildDir = `${basePath}/buildSpirit`;
-const layersDir = `${basePath}/layersSpirit`;
+const buildDir = `${basePath}/buildGaians`;
+const layersDir = `${basePath}/layersGaians`;
 const {
   format,
   background,
@@ -148,6 +148,23 @@ const addMetadata = (_dna, _edition) => {
   metadataList.push(tempMetadata);
   attributesList = [];
 };
+
+// const addMetadata = (_dna, _edition) => {
+//   let tempMetadata = {
+//     name: `Gaians`,
+//     description: `Gaians`,
+//     file_url: `ipfs${_edition}.png`,
+//     edition: _edition,
+//     custom_fields: {
+//       creator: `Hbarbarians`,
+//       type: `image/png`,
+//       format: `HIP412@1.0.0`
+//     },
+//     attributes: attributesList,
+//   };
+//   metadataList.push(tempMetadata);
+//   attributesList = [];
+// };
 
 const addAttributes = (_element) => {
   let selectedElement = _element.layer.selectedElement;
@@ -436,7 +453,7 @@ const startCreating = async () => {
           : null;
     
       // Existing Collection Check
-      let prevCollectionPass = prevCollectionCheck(filterDNAOptions(newDna));
+      let prevCollectionPass = 1 //prevCollectionCheck(filterDNAOptions(newDna));
       // Custom Trait Mixer Check
       let traitCheckPass = 1 //traitMixCheck(filterDNAOptions(newDna));
 
@@ -464,9 +481,9 @@ const startCreating = async () => {
           debugLogs
             ? console.log("Editions left to create: ", abstractedIndexes)
             : null;
-          saveImage(abstractedIndexes[0]+500);
-          addMetadata(newDna, abstractedIndexes[0]+500);
-          saveMetaDataSingleFile(abstractedIndexes[0]+500);
+          saveImage(abstractedIndexes[0]+750);
+          addMetadata(newDna, abstractedIndexes[0]+750);
+          saveMetaDataSingleFile(abstractedIndexes[0]+750);
           console.log(
             `Created edition: ${abstractedIndexes[0]}, with DNA: ${sha1(
               newDna

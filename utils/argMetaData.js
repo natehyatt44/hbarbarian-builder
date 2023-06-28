@@ -4,16 +4,17 @@ const fs = require("fs");
 const tokenIdCFP = '0.0.2235264';
 
 async function main() {
-  // const nftData = await fetchNFTsFromMirrorNode();
-  // fs.writeFileSync('nftMirroNode.json', JSON.stringify(nftData, null, 2));
-  // const nftDataWithIPFS = await fetchIPFSMetadata(nftData);
-  // fs.writeFileSync('nftIpfs.json', JSON.stringify(nftDataWithIPFS, null, 2));
+  const nftData = await fetchNFTsFromMirrorNode();
+  fs.writeFileSync('nftMirroNode.json', JSON.stringify(nftData, null, 2));
+  const nftDataWithIPFS = await fetchIPFSMetadata(nftData);
+  fs.writeFileSync('nftIpfs.json', JSON.stringify(nftDataWithIPFS, null, 2));
 
   // Read from the nftipfs JSON file and parse the data into a const
   const dataFromFile = JSON.parse(fs.readFileSync('nftIpfs.json', 'utf8'));
   // Remove the ipfsCid from each object
   for (const item of dataFromFile) {
     delete item.ipfsCid;
+    item.playable = 1
   }
 
   fs.writeFileSync('argNfts.json', JSON.stringify(dataFromFile, null, 2));
@@ -67,6 +68,7 @@ async function fetchNFTsFromMirrorNode(nextUrl = null) {
       const cidUse = cid.replace('ipfs://', '');
 
       nftData.push({ serial_number: serial_number, ipfsCid: cidUse });
+      console.log(nftData)
     }
   }
 

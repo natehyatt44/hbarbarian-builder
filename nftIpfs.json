@@ -1,5 +1,1505 @@
 [
   {
+    "serial_number": 750,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/175.json",
+    "edition": 675,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 749,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/182.json",
+    "edition": 682,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 748,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/111.json",
+    "edition": 611,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 747,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/209.json",
+    "edition": 709,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 746,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/170.json",
+    "edition": 670,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 745,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/132.json",
+    "edition": 632,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 744,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/165.json",
+    "edition": 665,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 743,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/151.json",
+    "edition": 651,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 742,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/66.json",
+    "edition": 566,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 741,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/119.json",
+    "edition": 619,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 740,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/185.json",
+    "edition": 685,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 739,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/248.json",
+    "edition": 748,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 738,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/234.json",
+    "edition": 734,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 737,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/154.json",
+    "edition": 654,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 736,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/46.json",
+    "edition": 546,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 735,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/191.json",
+    "edition": 691,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 734,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/157.json",
+    "edition": 657,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 733,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/43.json",
+    "edition": 543,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 732,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/118.json",
+    "edition": 618,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 731,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/30.json",
+    "edition": 530,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 730,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/243.json",
+    "edition": 743,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 729,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/85.json",
+    "edition": 585,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 728,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/64.json",
+    "edition": 564,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 727,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/228.json",
+    "edition": 728,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 726,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/60.json",
+    "edition": 560,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 725,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/51.json",
+    "edition": 551,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 724,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/171.json",
+    "edition": 671,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 723,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/173.json",
+    "edition": 673,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 722,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/190.json",
+    "edition": 690,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 721,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/187.json",
+    "edition": 687,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 720,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/192.json",
+    "edition": 692,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 719,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/188.json",
+    "edition": 688,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 718,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/168.json",
+    "edition": 668,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 717,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/56.json",
+    "edition": 556,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 716,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/130.json",
+    "edition": 630,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 715,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/245.json",
+    "edition": 745,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 714,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/159.json",
+    "edition": 659,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 713,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/167.json",
+    "edition": 667,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 712,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/152.json",
+    "edition": 652,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 711,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/74.json",
+    "edition": 574,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 710,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/97.json",
+    "edition": 597,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 709,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/45.json",
+    "edition": 545,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 708,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/116.json",
+    "edition": 616,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 707,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/58.json",
+    "edition": 558,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 706,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/126.json",
+    "edition": 626,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 705,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/88.json",
+    "edition": 588,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 704,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/184.json",
+    "edition": 684,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 703,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/205.json",
+    "edition": 705,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 702,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/71.json",
+    "edition": 571,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 701,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/189.json",
+    "edition": 689,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 700,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/143.json",
+    "edition": 643,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 699,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/147.json",
+    "edition": 647,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 698,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/49.json",
+    "edition": 549,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 697,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/72.json",
+    "edition": 572,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 696,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/135.json",
+    "edition": 635,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 695,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/31.json",
+    "edition": 531,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 694,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/246.json",
+    "edition": 746,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 693,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/81.json",
+    "edition": 581,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 692,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/38.json",
+    "edition": 538,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 691,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/218.json",
+    "edition": 718,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 690,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/96.json",
+    "edition": 596,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 689,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/162.json",
+    "edition": 662,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 688,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/200.json",
+    "edition": 700,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 687,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/217.json",
+    "edition": 717,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 686,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/250.json",
+    "edition": 750,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 685,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/33.json",
+    "edition": 533,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 684,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/77.json",
+    "edition": 577,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 683,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/223.json",
+    "edition": 723,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 682,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/178.json",
+    "edition": 678,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 681,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/52.json",
+    "edition": 552,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 680,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/104.json",
+    "edition": 604,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 679,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/112.json",
+    "edition": 612,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 678,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/76.json",
+    "edition": 576,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 677,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/142.json",
+    "edition": 642,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 676,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/26.json",
+    "edition": 526,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 675,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/41.json",
+    "edition": 541,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 674,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/137.json",
+    "edition": 637,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 673,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/57.json",
+    "edition": 557,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 672,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/128.json",
+    "edition": 628,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 671,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/197.json",
+    "edition": 697,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 670,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/153.json",
+    "edition": 653,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 669,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/73.json",
+    "edition": 573,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 668,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/34.json",
+    "edition": 534,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 667,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/99.json",
+    "edition": 599,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 666,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/109.json",
+    "edition": 609,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 665,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/244.json",
+    "edition": 744,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 664,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/65.json",
+    "edition": 565,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 663,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/232.json",
+    "edition": 732,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 662,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/95.json",
+    "edition": 595,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 661,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/100.json",
+    "edition": 600,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 660,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/113.json",
+    "edition": 613,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 659,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/54.json",
+    "edition": 554,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 658,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/67.json",
+    "edition": 567,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 657,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/32.json",
+    "edition": 532,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 656,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/164.json",
+    "edition": 664,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 655,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/115.json",
+    "edition": 615,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 654,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/29.json",
+    "edition": 529,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 653,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/50.json",
+    "edition": 550,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 652,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/22.json",
+    "edition": 522,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 651,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/40.json",
+    "edition": 540,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 650,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/227.json",
+    "edition": 727,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 649,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/79.json",
+    "edition": 579,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 648,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/108.json",
+    "edition": 608,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 647,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/204.json",
+    "edition": 704,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 646,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/106.json",
+    "edition": 606,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 645,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/225.json",
+    "edition": 725,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 644,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/110.json",
+    "edition": 610,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 643,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/194.json",
+    "edition": 694,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 642,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/82.json",
+    "edition": 582,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 641,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/125.json",
+    "edition": 625,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 640,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/181.json",
+    "edition": 681,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 639,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/122.json",
+    "edition": 622,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 638,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/124.json",
+    "edition": 624,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 637,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/53.json",
+    "edition": 553,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 636,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/249.json",
+    "edition": 749,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 635,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/28.json",
+    "edition": 528,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 634,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/83.json",
+    "edition": 583,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 633,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/146.json",
+    "edition": 646,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 632,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/35.json",
+    "edition": 535,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 631,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/117.json",
+    "edition": 617,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 630,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/138.json",
+    "edition": 638,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 629,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/199.json",
+    "edition": 699,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 628,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/98.json",
+    "edition": 598,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 627,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/208.json",
+    "edition": 708,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 626,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/176.json",
+    "edition": 676,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 625,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/134.json",
+    "edition": 634,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 624,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/21.json",
+    "edition": 521,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 623,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/220.json",
+    "edition": 720,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 622,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/186.json",
+    "edition": 686,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 621,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/140.json",
+    "edition": 640,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 620,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/120.json",
+    "edition": 620,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 619,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/48.json",
+    "edition": 548,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 618,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/172.json",
+    "edition": 672,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 617,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/80.json",
+    "edition": 580,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 616,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/131.json",
+    "edition": 631,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 615,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/107.json",
+    "edition": 607,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 614,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/229.json",
+    "edition": 729,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 613,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/240.json",
+    "edition": 740,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 612,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/42.json",
+    "edition": 542,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 611,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/212.json",
+    "edition": 712,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 610,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/222.json",
+    "edition": 722,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 609,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/25.json",
+    "edition": 525,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 608,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/155.json",
+    "edition": 655,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 607,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/247.json",
+    "edition": 747,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 606,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/210.json",
+    "edition": 710,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 605,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/23.json",
+    "edition": 523,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 604,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/87.json",
+    "edition": 587,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 603,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/84.json",
+    "edition": 584,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 602,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/44.json",
+    "edition": 544,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 601,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/102.json",
+    "edition": 602,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 600,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/214.json",
+    "edition": 714,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 599,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/224.json",
+    "edition": 724,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 598,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/123.json",
+    "edition": 623,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 597,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/93.json",
+    "edition": 593,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 596,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/55.json",
+    "edition": 555,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 595,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/180.json",
+    "edition": 680,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 594,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/24.json",
+    "edition": 524,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 593,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/193.json",
+    "edition": 693,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 592,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/59.json",
+    "edition": 559,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 591,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/235.json",
+    "edition": 735,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 590,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/195.json",
+    "edition": 695,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 589,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/169.json",
+    "edition": 669,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 588,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/149.json",
+    "edition": 649,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 587,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/196.json",
+    "edition": 696,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 586,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/238.json",
+    "edition": 738,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 585,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/114.json",
+    "edition": 614,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 584,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/69.json",
+    "edition": 569,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 583,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/202.json",
+    "edition": 702,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 582,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/141.json",
+    "edition": 641,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 581,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/241.json",
+    "edition": 741,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 580,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/78.json",
+    "edition": 578,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 579,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/215.json",
+    "edition": 715,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 578,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/94.json",
+    "edition": 594,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 577,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/145.json",
+    "edition": 645,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 576,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/47.json",
+    "edition": 547,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 575,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/226.json",
+    "edition": 726,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 574,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/136.json",
+    "edition": 636,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 573,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/62.json",
+    "edition": 562,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 572,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/174.json",
+    "edition": 674,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 571,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/237.json",
+    "edition": 737,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 570,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/206.json",
+    "edition": 706,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 569,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/129.json",
+    "edition": 629,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 568,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/101.json",
+    "edition": 601,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 567,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/233.json",
+    "edition": 733,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 566,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/36.json",
+    "edition": 536,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 565,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/179.json",
+    "edition": 679,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 564,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/39.json",
+    "edition": 539,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 563,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/127.json",
+    "edition": 627,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 562,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/75.json",
+    "edition": 575,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 561,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/207.json",
+    "edition": 707,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 560,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/158.json",
+    "edition": 658,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 559,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/221.json",
+    "edition": 721,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 558,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/156.json",
+    "edition": 656,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 557,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/236.json",
+    "edition": 736,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 556,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/211.json",
+    "edition": 711,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 555,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/203.json",
+    "edition": 703,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 554,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/61.json",
+    "edition": 561,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 553,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/166.json",
+    "edition": 666,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 552,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/89.json",
+    "edition": 589,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 551,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/68.json",
+    "edition": 568,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 550,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/242.json",
+    "edition": 742,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 549,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/239.json",
+    "edition": 739,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 548,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/139.json",
+    "edition": 639,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 547,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/183.json",
+    "edition": 683,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 546,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/92.json",
+    "edition": 592,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 545,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/121.json",
+    "edition": 621,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 544,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/37.json",
+    "edition": 537,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 543,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/133.json",
+    "edition": 633,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 542,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/91.json",
+    "edition": 591,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 541,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/230.json",
+    "edition": 730,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 540,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/161.json",
+    "edition": 661,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 539,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/70.json",
+    "edition": 570,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 538,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/163.json",
+    "edition": 663,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 537,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/144.json",
+    "edition": 644,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 536,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/231.json",
+    "edition": 731,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 535,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/216.json",
+    "edition": 716,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 534,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/86.json",
+    "edition": 586,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 533,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/148.json",
+    "edition": 648,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 532,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/198.json",
+    "edition": 698,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 531,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/90.json",
+    "edition": 590,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 530,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/63.json",
+    "edition": 563,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 529,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/150.json",
+    "edition": 650,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 528,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/201.json",
+    "edition": 701,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 527,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/160.json",
+    "edition": 660,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 526,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/103.json",
+    "edition": 603,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 525,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/219.json",
+    "edition": 719,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 524,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/27.json",
+    "edition": 527,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 523,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/177.json",
+    "edition": 677,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 522,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/213.json",
+    "edition": 713,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 521,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/105.json",
+    "edition": 605,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 520,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/18.json",
+    "edition": 518,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 519,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/19.json",
+    "edition": 519,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 518,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/20.json",
+    "edition": 520,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 517,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/14.json",
+    "edition": 514,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 516,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/16.json",
+    "edition": 516,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 515,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/17.json",
+    "edition": 517,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 514,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/15.json",
+    "edition": 515,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 513,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/13.json",
+    "edition": 513,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 512,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/10.json",
+    "edition": 510,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 511,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/11.json",
+    "edition": 511,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 510,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/12.json",
+    "edition": 512,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 509,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/9.json",
+    "edition": 509,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 508,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/8.json",
+    "edition": 508,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 507,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/6.json",
+    "edition": 506,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 506,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/7.json",
+    "edition": 507,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 505,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/2.json",
+    "edition": 502,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 504,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/1.json",
+    "edition": 501,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 503,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/5.json",
+    "edition": 505,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 502,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/4.json",
+    "edition": 504,
+    "race": "Mortal"
+  },
+  {
+    "serial_number": 501,
+    "ipfsCid": "bafybeieofidtyx3jqtandgtnh2fjcizfibcr3ymtx4g23xyer5yafqdrva/3.json",
+    "edition": 503,
+    "race": "Mortal"
+  },
+  {
     "serial_number": 500,
     "ipfsCid": "bafybeigauhz6doa4ulzcaz2w2rx42rq7fr3hio7e3u5w5d2nmwkgadoj4y/453.json",
     "edition": 453,
