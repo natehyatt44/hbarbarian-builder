@@ -67,7 +67,7 @@ async function findWalletsHoldingNFT(next = '') {
 async function main() {
     const walletsWithNft = await findWalletsHoldingNFT();
 
-    const filteredWallets = walletsWithNft.filter(wallet => (wallet.accountId === companyWallet && wallet.serialNumber <= 750));
+    const filteredWallets = walletsWithNft.filter(wallet => (wallet.accountId === companyWallet && wallet.serialNumber > 1000));
 
     let serialList = filteredWallets.map(wallet => wallet.serialNumber.toString());
 

@@ -31,12 +31,12 @@ const maxTransactionFee = new Hbar(5000);
 // 4800 hbar to start, 262 usd
 // 3300 hbar, 175 usd
 
-//supply_private_string = '6C2CF556E15821C71FC7690301F686B6D39FC112826EE55A9BE319A32A270D17'
+supply_private_string = '6C2CF556E15821C71FC7690301F686B6D39FC112826EE55A9BE319A32A270D17'
 //supply_public_string = '49DB4F4F95555F752A7A13E4FE6102698C9F9777DEB96F39B989BA9C37244EF0'
 
-const supplyKey = PrivateKey.generate();
-// const supplyPublicKey = PrivateKey.fromStringED25519(supply_public_string);
-const adminKey = PrivateKey.generate();
+//const supplyKey = PrivateKey.generate();
+const supplyKey = PrivateKey.fromStringED25519(supply_private_string);
+//const adminKey = PrivateKey.generate();
 // const pauseKey = PrivateKey.generate();
 // const freezeKey = PrivateKey.generate();
 // const wipeKey = PrivateKey.generate();
@@ -47,42 +47,43 @@ async function main() {
 	let CID = JSON.parse(rawCID);
 
 	// DEFINE CUSTOM FEE SCHEDULE
-	let nftCustomFee = await new CustomRoyaltyFee()
-		.setNumerator(22)
-		.setDenominator(250)
-		.setFeeCollectorAccountId(payrollId)
+	// let nftCustomFee = await new CustomRoyaltyFee()
+	// 	.setNumerator(22)
+	// 	.setDenominator(250)
+	// 	.setFeeCollectorAccountId(payrollId)
 
-	// CREATE NFT WITH CUSTOM FEE
-    let nftCreate = await new TokenCreateTransaction()
-        .setTokenName("Hbarbarians - The Alixon Collection 1/1s")
-        .setTokenSymbol("Hbarbarians - The Alixon Collection 1/1s")
-        .setTokenType(TokenType.NonFungibleUnique)
-        .setDecimals(0)
-        .setInitialSupply(0)
-        .setTreasuryAccountId(treasuryId)
-        .setSupplyType(TokenSupplyType.Finite)
-        .setMaxSupply(CID.length)
-        .setCustomFees([nftCustomFee])
-		.setMaxTransactionFee(maxTransactionFee)
-        // .setAdminKey(adminKey)
-        .setSupplyKey(supplyKey)
-        // .setPauseKey(pauseKey)
-        // .setFreezeKey(freezeKey)
-        // .setWipeKey(wipeKey)
-        .freezeWith(client)
-        .sign(treasuryKey);
+	// // CREATE NFT WITH CUSTOM FEE
+    // let nftCreate = await new TokenCreateTransaction()
+    //     .setTokenName("Hbarbarians - The Alixon Collection 1/1s")
+    //     .setTokenSymbol("Hbarbarians - The Alixon Collection 1/1s")
+    //     .setTokenType(TokenType.NonFungibleUnique)
+    //     .setDecimals(0)
+    //     .setInitialSupply(0)
+    //     .setTreasuryAccountId(treasuryId)
+    //     .setSupplyType(TokenSupplyType.Finite)
+    //     .setMaxSupply(CID.length)
+    //     .setCustomFees([nftCustomFee])
+	// 	.setMaxTransactionFee(maxTransactionFee)
+    //     // .setAdminKey(adminKey)
+    //     .setSupplyKey(supplyKey)
+    //     // .setPauseKey(pauseKey)
+    //     // .setFreezeKey(freezeKey)
+    //     // .setWipeKey(wipeKey)
+    //     .freezeWith(client)
+    //     .sign(treasuryKey);
 
-    let nftCreateTxSign = await nftCreate.sign(adminKey);
-    let nftCreateSubmit = await nftCreateTxSign.execute(client);
-    let nftCreateRx = await nftCreateSubmit.getReceipt(client);
-    let tokenId = nftCreateRx.tokenId;
-    console.log(`Created NFT with Token ID: ${tokenId} \n`);
+    // let nftCreateTxSign = await nftCreate.sign(adminKey);
+    // let nftCreateSubmit = await nftCreateTxSign.execute(client);
+    // let nftCreateRx = await nftCreateSubmit.getReceipt(client);
+    // let tokenId = nftCreateRx.tokenId;
+    // console.log(`Created NFT with Token ID: ${tokenId} \n`);
 
 	// TOKEN QUERY TO CHECK THAT THE CUSTOM FEE SCHEDULE IS ASSOCIATED WITH NFT
     // var tokenInfo = await new TokenInfoQuery().setTokenId(tokenId).execute(client);
     // console.table(tokenInfo.customFees[0]);
 	// MINT NEW BATCH OF NFTs
 
+	const tokenId = '0.0.2371643'
 	nftLeaf = [];
 	for (var i = 0; i < CID.length; i++) {
 		nftLeaf[i] = await tokenMinterFcn(CID[i]);

@@ -102,6 +102,7 @@ const saveImage = (_editionCount) => {
     `${buildDir}/images/${_editionCount}.png`,
     canvas.toBuffer("image/png")
   );
+  
 };
 
 const genColor = () => {
@@ -132,10 +133,27 @@ const drawBackground = () => {
 //   attributesList = [];
 // };
 
+// const addMetadata = (_dna, _edition) => {
+//   let tempMetadata = {
+//     name: `Hbarbarian Community Founder's Pass`,
+//     description: `The Hbarbarian Community Founder's Pass & Playable ARG piece. This will give holders exclusive access to future Barbarian Inc Collections/Airdrops and a plethora of perks & utility along the way`,
+//     file_url: `ipfs${_edition}.png`,
+//     edition: _edition,
+//     custom_fields: {
+//       creator: `Hbarbarians`,
+//       type: `image/png`,
+//       format: `HIP412@1.0.0`
+//     },
+//     attributes: attributesList,
+//   };
+//   metadataList.push(tempMetadata);
+//   attributesList = [];
+// };
+
 const addMetadata = (_dna, _edition) => {
   let tempMetadata = {
-    name: `Hbarbarian Community Founder's Pass`,
-    description: `The Hbarbarian Community Founder's Pass & Playable ARG piece. This will give holders exclusive access to future Barbarian Inc Collections/Airdrops and a plethora of perks & utility along the way`,
+    name: `The Gaians Character Race`,
+    description: `A potentially playable ARG character that will allow certain holders to experience some and/or all of the possible storylines connected with this race`,
     file_url: `ipfs${_edition}.png`,
     edition: _edition,
     custom_fields: {
@@ -149,23 +167,6 @@ const addMetadata = (_dna, _edition) => {
   attributesList = [];
 };
 
-// const addMetadata = (_dna, _edition) => {
-//   let tempMetadata = {
-//     name: `Gaians`,
-//     description: `Gaians`,
-//     file_url: `ipfs${_edition}.png`,
-//     edition: _edition,
-//     custom_fields: {
-//       creator: `Hbarbarians`,
-//       type: `image/png`,
-//       format: `HIP412@1.0.0`
-//     },
-//     attributes: attributesList,
-//   };
-//   metadataList.push(tempMetadata);
-//   attributesList = [];
-// };
-
 const addAttributes = (_element) => {
   let selectedElement = _element.layer.selectedElement;
   {
@@ -175,33 +176,6 @@ const addAttributes = (_element) => {
     });
   }
 };
-
-// const addMetadata = (_dna, _edition) => {
-//   let tempMetadata = {
-//     name: `Lost Ghost #${_edition}`,
-//     description: `These Ghosts be lost halp`,
-//     file_url: `ipfs${_edition}.png`,
-//     edition: _edition,
-//     custom_fields: {
-//       creator: `Hbarbarians`,
-//       type: `image/png`,
-//       format: `HIP412@1.0.0`
-//     },
-//     attributes: attributesList,
-//   };
-//   metadataList.push(tempMetadata);
-//   attributesList = [];
-// };
-
-// const addAttributes = (_element) => {
-//   let selectedElement = _element.layer.selectedElement;
-//   {
-//     attributesList.push({
-//       trait_type: _element.layer.name,
-//       value: selectedElement.name,
-//     });
-//   }
-// };
 
 const loadLayerImg = async (_layer) => {
   try {
@@ -400,6 +374,10 @@ const traitMixCheck = (newDna) => {
     console.log(`Mouth ${mouth} and Hair ${hair} Can't Mix!`)
     traitCheckPass = 0;
   }
+  if (traitCheckPass == 1 && clothes == "Handmade Shirt" && hair != "Crocodile Skull"){
+    console.log(`Clothes ${clothes} Needs Hair to be Crocodile Skull to Mix!`)
+    traitCheckPass = 0;
+  }
 
   if(traitCheckPass == 1 && mouth.includes("Beard") && (hair.includes("Braids") || hair.includes("Hair") || hair.includes("Mullet") || hair.includes("Viking Eye Collector") ||
                                   hair.includes("Moose Hood") || hair.includes("Wolf Hood") || hair.includes("Mouflon Barbarian Head") || hair.includes("Barbarian Helmet") ||
@@ -421,9 +399,58 @@ const traitMixCheck = (newDna) => {
   return traitCheckPass;
 }
 
+const traitMixCheckGaians = (newDna) => {
+  let traitCheckPass = 1;
+  let dnaArray = newDna.split(DNA_DELIMITER);
+
+  let background = dnaArray[0];
+  let body = dnaArray[1];
+  let armor = dnaArray[2];
+  let eyes = dnaArray[3];
+  let mouth = dnaArray[4];
+  let nose = dnaArray[5];
+  let hair = dnaArray[6];
+  let outside = dnaArray[7];
+
+  if (traitCheckPass == 1 && (hair == "Seaweed With Horns White" || nose == "Tree Nose White") && body != "White") {
+    console.log(`Hair ${hair} or nose ${nose} Can only be with white body`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && (hair == "Seaweed With Horns" || nose == "Tree Nose") && body == "White") {
+    console.log(`Hair ${hair} or nose ${nose} Can't be with white body`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && (outside == "Cocktail Eyes" || outside == "Guardian") && armor != "Hollowed") {
+    console.log(`outside ${outside} can only be with hollowed tree`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && outside != "Blank" && armor == 'Battle Tested') {
+    console.log(`Outside ${outside} Can't mix with Battle Tested Armor`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && (outside != "Blank" && outside != "Guardian") && armor == 'Nature Camouflage') {
+    console.log(`Outside ${outside} Can't mix with Nature Camouflage Armor`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && outside == "Guardian" && nose != 'Skeleton Nose') {
+    console.log(`Outside ${outside} Can't mix with nose ${nose}`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && hair.includes("Seaweed") && (armor == 'Battle Tested' || armor == "Nature Camouflage")) {
+    console.log(`hair ${hair} Can't mix with armor ${armor}`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && nose == 'Skeleton Nose' && mouth == 'Smile') {
+    console.log(`nose ${nose} Can't mix with mouth ${mouth}`)
+    traitCheckPass = 0;
+  }
+
+  return traitCheckPass;
+}
+
 const startCreating = async () => {
   let layerConfigIndex = 0;
-  let editionCount = 501;
+  let editionCount = 1;
   let failedCount = 0;
   let abstractedIndexes = [];
 
@@ -455,8 +482,8 @@ const startCreating = async () => {
       // Existing Collection Check
       let prevCollectionPass = 1 //prevCollectionCheck(filterDNAOptions(newDna));
       // Custom Trait Mixer Check
-      let traitCheckPass = 1 //traitMixCheck(filterDNAOptions(newDna));
-
+      let traitCheckPass = traitMixCheckGaians(filterDNAOptions(newDna));
+      
       if (isDnaUnique(dnaList, newDna) && traitCheckPass == 1 && prevCollectionPass == 1) {
         let results = constructLayerToDna(newDna, layers);
         let loadedElements = [];
@@ -481,9 +508,9 @@ const startCreating = async () => {
           debugLogs
             ? console.log("Editions left to create: ", abstractedIndexes)
             : null;
-          saveImage(abstractedIndexes[0]+750);
-          addMetadata(newDna, abstractedIndexes[0]+750);
-          saveMetaDataSingleFile(abstractedIndexes[0]+750);
+          saveImage(abstractedIndexes[0]);
+          addMetadata(newDna, abstractedIndexes[0]);
+          saveMetaDataSingleFile(abstractedIndexes[0]);
           console.log(
             `Created edition: ${abstractedIndexes[0]}, with DNA: ${sha1(
               newDna

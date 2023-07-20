@@ -1,6 +1,6 @@
 const basePath = process.cwd();
 const fs = require("fs");
-const buildPath = 'build'
+const buildPath = 'buildGaians'
 
 // initialize readline to prompt user for input
 const readline = require("readline");

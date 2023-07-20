@@ -1,6 +1,6 @@
 const basePath = process.cwd();
 const fs = require("fs");
-const buildPath = 'build'
+const buildPath = 'buildGaians'
 
 const getRarity = () => {
   // read json data
