@@ -17,6 +17,7 @@ const {
   const nbreezayId = AccountId.fromString(process.env.NBREEZAY_WALLET_ID);
   const alixonId = AccountId.fromString(process.env.ALIXON_WALLET_ID);
   const brettId = AccountId.fromString(process.env.BRETT_WALLET_ID);
+  const ladyHId = AccountId.fromString(process.env.LADYH_WALLET_ID);
   //const supernalId = AccountId.fromString(process.env.SUPERNAL_WALLET_ID);
 
   
@@ -28,17 +29,19 @@ const {
     currBalance = Number(currBalance - 20).toFixed(2); // We minus 50 here for any gas fees and so that we don't empty wallet completely
     
     const founderShare = Number((currBalance * 0.20).toFixed(2)); // Founders = 20% Share
-    const lawyerShare = Number((currBalance * 0.03).toFixed(2)); // Lawyer = 3% Share
-    //const companyShare = Number((currBalance * 0.37).toFixed(2)); // Company Share = 37% 
+    const lawyerShare = Number((currBalance * 0.05).toFixed(2)); // Lawyer = 5% Share
+    const ladyHShare = Number((currBalance * 0.03).toFixed(2)); // Lady H = 3% Share
 
-    const companyShare = Number((currBalance - founderShare - founderShare - founderShare - lawyerShare).toFixed(2));
+
+    const companyShare = Number((currBalance - founderShare - founderShare - founderShare - lawyerShare - ladyHShare).toFixed(2));
     
     console.log(`Amount of Payroll Wallet HBAR currently (minus 20h): ${currBalance}`);
-    console.log(`Amount HBAR to Company (37%): ${companyShare}`);
+    console.log(`Amount HBAR to Company (32%): ${companyShare}`);
     console.log(`Amount HBAR to Jman (20%): ${founderShare}`);
     console.log(`Amount HBAR to Nbreezay (20%): ${founderShare}`);
     console.log(`Amount HBAR to Alixon (20%): ${founderShare}`);
-    console.log(`Amount HBAR to Brett (Lawyer) (3%): ${lawyerShare}`);
+    console.log(`Amount HBAR to Brett (Lawyer) (5%): ${lawyerShare}`);
+    console.log(`Amount HBAR to LadyH (3%): ${ladyHShare}`);
 
     // Prompt for confirmation before executing the transaction
     const confirm = readlineSync.question(`Do you want to proceed with the transaction? (y/n): `);
@@ -54,6 +57,7 @@ const {
       .addHbarTransfer(nbreezayId, Hbar.from(founderShare))
       .addHbarTransfer(alixonId, Hbar.from(founderShare))
       .addHbarTransfer(brettId, Hbar.from(lawyerShare))
+      .addHbarTransfer(ladyHId, Hbar.from(ladyHShare))
       .execute(client);
   
     const transactionReceipt = await sendHbar.getReceipt(client);

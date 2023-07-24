@@ -29,7 +29,9 @@
     "payroll": "node utils/hts/payroll.js",
     "arg": "node utils/argMetaData.js",
     "testnet": "node utils/hts/testnet.js",
-    "verify": "node utils/verifyWallets.js"
+    "verify": "node utils/verifyWallets.js",
+    "dissociate": "node utils/hts/dissociate.js",
+    "transfer": "node utils/hts/transfer.js"
   },
   "author": "nbreezay",
   "license": "MIT",
