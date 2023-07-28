@@ -26,18 +26,33 @@ const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 //   },
 // ];
 
+// const layerConfigurations = [
+//   {
+//     growEditionSizeTo: 220,
+//     layersOrder: [
+//       { name: "Background" },
+//       { name: "Body" },
+//       { name: "Armor" },
+//       { name: "Eyes" },
+//       { name: "Mouth" },
+//       { name: "Nose" },
+//       { name: "Hair" },
+//       { name: "Outside" }
+//     ],
+//   },
+// ];
+
 const layerConfigurations = [
   {
-    growEditionSizeTo: 220,
+    growEditionSizeTo: 100,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
-      { name: "Armor" },
+      { name: "Clothes" },
       { name: "Eyes" },
-      { name: "Mouth" },
-      { name: "Nose" },
-      { name: "Hair" },
-      { name: "Outside" }
+      { name: "Hair Hat" },
+      { name: "Earring" },
+      { name: "Mouth" }
     ],
   },
 ];

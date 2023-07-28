@@ -129,15 +129,15 @@ async function writeTotalsToFile(processedWallets) {
 }
 
 async function main() {
-  const walletsWithNft = await findWalletsHoldingNFT();
+  // const walletsWithNft = await findWalletsHoldingNFT();
 
-  // Filter out the treasury account ID from holders
-  const filteredWallets = walletsWithNft.filter(wallet => (wallet.accountId !== companyWallet && wallet.serialNumber > 702 && wallet.serialNumber <= 707));
+  // // Filter out the treasury account ID from holders
+  // const filteredWallets = walletsWithNft.filter(wallet => (wallet.accountId !== companyWallet && wallet.serialNumber > 750));
 
-  fs.writeFileSync(
-    `${fileDir}/accounts_holdersDropCheck.txt`,
-    filteredWallets.map(wallet => `${wallet.accountId}|${wallet.serialNumber}|${wallet.spender}`).join('\n')
-  );
+  // fs.writeFileSync(
+  //   `${fileDir}/accounts_holdersDropCheck.txt`,
+  //   filteredWallets.map(wallet => `${wallet.accountId}|${wallet.serialNumber}|${wallet.spender}`).join('\n')
+  // );
 
   let accountHoldersText = fs.readFileSync('utils/files/accounts_holdersDropCheck.txt', 'utf8');
 

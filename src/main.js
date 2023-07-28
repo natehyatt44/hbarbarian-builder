@@ -2,8 +2,8 @@ const basePath = process.cwd();
 const fs = require("fs");
 const sha1 = require(`${basePath}/node_modules/sha1`);
 const { createCanvas, loadImage } = require(`${basePath}/node_modules/canvas`);
-const buildDir = `${basePath}/buildGaians`;
-const layersDir = `${basePath}/layersGaians`;
+const buildDir = `${basePath}/buildRunekin`;
+const layersDir = `${basePath}/layersRunekin`;
 const {
   format,
   background,
@@ -150,9 +150,26 @@ const drawBackground = () => {
 //   attributesList = [];
 // };
 
+// const addMetadata = (_dna, _edition) => {
+//   let tempMetadata = {
+//     name: `Gaians`,
+//     description: `A potentially playable ARG character that will allow certain holders to experience some and/or all of the possible storylines connected with this race`,
+//     file_url: `ipfs${_edition}.png`,
+//     edition: _edition,
+//     custom_fields: {
+//       creator: `Hbarbarians`,
+//       type: `image/png`,
+//       format: `HIP412@1.0.0`
+//     },
+//     attributes: attributesList,
+//   };
+//   metadataList.push(tempMetadata);
+//   attributesList = [];
+// };
+
 const addMetadata = (_dna, _edition) => {
   let tempMetadata = {
-    name: `The Gaians Character Race`,
+    name: `Runekin`,
     description: `A potentially playable ARG character that will allow certain holders to experience some and/or all of the possible storylines connected with this race`,
     file_url: `ipfs${_edition}.png`,
     edition: _edition,
@@ -448,6 +465,28 @@ const traitMixCheckGaians = (newDna) => {
   return traitCheckPass;
 }
 
+const traitMixCheckRunekin = (newDna) => {
+  let traitCheckPass = 1;
+  let dnaArray = newDna.split(DNA_DELIMITER);
+
+  let background = dnaArray[0];
+  let body = dnaArray[1];
+  let clothes = dnaArray[2];
+  let eyes = dnaArray[3];
+  let hairhat = dnaArray[4];
+  let earring = dnaArray[5];
+  let mouth = dnaArray[6];
+
+  const bigHats = ["Alchemist Hat", "Elk Fungus", "Natural Fungus", "Long Wavy Bowman", "Long Wavy Runekin", "Long Wavy Villager Tunic", "Long Wavy"]
+
+  if (traitCheckPass == 1 && (bigHats.includes(hairhat) && earring == "Gold Hoop")) {
+    console.log(`Hair ${hairhat} can not be paired with ${earring}`)
+    traitCheckPass = 0;
+  }
+
+  return traitCheckPass;
+}
+
 const startCreating = async () => {
   let layerConfigIndex = 0;
   let editionCount = 1;
@@ -482,7 +521,8 @@ const startCreating = async () => {
       // Existing Collection Check
       let prevCollectionPass = 1 //prevCollectionCheck(filterDNAOptions(newDna));
       // Custom Trait Mixer Check
-      let traitCheckPass = traitMixCheckGaians(filterDNAOptions(newDna));
+      //let traitCheckPass = traitMixCheckGaians(filterDNAOptions(newDna));
+      let traitCheckPass = traitMixCheckRunekin(filterDNAOptions(newDna));
       
       if (isDnaUnique(dnaList, newDna) && traitCheckPass == 1 && prevCollectionPass == 1) {
         let results = constructLayerToDna(newDna, layers);
