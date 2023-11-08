@@ -67,26 +67,11 @@ async function findWalletsHoldingNFT(next = '') {
 async function main() {
     const walletsWithNft = await findWalletsHoldingNFT();
 
-    const filteredWallets = walletsWithNft.filter(wallet => (wallet.accountId === companyWallet && wallet.serialNumber > 1000));
+    const filteredWallets = walletsWithNft.filter(wallet => (wallet.accountId === companyWallet && wallet.serialNumber >= 1));
 
     let serialList = filteredWallets.map(wallet => wallet.serialNumber.toString());
 
     console.log(serialList)
-
-    // let serialList = [
-    //     // '500', '493', '490', '486', '479', '475', '465',
-    //     // '460', '452', '442', '440', '427', '423', '415',
-    //     // '414', '408', '405', '398', '397', '396', '389',
-    //     // '386', '384', '382', '380', '375', '369', '367',
-    //     // '366', '363', '360', '359', '358', '357', '356',
-    //     // '355', '336', '331', '329', '316', '315', '314',
-    //     // '310', '309', '305', '296', '291', '286', '280',
-    //     // '279', '278', '273', '265', '263', '257', '255',
-    //      '246', '208', '204', '202', '201', '200', '197',
-    //     //'149', '131', '127', '113', '112', '109', '105',
-    //     //'102', '100', '99',  '95',  '92',  '90',  '86',
-    //     //'85',  '82',  '79',  '76',  '66'
-    //   ]
 
     for (let i = 0; i < serialList.length; i += 5) {
     let serialsToBurn = serialList.slice(i, i + 5);

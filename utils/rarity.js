@@ -1,7 +1,7 @@
 const basePath = process.cwd();
 const fs = require("fs");
-const layersDir = `${basePath}/layersGaians`;
-const buildPath = 'buildGaians'
+const layersDir = `${basePath}/layersArchAngels`;
+const buildPath = 'buildArchAngels'
 
 const { layerConfigurations } = require(`${basePath}/src/config.js`);
 

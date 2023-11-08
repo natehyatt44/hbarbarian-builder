@@ -2,8 +2,8 @@ const basePath = process.cwd();
 const fs = require("fs");
 const sha1 = require(`${basePath}/node_modules/sha1`);
 const { createCanvas, loadImage } = require(`${basePath}/node_modules/canvas`);
-const buildDir = `${basePath}/buildRunekin`;
-const layersDir = `${basePath}/layersRunekin`;
+const buildDir = `${basePath}/buildArchAngels`;
+const layersDir = `${basePath}/layersArchAngels`;
 const {
   format,
   background,
@@ -116,65 +116,14 @@ const drawBackground = () => {
   ctx.fillRect(0, 0, format.width, format.height);
 };
 
-// const addMetadata = (_dna, _edition) => {
-//   let tempMetadata = {
-//     name: `The Alixon Collection`,
-//     description: `An extraordinary art collection brought to you by Hbarbarians's incredibly talented artist, Alixon. This 1000 piece exclusive collection consists of 10 distinct masterpieces, each one meticulously crafted. From the intricate details to the bold strokes of color, each piece captures the essence of Alixon's artistic vision and the raw power of HBarbarians's creative force.`,
-//     file_url: `ipfs${_edition}.png`,
-//     edition: _edition,
-//     custom_fields: {
-//       creator: `Hbarbarians`,
-//       type: `image/png`,
-//       format: `HIP412@1.0.0`
-//     },
-//     attributes: attributesList,
-//   };
-//   metadataList.push(tempMetadata);
-//   attributesList = [];
-// };
-
-// const addMetadata = (_dna, _edition) => {
-//   let tempMetadata = {
-//     name: `Hbarbarian Community Founder's Pass`,
-//     description: `The Hbarbarian Community Founder's Pass & Playable ARG piece. This will give holders exclusive access to future Barbarian Inc Collections/Airdrops and a plethora of perks & utility along the way`,
-//     file_url: `ipfs${_edition}.png`,
-//     edition: _edition,
-//     custom_fields: {
-//       creator: `Hbarbarians`,
-//       type: `image/png`,
-//       format: `HIP412@1.0.0`
-//     },
-//     attributes: attributesList,
-//   };
-//   metadataList.push(tempMetadata);
-//   attributesList = [];
-// };
-
-// const addMetadata = (_dna, _edition) => {
-//   let tempMetadata = {
-//     name: `Gaians`,
-//     description: `A potentially playable ARG character that will allow certain holders to experience some and/or all of the possible storylines connected with this race`,
-//     file_url: `ipfs${_edition}.png`,
-//     edition: _edition,
-//     custom_fields: {
-//       creator: `Hbarbarians`,
-//       type: `image/png`,
-//       format: `HIP412@1.0.0`
-//     },
-//     attributes: attributesList,
-//   };
-//   metadataList.push(tempMetadata);
-//   attributesList = [];
-// };
-
 const addMetadata = (_dna, _edition) => {
   let tempMetadata = {
-    name: `Runekin`,
-    description: `A potentially playable ARG character that will allow certain holders to experience some and/or all of the possible storylines connected with this race`,
+    name: `ArchAngel`,
+    description: `Step into the realm of 'Hbarbarians - The Lost Ones', a Collection by BarbarianInk! Venture into a universe where each decision you make crafts your very own tale of adventure. Featuring 5 distinct races, each steeped in its own legends, lore, and interconnectivity with other BarbarianInk Collections. However, a word to the wise: not all collectibles grant access to this grand adventure. Can you discover the elusive playable characters, or will they stay hidden as part of the untold legends? Set forth on an expedition of revelation, and become the author of your own destiny. Are you prepared to delve into the mysteries of 'The Lost Ones'?`,
     file_url: `ipfs${_edition}.png`,
     edition: _edition,
     custom_fields: {
-      creator: `Hbarbarians`,
+      creator: `BarbarianInk`,
       type: `image/png`,
       format: `HIP412@1.0.0`
     },
@@ -183,6 +132,23 @@ const addMetadata = (_dna, _edition) => {
   metadataList.push(tempMetadata);
   attributesList = [];
 };
+
+// const addMetadata = (_dna, _edition) => {
+//   let tempMetadata = {
+//     name: `Hazy Hippo Male`,
+//     description: `Drop two of the Hazy Hippos, With new art, games, lore and more how could you say no? Welcome to the Hazyverse! The Indicrons await you!`,
+//     file_url: `ipfs${_edition}.png`,
+//     edition: _edition,
+//     custom_fields: {
+//       creator: `Hazy Hippos`,
+//       type: `image/png`,
+//       format: `HIP412@1.0.0`
+//     },
+//     attributes: attributesList,
+//   };
+//   metadataList.push(tempMetadata);
+//   attributesList = [];
+// };
 
 const addAttributes = (_element) => {
   let selectedElement = _element.layer.selectedElement;
@@ -457,8 +423,16 @@ const traitMixCheckGaians = (newDna) => {
     console.log(`hair ${hair} Can't mix with armor ${armor}`)
     traitCheckPass = 0;
   }
+  if (traitCheckPass == 1 && hair.includes("Seaweed") && (outside == 'Cocktail Eyes')) {
+    console.log(`hair ${hair} Can't mix with armor ${armor}`)
+    traitCheckPass = 0;
+  }
   if (traitCheckPass == 1 && nose == 'Skeleton Nose' && mouth == 'Smile') {
     console.log(`nose ${nose} Can't mix with mouth ${mouth}`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && body == 'Normal' && hair == 'Seaweed Rust') {
+    console.log(`body ${body} Can't mix with hair ${hair}`)
     traitCheckPass = 0;
   }
 
@@ -483,6 +457,242 @@ const traitMixCheckRunekin = (newDna) => {
     console.log(`Hair ${hairhat} can not be paired with ${earring}`)
     traitCheckPass = 0;
   }
+  if (traitCheckPass == 1 && (mouth == "Ponytail Beard" && hairhat != "Ponytail")) {
+    console.log(`mouth ${mouth} can not be paired with ${hairhat}`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && (mouth == "Rebel Beard" && hairhat != "Rebel")) {
+    console.log(`mouth ${mouth} can not be paired with ${hairhat}`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && ((clothes == "Straps" || clothes == "Bowman") && hairhat == "Elk Fungus")) {
+    console.log(`clothes ${clothes} can not be paired with ${hairhat}`)
+    traitCheckPass = 0;
+  }
+
+  return traitCheckPass;
+}
+
+const traitMixCheckSoulweaver = (newDna) => {
+  let traitCheckPass = 0;
+  let dnaArray = newDna.split(DNA_DELIMITER);
+
+  let background = dnaArray[0];
+  let soulFlame = dnaArray[1];
+  let body = dnaArray[2];
+  let clothes = dnaArray[3];
+  let eyesnose = dnaArray[4];
+  let hair = dnaArray[5];
+  let mouth = dnaArray[6];
+  let eyesmask = dnaArray[7];
+  let smoke = dnaArray[8];
+  let earring = dnaArray[9];
+
+  // Color Sync Checks
+  if (traitCheckPass == 0 && (background.includes("Fire") && body.includes("Fire") && mouth.includes("Fire") && eyesnose.includes("Fire"))) {
+    console.log(`Fire Traits Synced`)
+    traitCheckPass = 1;
+  }
+  if (traitCheckPass == 0 && (background.includes("Purple") && body.includes("Purple") && mouth.includes("Purple") && eyesnose.includes("Purple"))) {
+    console.log(`Purple Traits Synced`)
+    traitCheckPass = 1;
+  }
+  if (traitCheckPass == 0 && (background.includes("Green") && body.includes("Green") && mouth.includes("Green") && eyesnose.includes("Green"))) {
+    console.log(`Green Traits Synced`)
+    traitCheckPass = 1;
+  }
+  if (traitCheckPass == 0 && (background.includes("Silver") && body.includes("Silver") && mouth.includes("Silver") && eyesnose.includes("Silver"))) {
+    console.log(`Silver Traits Synced`)
+    traitCheckPass = 1;
+  }
+
+  // Line up soulflames
+  if (traitCheckPass == 1 && (background.includes("Fire") && (!soulFlame.includes("Fire") && !soulFlame.includes("Blank")))) {
+    console.log(`Fire soulflame not lined up`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && (background.includes("Purple") && (!soulFlame.includes("Purple") && !soulFlame.includes("Blank")))) {
+    console.log(`Purple soulflame not lined up`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && (background.includes("Green") && (!soulFlame.includes("Green") && !soulFlame.includes("Blank")))) {
+    console.log(`Green soulflame not lined up`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && (background.includes("Silver") && (!soulFlame.includes("Silver") && !soulFlame.includes("Blank")))) {
+    console.log(`Silver soulflame not lined up`)
+    traitCheckPass = 0;
+  }
+  // 1/1 combo
+  if (traitCheckPass == 1 && (background == "Silver 2" && soulFlame == "Silver Flame 2")) {
+    console.log(`Combo is for 1/1`)
+    traitCheckPass = 0;
+  }
+
+  // Vape Check
+  if (traitCheckPass == 1 && smoke != "Blank" && !mouth.includes("Vape") ) {
+    console.log(`Smoke needs to include Vape mouths`)
+    traitCheckPass = 0;
+  }
+
+  if (traitCheckPass == 1 && eyesmask == "Smoke" && mouth.includes("Vape") ) {
+    console.log(`Vape and Smoke eyesmask can't mix`)
+    traitCheckPass = 0;
+  }
+
+   if (traitCheckPass == 1 && (eyesmask == "Smoke" || eyesmask == "Flames" || eyesmask == "Amaterasu" || smoke != "Blank") && hair == "Long Curly Pink" ) {
+    console.log(`${eyesmask} and ${hair} dont mix`)
+    traitCheckPass = 0;
+  }
+
+  if (traitCheckPass == 1 && (eyesmask == "Smoke" || eyesmask == "Flames" || eyesmask == "Amaterasu") && smoke != "Blank" ) {
+    console.log(`${eyesmask} and ${smoke} dont mix`)
+    traitCheckPass = 0;
+  }
+
+  if (traitCheckPass == 1 && (eyesmask == "Smoke" || eyesmask == "Flames" || eyesmask == "Amaterasu") && eyesnose.includes("Suspicious") ) {
+    console.log(`${eyesmask} and ${eyesnose} dont mix`)
+    traitCheckPass = 0;
+  }
+
+  // Trait checks
+  if (traitCheckPass == 1 && (eyesmask == "Raven Mask" || eyesmask.includes("Kitsune Mask")) && mouth.includes("Vape") ) {
+    console.log(`${eyesmask} can't mix with ${mouth}`)
+    traitCheckPass = 0;
+  }
+
+  if (traitCheckPass == 1 && (eyesmask == "Raven Mask" || eyesmask.includes("Kitsune Mask")) && smoke != "Blank" ) {
+    console.log(`${eyesmask} can't mix with ${smoke}`)
+    traitCheckPass = 0;
+  }
+
+  if (traitCheckPass == 1 && (hair == "Long" || hair.includes("Smooth")) && earring != "Blank" ) {
+    console.log(`${hair} can't mix with ${earring}`)
+    traitCheckPass = 0;
+  }
+
+  if (traitCheckPass == 1 && (hair.includes("Long") || hair == "Wild Bob" || hair == "Two Buns") && (eyesmask == "Raven Mask" || eyesmask.includes("Kitsune Mask") || eyesmask.includes("Hollow Walker")) ) {
+    console.log(`${hair} can't mix with ${eyesmask}`)
+    traitCheckPass = 0;
+  }
+
+  if (traitCheckPass == 1 && hair == "Wild Bob" && clothes.includes("Void Armor") ) {
+    console.log(`${hair} can't mix with ${clothes}`)
+    traitCheckPass = 0;
+  }
+
+  if (traitCheckPass == 1 && (eyesnose.includes("Suspicious") || eyesnose.includes("Bored")) && (eyesmask.includes("Hollow Walker")) ) {
+    console.log(`${hair} can't mix with ${eyesmask}`)
+    traitCheckPass = 0;
+  }
+
+
+  return traitCheckPass;
+}
+
+const traitMixCheckZephyr = (newDna) => {
+  let traitCheckPass = 1;
+  let dnaArray = newDna.split(DNA_DELIMITER);
+
+  let background = dnaArray[0];
+  let body = dnaArray[1];
+  let clothes = dnaArray[2];
+  let eyes = dnaArray[3];
+  let mouth = dnaArray[4];
+  let eyewear = dnaArray[5];
+  let hathead = dnaArray[6];
+  let cigar = dnaArray[7];
+  
+
+  if (traitCheckPass == 1 && (mouth == "Blind" && eyewear != "Blank")) {
+    console.log(`mouth ${mouth} can not be paired with ${eyewear}`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && (eyewear != "Blank" && (hathead.includes("Hat") || hathead.includes("Cap")))) {
+    console.log(`mouth ${mouth} can not be paired with ${hathead}`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && (mouth == "Mushroom" && cigar == "Weed")) {
+    console.log(`mouth ${mouth} can not be paired with ${cigar}`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && (eyewear == "Hedera Glasses Black" && body == "Black")) {
+    console.log(`mouth ${eyewear} can not be paired with ${body}`)
+    traitCheckPass = 0;
+  }
+
+  return traitCheckPass;
+}
+
+const traitMixCheckHippoMale = (newDna) => {
+  let traitCheckPass = 1;
+  let dnaArray = newDna.split(DNA_DELIMITER);
+
+  let background = dnaArray[0];
+  let skin = dnaArray[1];
+  let clothes = dnaArray[2];
+  let jewelry = dnaArray[3];
+  let eyes = dnaArray[4];
+  let hairhat = dnaArray[5];
+  let mouth = dnaArray[6];
+
+  nonLaserHats = ['AFRO', 'DRAGON BALL', 'FIRE', 'HOMELESS', 'RASTA', 'WATERMELON', 'LION', 'SNAP HH', 'HAZY SNAP', 'STRAW', 'MARIO', 'HORNS', 'HIPPIE', 'MULLET']
+  nonLaserClothes = ['HAWAII', 'HIPPIE', 'HOODIE', 'ROCK', 'ARMOR', 'FARMER', 'PIMP']
+  nonLaserMouth = ['BLUNT', 'CIG', 'JOINT']
+  
+
+  if (traitCheckPass == 1 && (eyes == "LASER" && nonLaserHats.includes(hairhat))) {
+    console.log(`${eyes} can not be paired with ${hairhat}`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && (eyes == "LASER" && nonLaserClothes.includes(clothes))) {
+    console.log(`${eyes} can not be paired with ${clothes}`)
+    traitCheckPass = 0;
+  }
+  if (traitCheckPass == 1 && (eyes == "LASER" && nonLaserMouth.includes(mouth))) {
+    console.log(`${eyes} can not be paired with ${mouth}`)
+    traitCheckPass = 0;
+  }
+
+  return traitCheckPass;
+}
+
+const traitMixCheckArchAngel = (newDna) => {
+  let traitCheckPass = 1;
+  let dnaArray = newDna.split(DNA_DELIMITER);
+
+  let background = dnaArray[0];
+  let behind = dnaArray[1];
+  let behindeye = dnaArray[2];
+  let eye = dnaArray[3];
+  let aboveeye = dnaArray[4];
+  let front = dnaArray[5];
+  
+
+  // if (traitCheckPass == 1 && (behind != "Blank" || behindeye != "Blank") && aboveeye != "Blank" ) {
+  //   console.log("behind the eye and behind can go together or show up separately but with nothing else")
+  //   traitCheckPass = 0;
+  // }
+  // if (traitCheckPass == 1 && (behind == "Blank" && behindeye == "Blank" && aboveeye == "Blank")) {
+  //   console.log(`eye can't show up alone`)
+  //   traitCheckPass = 0;
+  // }
+  // if (traitCheckPass == 1 && aboveeye == "Geometric Rings" && front != "Chains") {
+  //   console.log("Rings cant have anything else but Chains")
+  //   traitCheckPass = 0;
+  // }
+  // if (traitCheckPass == 1 && behindeye == "Eye Wings" && front != "Chains") {
+  //   console.log("Eye wings need Chains to show up")
+  //   traitCheckPass = 0;
+  // }
+  if (traitCheckPass == 1 && (aboveeye != "Geometric Rings") && front == "Chains") {
+    console.log("Chains need geometric or eye wings to show up")
+    traitCheckPass = 0;
+  }
+  // if (traitCheckPass == 1 && (behind == "Dueling Swords" && behindeye == "Blank")) {
+  //   console.log("Swords need a behind eye trait to show up")
+  //   traitCheckPass = 0;
+  // }
 
   return traitCheckPass;
 }
@@ -522,7 +732,11 @@ const startCreating = async () => {
       let prevCollectionPass = 1 //prevCollectionCheck(filterDNAOptions(newDna));
       // Custom Trait Mixer Check
       //let traitCheckPass = traitMixCheckGaians(filterDNAOptions(newDna));
-      let traitCheckPass = traitMixCheckRunekin(filterDNAOptions(newDna));
+      //let traitCheckPass = traitMixCheckRunekin(filterDNAOptions(newDna));
+      //let traitCheckPass = traitMixCheckSoulweaver(filterDNAOptions(newDna));
+      //let traitCheckPass = traitMixCheckZephyr(filterDNAOptions(newDna));
+      let traitCheckPass = traitMixCheckArchAngel(filterDNAOptions(newDna));
+      //let traitCheckPass = traitMixCheckHippoMale(filterDNAOptions(newDna));
       
       if (isDnaUnique(dnaList, newDna) && traitCheckPass == 1 && prevCollectionPass == 1) {
         let results = constructLayerToDna(newDna, layers);
@@ -548,9 +762,19 @@ const startCreating = async () => {
           debugLogs
             ? console.log("Editions left to create: ", abstractedIndexes)
             : null;
-          saveImage(abstractedIndexes[0]);
-          addMetadata(newDna, abstractedIndexes[0]);
-          saveMetaDataSingleFile(abstractedIndexes[0]);
+          
+          
+          //abstractedIndexes[0] = abstractedIndexes[0] + 500
+          if (abstractedIndexes[0] >= 1 && abstractedIndexes[0] <= 500){
+            saveImage(abstractedIndexes[0]);
+            addMetadata(newDna, abstractedIndexes[0]);
+            saveMetaDataSingleFile(abstractedIndexes[0]);
+          }
+          else {
+            saveImage(abstractedIndexes[0]);
+            addMetadata(newDna, abstractedIndexes[0]);
+            saveMetaDataSingleFile(abstractedIndexes[0]);
+          }
           console.log(
             `Created edition: ${abstractedIndexes[0]}, with DNA: ${sha1(
               newDna
