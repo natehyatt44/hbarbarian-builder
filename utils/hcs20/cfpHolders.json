@@ -1,0 +1,1396 @@
+{
+    "owners": [
+      {
+        "account": "0.0.1843650",
+        "balance": 57,
+        "rank": 1,
+        "pct": 0.057
+      },
+      {
+        "account": "0.0.657657",
+        "balance": 55,
+        "rank": 2,
+        "pct": 0.055
+      },
+      {
+        "account": "0.0.1498096",
+        "balance": 41,
+        "rank": 3,
+        "pct": 0.041
+      },
+      {
+        "account": "0.0.2135513",
+        "balance": 35,
+        "rank": 4,
+        "pct": 0.035
+      },
+      {
+        "account": "0.0.1067445",
+        "balance": 29,
+        "rank": 5,
+        "pct": 0.029
+      },
+      {
+        "account": "0.0.660029",
+        "balance": 25,
+        "rank": 6,
+        "pct": 0.025
+      },
+      {
+        "account": "0.0.2657668",
+        "balance": 24,
+        "rank": 7,
+        "pct": 0.024
+      },
+      {
+        "account": "0.0.1567065",
+        "balance": 23,
+        "rank": 8,
+        "pct": 0.023
+      },
+      {
+        "account": "0.0.700278",
+        "balance": 23,
+        "rank": 9,
+        "pct": 0.023
+      },
+      {
+        "account": "0.0.2290185",
+        "balance": 21,
+        "rank": 10,
+        "pct": 0.021
+      },
+      {
+        "account": "0.0.1757800",
+        "balance": 21,
+        "rank": 11,
+        "pct": 0.021
+      },
+      {
+        "account": "0.0.2348243",
+        "balance": 19,
+        "rank": 12,
+        "pct": 0.019
+      },
+      {
+        "account": "0.0.2121560",
+        "balance": 17,
+        "rank": 13,
+        "pct": 0.017
+      },
+      {
+        "account": "0.0.706113",
+        "balance": 16,
+        "rank": 14,
+        "pct": 0.016
+      },
+      {
+        "account": "0.0.1952570",
+        "balance": 14,
+        "rank": 15,
+        "pct": 0.014
+      },
+      {
+        "account": "0.0.704472",
+        "balance": 14,
+        "rank": 16,
+        "pct": 0.014
+      },
+      {
+        "account": "0.0.2336576",
+        "balance": 13,
+        "rank": 17,
+        "pct": 0.013
+      },
+      {
+        "account": "0.0.958730",
+        "balance": 13,
+        "rank": 18,
+        "pct": 0.013
+      },
+      {
+        "account": "0.0.2007347",
+        "balance": 12,
+        "rank": 19,
+        "pct": 0.012
+      },
+      {
+        "account": "0.0.1280779",
+        "balance": 11,
+        "rank": 20,
+        "pct": 0.011
+      },
+      {
+        "account": "0.0.732696",
+        "balance": 11,
+        "rank": 21,
+        "pct": 0.011
+      },
+      {
+        "account": "0.0.555645",
+        "balance": 10,
+        "rank": 22,
+        "pct": 0.01
+      },
+      {
+        "account": "0.0.2580189",
+        "balance": 9,
+        "rank": 23,
+        "pct": 0.009
+      },
+      {
+        "account": "0.0.1133503",
+        "balance": 9,
+        "rank": 24,
+        "pct": 0.009
+      },
+      {
+        "account": "0.0.4353676",
+        "balance": 8,
+        "rank": 25,
+        "pct": 0.008
+      },
+      {
+        "account": "0.0.2104123",
+        "balance": 8,
+        "rank": 26,
+        "pct": 0.008
+      },
+      {
+        "account": "0.0.2007157",
+        "balance": 8,
+        "rank": 27,
+        "pct": 0.008
+      },
+      {
+        "account": "0.0.1042788",
+        "balance": 8,
+        "rank": 28,
+        "pct": 0.008
+      },
+      {
+        "account": "0.0.833139",
+        "balance": 8,
+        "rank": 29,
+        "pct": 0.008
+      },
+      {
+        "account": "0.0.3034619",
+        "balance": 7,
+        "rank": 30,
+        "pct": 0.007
+      },
+      {
+        "account": "0.0.1421971",
+        "balance": 7,
+        "rank": 31,
+        "pct": 0.007
+      },
+      {
+        "account": "0.0.992384",
+        "balance": 7,
+        "rank": 32,
+        "pct": 0.007
+      },
+      {
+        "account": "0.0.820194",
+        "balance": 7,
+        "rank": 33,
+        "pct": 0.007
+      },
+      {
+        "account": "0.0.813427",
+        "balance": 7,
+        "rank": 34,
+        "pct": 0.007
+      },
+      {
+        "account": "0.0.585529",
+        "balance": 7,
+        "rank": 35,
+        "pct": 0.007
+      },
+      {
+        "account": "0.0.2680786",
+        "balance": 6,
+        "rank": 36,
+        "pct": 0.006
+      },
+      {
+        "account": "0.0.940667",
+        "balance": 6,
+        "rank": 37,
+        "pct": 0.006
+      },
+      {
+        "account": "0.0.653082",
+        "balance": 6,
+        "rank": 38,
+        "pct": 0.006
+      },
+      {
+        "account": "0.0.568215",
+        "balance": 6,
+        "rank": 39,
+        "pct": 0.006
+      },
+      {
+        "account": "0.0.517019",
+        "balance": 6,
+        "rank": 40,
+        "pct": 0.006
+      },
+      {
+        "account": "0.0.355724",
+        "balance": 6,
+        "rank": 41,
+        "pct": 0.006
+      },
+      {
+        "account": "0.0.3077937",
+        "balance": 5,
+        "rank": 42,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.2967099",
+        "balance": 5,
+        "rank": 43,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.1897614",
+        "balance": 5,
+        "rank": 44,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.1437001",
+        "balance": 5,
+        "rank": 45,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.1431636",
+        "balance": 5,
+        "rank": 46,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.1317633",
+        "balance": 5,
+        "rank": 47,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.978223",
+        "balance": 5,
+        "rank": 48,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.844175",
+        "balance": 5,
+        "rank": 49,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.656199",
+        "balance": 5,
+        "rank": 50,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.627512",
+        "balance": 5,
+        "rank": 51,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.589369",
+        "balance": 5,
+        "rank": 52,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.560571",
+        "balance": 5,
+        "rank": 53,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.516255",
+        "balance": 5,
+        "rank": 54,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.452841",
+        "balance": 5,
+        "rank": 55,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.121378",
+        "balance": 5,
+        "rank": 56,
+        "pct": 0.005
+      },
+      {
+        "account": "0.0.2178706",
+        "balance": 4,
+        "rank": 57,
+        "pct": 0.004
+      },
+      {
+        "account": "0.0.2027259",
+        "balance": 4,
+        "rank": 58,
+        "pct": 0.004
+      },
+      {
+        "account": "0.0.1312367",
+        "balance": 4,
+        "rank": 59,
+        "pct": 0.004
+      },
+      {
+        "account": "0.0.1057057",
+        "balance": 4,
+        "rank": 60,
+        "pct": 0.004
+      },
+      {
+        "account": "0.0.848824",
+        "balance": 4,
+        "rank": 61,
+        "pct": 0.004
+      },
+      {
+        "account": "0.0.789588",
+        "balance": 4,
+        "rank": 62,
+        "pct": 0.004
+      },
+      {
+        "account": "0.0.692010",
+        "balance": 4,
+        "rank": 63,
+        "pct": 0.004
+      },
+      {
+        "account": "0.0.639777",
+        "balance": 4,
+        "rank": 64,
+        "pct": 0.004
+      },
+      {
+        "account": "0.0.624045",
+        "balance": 4,
+        "rank": 65,
+        "pct": 0.004
+      },
+      {
+        "account": "0.0.618278",
+        "balance": 4,
+        "rank": 66,
+        "pct": 0.004
+      },
+      {
+        "account": "0.0.456097",
+        "balance": 4,
+        "rank": 67,
+        "pct": 0.004
+      },
+      {
+        "account": "0.0.428186",
+        "balance": 4,
+        "rank": 68,
+        "pct": 0.004
+      },
+      {
+        "account": "0.0.4310502",
+        "balance": 3,
+        "rank": 69,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.3293807",
+        "balance": 3,
+        "rank": 70,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.3033641",
+        "balance": 3,
+        "rank": 71,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.3012275",
+        "balance": 3,
+        "rank": 72,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.2998555",
+        "balance": 3,
+        "rank": 73,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.2209276",
+        "balance": 3,
+        "rank": 74,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.2195519",
+        "balance": 3,
+        "rank": 75,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.2189925",
+        "balance": 3,
+        "rank": 76,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.1705905",
+        "balance": 3,
+        "rank": 77,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.1503696",
+        "balance": 3,
+        "rank": 78,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.1177722",
+        "balance": 3,
+        "rank": 79,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.949724",
+        "balance": 3,
+        "rank": 80,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.907686",
+        "balance": 3,
+        "rank": 81,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.832729",
+        "balance": 3,
+        "rank": 82,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.830222",
+        "balance": 3,
+        "rank": 83,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.787834",
+        "balance": 3,
+        "rank": 84,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.601681",
+        "balance": 3,
+        "rank": 85,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.511420",
+        "balance": 3,
+        "rank": 86,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.505567",
+        "balance": 3,
+        "rank": 87,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.274642",
+        "balance": 3,
+        "rank": 88,
+        "pct": 0.003
+      },
+      {
+        "account": "0.0.4091845",
+        "balance": 2,
+        "rank": 89,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.3096754",
+        "balance": 2,
+        "rank": 90,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.2318327",
+        "balance": 2,
+        "rank": 91,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.2198536",
+        "balance": 2,
+        "rank": 92,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.1999999",
+        "balance": 2,
+        "rank": 93,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.1986648",
+        "balance": 2,
+        "rank": 94,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.1902774",
+        "balance": 2,
+        "rank": 95,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.1394754",
+        "balance": 2,
+        "rank": 96,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.1386381",
+        "balance": 2,
+        "rank": 97,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.1335588",
+        "balance": 2,
+        "rank": 98,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.1318185",
+        "balance": 2,
+        "rank": 99,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.1176324",
+        "balance": 2,
+        "rank": 100,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.1088883",
+        "balance": 2,
+        "rank": 101,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.1009021",
+        "balance": 2,
+        "rank": 102,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.997927",
+        "balance": 2,
+        "rank": 103,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.912822",
+        "balance": 2,
+        "rank": 104,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.850710",
+        "balance": 2,
+        "rank": 105,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.808791",
+        "balance": 2,
+        "rank": 106,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.805717",
+        "balance": 2,
+        "rank": 107,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.795297",
+        "balance": 2,
+        "rank": 108,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.683607",
+        "balance": 2,
+        "rank": 109,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.655736",
+        "balance": 2,
+        "rank": 110,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.638341",
+        "balance": 2,
+        "rank": 111,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.621549",
+        "balance": 2,
+        "rank": 112,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.579294",
+        "balance": 2,
+        "rank": 113,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.544814",
+        "balance": 2,
+        "rank": 114,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.518448",
+        "balance": 2,
+        "rank": 115,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.517697",
+        "balance": 2,
+        "rank": 116,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.511574",
+        "balance": 2,
+        "rank": 117,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.508239",
+        "balance": 2,
+        "rank": 118,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.490092",
+        "balance": 2,
+        "rank": 119,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.455364",
+        "balance": 2,
+        "rank": 120,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.38610",
+        "balance": 2,
+        "rank": 121,
+        "pct": 0.002
+      },
+      {
+        "account": "0.0.4337942",
+        "balance": 1,
+        "rank": 122,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.4310576",
+        "balance": 1,
+        "rank": 123,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.4310533",
+        "balance": 1,
+        "rank": 124,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.4310526",
+        "balance": 1,
+        "rank": 125,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.4310447",
+        "balance": 1,
+        "rank": 126,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.4310408",
+        "balance": 1,
+        "rank": 127,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.4309102",
+        "balance": 1,
+        "rank": 128,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.3948714",
+        "balance": 1,
+        "rank": 129,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.3865313",
+        "balance": 1,
+        "rank": 130,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.3472797",
+        "balance": 1,
+        "rank": 131,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.3300700",
+        "balance": 1,
+        "rank": 132,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.3160903",
+        "balance": 1,
+        "rank": 133,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.3158096",
+        "balance": 1,
+        "rank": 134,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.3139217",
+        "balance": 1,
+        "rank": 135,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.3000626",
+        "balance": 1,
+        "rank": 136,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2993251",
+        "balance": 1,
+        "rank": 137,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2962412",
+        "balance": 1,
+        "rank": 138,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2825248",
+        "balance": 1,
+        "rank": 139,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2334975",
+        "balance": 1,
+        "rank": 140,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2331924",
+        "balance": 1,
+        "rank": 141,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2263973",
+        "balance": 1,
+        "rank": 142,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2248771",
+        "balance": 1,
+        "rank": 143,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2159637",
+        "balance": 1,
+        "rank": 144,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2156882",
+        "balance": 1,
+        "rank": 145,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2135363",
+        "balance": 1,
+        "rank": 146,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2135357",
+        "balance": 1,
+        "rank": 147,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2126871",
+        "balance": 1,
+        "rank": 148,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2121416",
+        "balance": 1,
+        "rank": 149,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2121104",
+        "balance": 1,
+        "rank": 150,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2030667",
+        "balance": 1,
+        "rank": 151,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.2019669",
+        "balance": 1,
+        "rank": 152,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1990530",
+        "balance": 1,
+        "rank": 153,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1926042",
+        "balance": 1,
+        "rank": 154,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1769571",
+        "balance": 1,
+        "rank": 155,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1751817",
+        "balance": 1,
+        "rank": 156,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1750678",
+        "balance": 1,
+        "rank": 157,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1736323",
+        "balance": 1,
+        "rank": 158,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1729620",
+        "balance": 1,
+        "rank": 159,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1727894",
+        "balance": 1,
+        "rank": 160,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1696576",
+        "balance": 1,
+        "rank": 161,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1691297",
+        "balance": 1,
+        "rank": 162,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1687152",
+        "balance": 1,
+        "rank": 163,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1662149",
+        "balance": 1,
+        "rank": 164,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1644184",
+        "balance": 1,
+        "rank": 165,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1512276",
+        "balance": 1,
+        "rank": 166,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1486522",
+        "balance": 1,
+        "rank": 167,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1419283",
+        "balance": 1,
+        "rank": 168,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1416263",
+        "balance": 1,
+        "rank": 169,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1414659",
+        "balance": 1,
+        "rank": 170,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1394466",
+        "balance": 1,
+        "rank": 171,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1389129",
+        "balance": 1,
+        "rank": 172,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1385889",
+        "balance": 1,
+        "rank": 173,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1349544",
+        "balance": 1,
+        "rank": 174,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1344401",
+        "balance": 1,
+        "rank": 175,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1301559",
+        "balance": 1,
+        "rank": 176,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1292606",
+        "balance": 1,
+        "rank": 177,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1229597",
+        "balance": 1,
+        "rank": 178,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1228779",
+        "balance": 1,
+        "rank": 179,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1127968",
+        "balance": 1,
+        "rank": 180,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1120498",
+        "balance": 1,
+        "rank": 181,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1110801",
+        "balance": 1,
+        "rank": 182,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1097077",
+        "balance": 1,
+        "rank": 183,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1094492",
+        "balance": 1,
+        "rank": 184,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.1087845",
+        "balance": 1,
+        "rank": 185,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.874715",
+        "balance": 1,
+        "rank": 186,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.833726",
+        "balance": 1,
+        "rank": 187,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.830192",
+        "balance": 1,
+        "rank": 188,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.824900",
+        "balance": 1,
+        "rank": 189,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.811544",
+        "balance": 1,
+        "rank": 190,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.808420",
+        "balance": 1,
+        "rank": 191,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.791783",
+        "balance": 1,
+        "rank": 192,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.781339",
+        "balance": 1,
+        "rank": 193,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.777444",
+        "balance": 1,
+        "rank": 194,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.731547",
+        "balance": 1,
+        "rank": 195,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.710168",
+        "balance": 1,
+        "rank": 196,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.708731",
+        "balance": 1,
+        "rank": 197,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.697552",
+        "balance": 1,
+        "rank": 198,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.696049",
+        "balance": 1,
+        "rank": 199,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.689034",
+        "balance": 1,
+        "rank": 200,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.679541",
+        "balance": 1,
+        "rank": 201,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.664329",
+        "balance": 1,
+        "rank": 202,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.662676",
+        "balance": 1,
+        "rank": 203,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.658217",
+        "balance": 1,
+        "rank": 204,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.643848",
+        "balance": 1,
+        "rank": 205,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.640642",
+        "balance": 1,
+        "rank": 206,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.636554",
+        "balance": 1,
+        "rank": 207,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.635990",
+        "balance": 1,
+        "rank": 208,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.630825",
+        "balance": 1,
+        "rank": 209,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.625759",
+        "balance": 1,
+        "rank": 210,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.623641",
+        "balance": 1,
+        "rank": 211,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.621643",
+        "balance": 1,
+        "rank": 212,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.621366",
+        "balance": 1,
+        "rank": 213,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.605911",
+        "balance": 1,
+        "rank": 214,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.582965",
+        "balance": 1,
+        "rank": 215,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.581077",
+        "balance": 1,
+        "rank": 216,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.576004",
+        "balance": 1,
+        "rank": 217,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.516971",
+        "balance": 1,
+        "rank": 218,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.512215",
+        "balance": 1,
+        "rank": 219,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.507732",
+        "balance": 1,
+        "rank": 220,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.505765",
+        "balance": 1,
+        "rank": 221,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.486935",
+        "balance": 1,
+        "rank": 222,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.481717",
+        "balance": 1,
+        "rank": 223,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.467126",
+        "balance": 1,
+        "rank": 224,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.460891",
+        "balance": 1,
+        "rank": 225,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.456604",
+        "balance": 1,
+        "rank": 226,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.455622",
+        "balance": 1,
+        "rank": 227,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.397088",
+        "balance": 1,
+        "rank": 228,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.355436",
+        "balance": 1,
+        "rank": 229,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.238033",
+        "balance": 1,
+        "rank": 230,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.181993",
+        "balance": 1,
+        "rank": 231,
+        "pct": 0.001
+      },
+      {
+        "account": "0.0.168217",
+        "balance": 1,
+        "rank": 232,
+        "pct": 0.001
+      }
+    ]
+  }

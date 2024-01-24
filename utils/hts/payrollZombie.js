@@ -9,6 +9,7 @@ require("dotenv").config();
 const readlineSync = require('readline-sync');
 const axios = require('axios');
 const fs = require('fs');
+const path = require('path');
 
 // Configure accounts and client, and generate needed keys
 const companyId = AccountId.fromString(process.env.COMPANY_WALLET_ID);
@@ -16,15 +17,17 @@ const companyKey = PrivateKey.fromString(process.env.COMPANY_PRIVATE_KEY);
 const client = Client.forMainnet().setOperator(companyId, companyKey);
 
 const cfpTokenID = process.env.CFP_TOKEN_ID;
+const lostOnesTokenID = "0.0.3721853";
 const zombieSerials = [
                         501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, // spirits
                         20, 27, 56, 58, 141, 175, 209, 210, 217, 228, 335, 342, 409, 411, 421, 428, 442, // zombies
                         553, 998 // 1/1s
                       ];
+const lostOnesSerials = [924, 937]
 const mirrorNodeApiBaseUrl = 'https://mainnet-public.mirrornode.hedera.com';
 
 async function main() {
-  let mintPayOut = 0;
+  let mintPayOut = 41;
   // 2444 was first mint payout
 
 
@@ -46,19 +49,31 @@ async function main() {
         distribution.push({ accountId, totalShare: parseFloat(totalShare) }); // Convert back to number for transaction
     });
 
-  // Prompt for confirmation before executing the transaction
-  const confirm = readlineSync.question(`Do you want to proceed with the transaction? (y/n): `);
-  if (confirm === 'y') {
-    await distributePayments(distribution, mintPayOut / distribution.length);
-  } else {
-    console.log(`Transaction cancelled by user`);
-  }
+  // Write distribution to CSV
+  writeDistributionToCSV(distribution);
+
+  // // Prompt for confirmation before executing the transaction
+  // const confirm = readlineSync.question(`Do you want to proceed with the transaction? (y/n): `);
+  // if (confirm === 'y') {
+  //   await distributePayments(distribution, mintPayOut / distribution.length);
+  // } else {
+  //   console.log(`Transaction cancelled by user`);
+  // }
 }
 
 
 async function findWalletsHoldingNFT() {
   try {
       let accountNftCounts = {};
+
+      for (let serial of lostOnesSerials) {
+        const nftsResponse = await axios.get(`${mirrorNodeApiBaseUrl}/api/v1/tokens/${lostOnesTokenID}/nfts/${serial}`);
+        let accountId = nftsResponse.data.account_id;
+        if (accountId) {
+            accountNftCounts[accountId] = (accountNftCounts[accountId] || 0) + 1;
+        }
+      }
+
       for (let serial of zombieSerials) {
           const nftsResponse = await axios.get(`${mirrorNodeApiBaseUrl}/api/v1/tokens/${cfpTokenID}/nfts/${serial}`);
           let accountId = nftsResponse.data.account_id;
@@ -89,6 +104,23 @@ async function executeTransactionWithRetry(transaction, maxRetries = 3) {
   }
 
   throw lastError; // If all retries fail, throw the last encountered error
+}
+
+function writeDistributionToCSV(distribution) {
+  const csvFilePath = path.join(__dirname, 'distribution.csv');
+  let csvContent = 'Account ID,Total Share\n';
+
+  distribution.forEach(({ accountId, totalShare }) => {
+    csvContent += `${accountId},${totalShare}\n`;
+  });
+
+  fs.writeFile(csvFilePath, csvContent, (err) => {
+    if (err) {
+      console.error('Error writing CSV file:', err);
+    } else {
+      console.log(`Distribution CSV file created at ${csvFilePath}`);
+    }
+  });
 }
 
 async function distributePayments(distribution, mintPayOut) {

@@ -15,7 +15,12 @@ const zombieSerials =[
   20, 27, 56, 58, 141, 175, 209, 210, 217, 228, 335, 342, 409, 411, 421, 428, 442, // zombies
   553, 998 // 1/1s
 ];
-const lostOneSerials = []; // Serials 501-539 for Lost One NFTs
+const lostOneSerials = [
+  481, 482, 483, 484, 485, 486, 487, 488, 489, 490, //10
+  491, 492, 493, 494, 495, 496, 497, 498, 499, 500, //10
+  501, 502, 503, 504, 505, 506, 507, 508, 509, 510, // 10
+  511, 512, 513, 514, 515, 516, 517, 518, 519 //9 
+                      ]; 
 
 const mirrorNodeApiBaseUrl = 'https://mainnet-public.mirrornode.hedera.com';
 
@@ -26,7 +31,7 @@ async function findWalletsHoldingZombieNFTs() {
     for (let serial of zombieSerials) {
       const nftsResponse = await axios.get(`${mirrorNodeApiBaseUrl}/api/v1/tokens/${cfpTokenID}/nfts/${serial}`);
       let accountId = nftsResponse.data.account_id;
-      if (accountId && accountId == '0.0.1067445') {
+      if (accountId) {
         accountNftCounts[accountId] = (accountNftCounts[accountId] || 0) + 1;
       }
     }

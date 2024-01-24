@@ -33,7 +33,9 @@
     "testnet": "node utils/hts/testnet.js",
     "verify": "node utils/verifyWallets.js",
     "dissociate": "node utils/hts/dissociate.js",
-    "transfer": "node utils/hts/transfer.js"
+    "transfer": "node utils/hts/transfer.js",
+    "hcs": "node utils/hcs20/Test.js",
+    "hcs21": "node utils/hcs20/hcs21.js"
   },
   "author": "nbreezay",
   "license": "MIT",

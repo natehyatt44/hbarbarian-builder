@@ -1,144 +1,17 @@
 const basePath = process.cwd();
 const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 
-// const layerConfigurations = [
-//   {
-//     growEditionSizeTo: 2,
-//     layersOrder: [
-//       { name: "Collection Piece" }
-//     ],
-//   },
-// ];
-
-// const layerConfigurations = [
-//   {
-//     growEditionSizeTo: 1000,
-//     layersOrder: [
-//       { name: "Background" },
-//       { name: "Body" },
-//       { name: "Clothes" },
-//       { name: "Hair Hat" },
-//       { name: "Eyes Nose" },
-//       { name: "Mouth" },
-//       { name: "Accessory" },
-//       { name: "Race" }
-//     ],
-//   },
-// ];
-
-// const layerConfigurations = [
-//   {
-//     growEditionSizeTo: 220,
-//     layersOrder: [
-//       { name: "Background" },
-//       { name: "Body" },
-//       { name: "Armor" },
-//       { name: "Eyes" },
-//       { name: "Mouth" },
-//       { name: "Nose" },
-//       { name: "Hair" },
-//       { name: "Outside" },
-//       { name: "Race" }
-//     ],
-//   },
-// ];
-
-//  const layerConfigurations = [
-//   {
-//     growEditionSizeTo: 220,
-//     layersOrder: [
-//       { name: "Background" },
-//       { name: "Body" },
-//       { name: "Clothes" },
-//       { name: "Eyes" },
-//       { name: "Hair Hat" },
-//       { name: "Earring" },
-//       { name: "Mouth" },
-//       { name: "Race" }
-//     ],
-//   },
-// ];
-
-
-//  const layerConfigurations = [
-//   {
-//     growEditionSizeTo: 220,
-//     layersOrder: [
-//       { name: "Background" },
-//       { name: "Soul Flame" },
-//       { name: "Body" },
-//       { name: "Clothes" },
-//       { name: "Eyes Nose" },
-//       { name: "Hair" },
-//       { name: "Mouth" },
-//       { name: "Eyes Mask" },
-//       { name: "Smoke" },
-//       { name: "Earring" },
-//       { name: "Race" }
-//     ],
-//   },
-// ];
-
-// const layerConfigurations = [
-//   {
-//     growEditionSizeTo: 220,
-//     layersOrder: [
-//       { name: "Background" },
-//       { name: "Body" },
-//       { name: "Clothes" },
-//       { name: "Eyes" },
-//       { name: "Mouth" },
-//       { name: "Eye Wear" },
-//       { name: "Hat Head" },
-//       { name: "Cigar" },
-//       { name: "Race" }
-//     ],
-//   },
-// ];
-
-// // hippo male
-// const layerConfigurations = [
-//   {
-//     growEditionSizeTo: 50,
-//     layersOrder: [
-//       { name: "BACKGROUND" },
-//       { name: "SKIN" },
-//       { name: "CLOTHES" },
-//       { name: "JEWELRY" },
-//       { name: "EYES" },
-//       { name: "HAIR HAT" },
-//       { name: "MOUTH" }
-//     ],
-//   },
-// ];
-
-// // hippo female
-// const layerConfigurations = [
-//   {
-//     growEditionSizeTo: 50,
-//     layersOrder: [
-//       { name: "BACKGROUND" },
-//       { name: "SKIN" },
-//       { name: "CLOTHES" },
-//       { name: "HAIR HAT" },
-//       { name: "MOUTH" },
-//       { name: "ACCESSORY" },
-//       { name: "EYES" }
-//     ],
-//   },
-// ];
-
-// archangels
 const layerConfigurations = [
   {
-    growEditionSizeTo: 60,
+    growEditionSizeTo: 1,
     layersOrder: [
       { name: "Background" },
-      { name: "Behind" },
-      { name: "Behind Eye" },
-      { name: "Eye" },
-      { name: "Above Eye" },
-      { name: "Front" },
+      { name: "Body" },
+      { name: "Clothes" },
+      { name: "Hair Hat" },
+      { name: "Eyes Nose" },
+      { name: "Mouth" },
+      { name: "Accessory" },
       { name: "Race" }
     ],
   },

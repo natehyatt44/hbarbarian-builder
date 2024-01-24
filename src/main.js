@@ -2,8 +2,8 @@ const basePath = process.cwd();
 const fs = require("fs");
 const sha1 = require(`${basePath}/node_modules/sha1`);
 const { createCanvas, loadImage } = require(`${basePath}/node_modules/canvas`);
-const buildDir = `${basePath}/buildArchAngels`;
-const layersDir = `${basePath}/layersArchAngels`;
+const buildDir = `${basePath}/build`;
+const layersDir = `${basePath}/layers/layersCustom`;
 const {
   format,
   background,
@@ -118,8 +118,8 @@ const drawBackground = () => {
 
 const addMetadata = (_dna, _edition) => {
   let tempMetadata = {
-    name: `ArchAngel`,
-    description: `Step into the realm of 'Hbarbarians - The Lost Ones', a Collection by BarbarianInk! Venture into a universe where each decision you make crafts your very own tale of adventure. Featuring 5 distinct races, each steeped in its own legends, lore, and interconnectivity with other BarbarianInk Collections. However, a word to the wise: not all collectibles grant access to this grand adventure. Can you discover the elusive playable characters, or will they stay hidden as part of the untold legends? Set forth on an expedition of revelation, and become the author of your own destiny. Are you prepared to delve into the mysteries of 'The Lost Ones'?`,
+    name: `Zombie`,
+    description: `BarbarianINK HCS-20 Zombie Edition! LFG`,
     file_url: `ipfs${_edition}.png`,
     edition: _edition,
     custom_fields: {
@@ -132,23 +132,6 @@ const addMetadata = (_dna, _edition) => {
   metadataList.push(tempMetadata);
   attributesList = [];
 };
-
-// const addMetadata = (_dna, _edition) => {
-//   let tempMetadata = {
-//     name: `Hazy Hippo Male`,
-//     description: `Drop two of the Hazy Hippos, With new art, games, lore and more how could you say no? Welcome to the Hazyverse! The Indicrons await you!`,
-//     file_url: `ipfs${_edition}.png`,
-//     edition: _edition,
-//     custom_fields: {
-//       creator: `Hazy Hippos`,
-//       type: `image/png`,
-//       format: `HIP412@1.0.0`
-//     },
-//     attributes: attributesList,
-//   };
-//   metadataList.push(tempMetadata);
-//   attributesList = [];
-// };
 
 const addAttributes = (_element) => {
   let selectedElement = _element.layer.selectedElement;
