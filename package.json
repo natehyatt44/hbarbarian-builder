@@ -28,6 +28,7 @@
     "airdrop": "node utils/hts/airdrop.js",
     "airdropangel": "node utils/hts/airdropArchAngel.js",
     "payroll": "node utils/hts/payroll.js",
+    "payroll2": "node utils/hts/payroll2.js",
     "payrollzombie": "node utils/hts/payrollZombie.js",
     "arg": "node utils/argMetaData.js",
     "testnet": "node utils/hts/testnet.js",
@@ -35,7 +36,8 @@
     "dissociate": "node utils/hts/dissociate.js",
     "transfer": "node utils/hts/transfer.js",
     "hcs": "node utils/hcs20/Test.js",
-    "hcs21": "node utils/hcs20/hcs21.js"
+    "hcs21": "node utils/hcs20/hcs21.js",
+    "dick": "node utils/hts/airdropDick.js"
   },
   "author": "nbreezay",
   "license": "MIT",
