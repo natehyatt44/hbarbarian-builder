@@ -15,11 +15,7 @@ const {
   const companyId = AccountId.fromString(process.env.COMPANY_WALLET_ID);
   const jmanId = AccountId.fromString(process.env.JMAN_WALLET_ID);
   const nbreezayId = AccountId.fromString(process.env.NBREEZAY_WALLET_ID);
-  const trizId = AccountId.fromString(process.env.TRIZ_WALLET_ID);
-  const brettId = AccountId.fromString(process.env.BRETT_WALLET_ID);
-  const ladyHId = AccountId.fromString(process.env.LADYH_WALLET_ID);
-  const supernalId = AccountId.fromString(process.env.SUPERNAL_WALLET_ID);
-
+  const jordanId = AccountId.fromString("0.0.467126");
   const client = Client.forMainnet().setOperator(royaltyId, royaltyKey);
   
   async function main() {
@@ -27,24 +23,17 @@ const {
     let currBalance = await getHbarBalance(royaltyId);
     currBalance = Number(currBalance - 2).toFixed(2); // We minus 2 here for any gas fees and so that we don't empty wallet completely
     
-    const jmanShare = Number((currBalance * 0.20).toFixed(2)); 
-    const nateShare = Number((currBalance * 0.20).toFixed(2)); 
-    const trizShare = Number((currBalance * 0.20).toFixed(2)); 
-    const supernalShare = Number((currBalance * 0.10).toFixed(2)); 
-    const lawyerShare = Number((currBalance * 0.07).toFixed(2)); 
-    const ladyHShare = Number((currBalance * 0.07).toFixed(2)); 
+    const jmanShare = Number((currBalance * 0.30).toFixed(2)); 
+    const nateShare = Number((currBalance * 0.30).toFixed(2)); 
+    const jordanShare = Number((currBalance * 0.20).toFixed(2)); 
 
-
-    const companyShare = Number((currBalance - jmanShare - nateShare - trizShare - supernalShare - lawyerShare - ladyHShare).toFixed(2));
+    const companyShare = Number((currBalance - jmanShare - nateShare - jordanShare).toFixed(2));
     
     console.log(`Amount of Payroll Wallet HBAR currently (minus 2h): ${currBalance}`);
-    console.log(`Amount HBAR to Company (16%): ${companyShare}`);
-    console.log(`Amount HBAR to Jman (20%): ${jmanShare}`);
-    console.log(`Amount HBAR to Nbreezay (20%): ${nateShare}`);
-    console.log(`Amount HBAR to Triz (20%): ${trizShare}`);
-    console.log(`Amount HBAR to Supernal (10%): ${supernalShare}`);
-    console.log(`Amount HBAR to Brett (Lawyer) (7%): ${lawyerShare}`);
-    console.log(`Amount HBAR to LadyH (7%): ${ladyHShare}`);
+    console.log(`Amount HBAR to Company (20%): ${companyShare}`);
+    console.log(`Amount HBAR to Jman (30%): ${jmanShare}`);
+    console.log(`Amount HBAR to Nbreezay (30%): ${nateShare}`);
+    console.log(`Amount HBAR to Jordan (20%): ${jordanShare}`);
 
     // Prompt for confirmation before executing the transaction
     const confirm = readlineSync.question(`Do you want to proceed with the transaction? (y/n): `);
@@ -58,10 +47,7 @@ const {
       .addHbarTransfer(companyId, Hbar.from(companyShare))
       .addHbarTransfer(jmanId, Hbar.from(jmanShare))
       .addHbarTransfer(nbreezayId, Hbar.from(nateShare))
-      .addHbarTransfer(trizId, Hbar.from(trizShare))
-      .addHbarTransfer(supernalId, Hbar.from(supernalShare))
-      .addHbarTransfer(brettId, Hbar.from(lawyerShare))
-      .addHbarTransfer(ladyHId, Hbar.from(ladyHShare))
+      .addHbarTransfer(jordanId, Hbar.from(jordanShare))
       .execute(client);
   
     const transactionReceipt = await sendHbar.getReceipt(client);

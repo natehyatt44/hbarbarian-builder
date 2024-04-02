@@ -27,7 +27,7 @@ const lostOnesSerials = [924, 937]
 const mirrorNodeApiBaseUrl = 'https://mainnet-public.mirrornode.hedera.com';
 
 async function main() {
-  let mintPayOut = 41;
+  let mintPayOut = 3527;
   // 2444 was first mint payout
 
 
@@ -52,13 +52,13 @@ async function main() {
   // Write distribution to CSV
   writeDistributionToCSV(distribution);
 
-  // // Prompt for confirmation before executing the transaction
-  // const confirm = readlineSync.question(`Do you want to proceed with the transaction? (y/n): `);
-  // if (confirm === 'y') {
-  //   await distributePayments(distribution, mintPayOut / distribution.length);
-  // } else {
-  //   console.log(`Transaction cancelled by user`);
-  // }
+  // Prompt for confirmation before executing the transaction
+  const confirm = readlineSync.question(`Do you want to proceed with the transaction? (y/n): `);
+  if (confirm === 'y') {
+    await distributePayments(distribution, mintPayOut / distribution.length);
+  } else {
+    console.log(`Transaction cancelled by user`);
+  }
 }
 
 

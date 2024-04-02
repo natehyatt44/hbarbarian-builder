@@ -8,7 +8,7 @@ const { fetchWithRetry } = require(`${basePath}/utils/functions/fetchWithRetry.j
 const buildPath = 'build'
 
 const allMetadata = [];
-const regex = new RegExp("^([0-9]+).png");
+const regex = new RegExp("^([0-9]+).jpg");
 const _limit = RateLimit(2);
 
 async function main() {

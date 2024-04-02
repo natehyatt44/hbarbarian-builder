@@ -29,6 +29,7 @@
     "airdropangel": "node utils/hts/airdropArchAngel.js",
     "payroll": "node utils/hts/payroll.js",
     "payroll2": "node utils/hts/payroll2.js",
+    "payrollart": "node utils/hts/payrollArtHouse.js",
     "payrollzombie": "node utils/hts/payrollZombie.js",
     "arg": "node utils/argMetaData.js",
     "testnet": "node utils/hts/testnet.js",

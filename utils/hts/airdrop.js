@@ -11,8 +11,8 @@ const companyKey = PrivateKey.fromString(process.env.COMPANY_PRIVATE_KEY);
 
 const client = Client.forMainnet().setOperator(companyId, companyKey);
 
-const cfpTokenID = process.env.CFP_TOKEN_ID;
-const alixonTokenID = process.env.ALIXON_TOKEN_ID;
+const cfpTokenID = "0.0.4350721";
+const alixonTokenID = "0.0.4849512"
 const mirrorNodeApiBaseUrl = 'https://mainnet-public.mirrornode.hedera.com';
 const companyWallet = process.env.COMPANY_WALLET_ID;
 
@@ -83,7 +83,7 @@ async function airdropNFT(walletsWithNft) {
     const { accountId, serialNumber, spender } = wallet;
     const destinationWallet = AccountId.fromString(accountId);
 
-    if (wallet.spender === null) {
+    if (wallet.spender === null || wallet.spender != null) {
       // Check if the company owns the NFT before initiating the transfer
       if (await doesCompanyOwnNft(wallet.serialNumber)) {
         try {
@@ -129,10 +129,10 @@ async function writeTotalsToFile(processedWallets) {
 }
 
 async function main() {
-  // const walletsWithNft = await findWalletsHoldingNFT();
+  const walletsWithNft = await findWalletsHoldingNFT();
 
-  // // Filter out the treasury account ID from holders
-  // const filteredWallets = walletsWithNft.filter(wallet => (wallet.accountId !== companyWallet && wallet.serialNumber > 750));
+  // Filter out the treasury account ID from holders
+  // const filteredWallets = walletsWithNft.filter(wallet => (wallet.accountId !== companyWallet && wallet.accountId != "0.0.1067445"));
 
   // fs.writeFileSync(
   //   `${fileDir}/accounts_holdersDropCheck.txt`,
@@ -170,4 +170,3 @@ async function main() {
 main()
   .catch(error => console.error('Error in main function:', error));
 
-  // 0.0.2189925 fail_invalid

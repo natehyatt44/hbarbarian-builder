@@ -16,7 +16,7 @@ const {
 	TokenMintTransaction,
 	AccountBalanceQuery,
 } = require("@hashgraph/sdk");
-const buildPath = 'buildAlixon'
+const buildPath = 'build'
 
 // Configure accounts and client, and generate needed keys
 const operatorId = AccountId.fromString(process.env.COMPANY_WALLET_ID);
@@ -36,7 +36,7 @@ supply_private_string = '6C2CF556E15821C71FC7690301F686B6D39FC112826EE55A9BE319A
 
 //const supplyKey = PrivateKey.generate();
 const supplyKey = PrivateKey.fromStringED25519(supply_private_string);
-//const adminKey = PrivateKey.generate();
+const adminKey = PrivateKey.generate();
 // const pauseKey = PrivateKey.generate();
 // const freezeKey = PrivateKey.generate();
 // const wipeKey = PrivateKey.generate();
@@ -46,16 +46,16 @@ async function main() {
 	let rawCID = fs.readFileSync(`${basePath}/${buildPath}/ipfsMetas/_CID.json`)
 	let CID = JSON.parse(rawCID);
 
-	// DEFINE CUSTOM FEE SCHEDULE
+	// // DEFINE CUSTOM FEE SCHEDULE
 	// let nftCustomFee = await new CustomRoyaltyFee()
 	// 	.setNumerator(22)
 	// 	.setDenominator(250)
-	// 	.setFeeCollectorAccountId(payrollId)
+	// 	.setFeeCollectorAccountId("0.0.4325870")
 
 	// // CREATE NFT WITH CUSTOM FEE
     // let nftCreate = await new TokenCreateTransaction()
-    //     .setTokenName("Hbarbarians - The Alixon Collection 1/1s")
-    //     .setTokenSymbol("Hbarbarians - The Alixon Collection 1/1s")
+    //     .setTokenName("Hbarbarians - The Tools")
+    //     .setTokenSymbol("Hbarbarians - The Tools")
     //     .setTokenType(TokenType.NonFungibleUnique)
     //     .setDecimals(0)
     //     .setInitialSupply(0)
@@ -78,12 +78,12 @@ async function main() {
     // let tokenId = nftCreateRx.tokenId;
     // console.log(`Created NFT with Token ID: ${tokenId} \n`);
 
-	// TOKEN QUERY TO CHECK THAT THE CUSTOM FEE SCHEDULE IS ASSOCIATED WITH NFT
+	// // TOKEN QUERY TO CHECK THAT THE CUSTOM FEE SCHEDULE IS ASSOCIATED WITH NFT
     // var tokenInfo = await new TokenInfoQuery().setTokenId(tokenId).execute(client);
     // console.table(tokenInfo.customFees[0]);
 	// MINT NEW BATCH OF NFTs
 
-	const tokenId = '0.0.2371643'
+	const tokenId = '0.0.4849512'
 	nftLeaf = [];
 	for (var i = 0; i < CID.length; i++) {
 		nftLeaf[i] = await tokenMinterFcn(CID[i]);
@@ -96,7 +96,7 @@ async function main() {
 
 	// TOKEN MINTER FUNCTION ==========================================
 	async function tokenMinterFcn(CID) {
-		let maxRetries = 5;  // Set your max retry limit
+		let maxRetries = 10;  // Set your max retry limit
 		let retries = 0;
 
 		while(retries < maxRetries) {
